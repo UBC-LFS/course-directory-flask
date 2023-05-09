@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LFS Course Directory</title>
+
+        <!-- CSS file -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    </head>
+    <body>
+        <h2>LFS Course Directory</h2>
+
+        <p>Please note the Session displays the courses offered in the selected Session, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.</p>
+
+        <div class="dropdown-menu">
+            <label>Session:</label><br>
+            <input onclick="displaySessions()" id="sessionInput" type="text" placeholder="Select...">
+            
+            <!-- Loop through each session option and displays it -->
+            <ul id="sessionDropDown">
+
+            </ul>
+
+
+        </div>
+
+    </body>
+
+    <script src="{{url_for('static', filename='javascript/dropdownMenu.js')}}"></script>
+    <script src="{{url_for('static', filename='javascript/displayCourses.js')}}"></script>
+</html>
