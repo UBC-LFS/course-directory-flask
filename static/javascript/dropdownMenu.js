@@ -45,17 +45,14 @@ selectSession(currentYear, "S", "Summer")
 // Sessions ^^^
 
 // Dept
-dropdownDeptOptions = ['-','APBI', 'FNH', 'FOOD', 'FRE', 'GRS', 'HUNU', 'LFS', 'LWS', 'PLNT', 'SOIL']
+dropdownDeptOptions = ['- ALL -','APBI', 'FNH', 'FOOD', 'FRE', 'GRS', 'HUNU', 'LFS', 'LWS', 'PLNT', 'SOIL']
 
 function selectDept(dept) {
     deptInput = document.getElementById("deptInput");
     deptInput.value = dept;
 }
 
-// For displaying the department dropdown options
-function displayDept() {
-
-}
+selectDept("- ALL -")
 
 function generateDepts() {
     for (const dept in dropdownDeptOptions) {

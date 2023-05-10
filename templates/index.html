@@ -9,48 +9,55 @@
 
     </head>
     <body>
-        <h2>LFS Course Directory</h2>
+        <div class="course-directory-container">
+            <h2>LFS Course Directory</h2>
 
-        <p>Please note the Session displays the courses offered in the selected Session, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.</p>
-        
-        <div class="filterOptionContainer">
-            <div class="dropdown-menu" onmouseover="showDropdown('sessionDropDown')" onmouseout="hideDropdown('sessionDropDown')">
-                <label>Session</label><br>
-                <input class="dropdown-input" id="sessionInput" type="text" placeholder="Select...">
-                <!-- Loop through each session option and displays it -->
-                <ul class="dropdownUl" id="sessionDropDown" style="display:none"></ul>
+            <p>Please note the Session displays the courses offered in the selected Session, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.</p>
+            
+            <div class="filterOptionContainer">
+                <div class="dropdown-menu" onmouseover="showDropdown('sessionDropDown')" onmouseout="hideDropdown('sessionDropDown')">
+                    <label>Session</label><br>
+                    <input class="dropdown-input" id="sessionInput" type="text" placeholder="Select...">
+                    <!-- Loop through each session option and displays it -->
+                    <ul class="dropdownUl" id="sessionDropDown" style="display:none"></ul>
+                </div>
+
+                <!-- Department dropdown menu -->
+                <div class="dropdown-menu" onmouseover="showDropdown('deptDropDown')" onmouseout="hideDropdown('deptDropDown')">
+                    <label>Dept</label><br>
+                    <input class="dropdown-input" id="deptInput" type="text" placeholder="Select...">
+                    <!-- Loop through each session option and displays it -->
+                    <ul class="dropdownUl" id="deptDropDown" style="display:none"></ul>
+                </div>
             </div>
 
-            <!-- Department dropdown menu -->
-            <div class="dropdown-menu" onmouseover="showDropdown('deptDropDown')" onmouseout="hideDropdown('deptDropDown')">
-                <label>Dept</label><br>
-                <input class="dropdown-input" id="deptInput" type="text" placeholder="Select...">
-                <!-- Loop through each session option and displays it -->
-                <ul class="dropdownUl" id="deptDropDown" style="display:none"></ul>
-            </div>
+            <!-- Search bar -->
+            <label>Search</label><br>
+            <input class="search-bar" id="" type="text" oninput="filtering(this.value)" placeholder="Search for a course or description">
+            
+            <!-- Courses -->
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-title">Course</th>
+                        <th class="table-title">Description</th>
+                        <th class="table-title">Syllabus</th>
+                    </tr>
+                </thead>
+                <tbody id="coursesContainer">
+                </tbody>
+            </table>
         </div>
-
-
-        <!-- Courses -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Course</th>
-                    <th>Description</th>
-                    <th>Syllabus</th>
-                </tr>
-            </thead>
-            <tbody id="coursesContainer">
-                <tr></tr>
-            </tbody>
-        </table>
-
     </body>
     
     <script src="{{url_for('static', filename='javascript/dropdownMenu.js')}}"></script>
 </html>
 
 <script>
+    function filtering(input) {
+        // Run createCourseElement and feed an argument for filtering
+        
+    }
     // red underlines, but no bugs and works perfectly? hmm
     // retrieves the JSON course data from Flask
     var courseJSONData = {{ courseJSONData | tojson }};
@@ -80,7 +87,8 @@
                 courseSyllabus.innerHTML = courseContent["@outlineurl"]
             }
             // Append row contents
-            courseContainer.append(courseTitle)
+            courseTitleContainer.append(courseTitle)
+            courseContainer.append(courseTitleContainer)
             courseContainer.append(courseDescription)
             courseContainer.append(courseSyllabus)
             // Append row to table
@@ -95,7 +103,7 @@
         // loops through each department
         const session = String(year) + term
 
-        if (selectedDept == "-") {
+        if (selectedDept == "- ALL -") {
             for (const dept in courseJSONData[session]) {
                 createCourseElement(dept, session)
             }
@@ -106,5 +114,5 @@
         }
     }
     // Make this display the current year and term courses
-    displayCourses(2023, "S", "-")
+    displayCourses(2023, "S", "- ALL -")
 </script>
