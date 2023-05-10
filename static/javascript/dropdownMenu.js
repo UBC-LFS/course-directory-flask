@@ -8,8 +8,9 @@ function generateSessions(year, termCode, termName) {
     sessionDropDown = document.getElementById("sessionDropDown");
     const sessionLi = document.createElement("li");
     sessionLi.innerHTML = String(year) + " " + termName
-    // sessionLi.className
+    sessionLi.classList.add("dropdownLi");
     sessionLi.addEventListener("click", function() {
+        hideDropdown('sessionDropDown') // Hides the dropdown menu
         selectSession(year, termCode, termName) // make this select that session and update courses to display
         // Make this get the current selected department
         const deptName = document.getElementById("deptInput").value
@@ -26,13 +27,14 @@ generateSessions(currentYear - 1, "W", "Winter"); // previous year
 generateSessions(currentYear - 1, "S", "Summer"); // previous year
 
 // For displaying dropdown menu options
-function displaySessions() {
-    
+function showDropdown(idName) {
+    dropdown = document.getElementById(idName);
+    dropdown.style.display = "block";
 }
 
-function selectSession(year, termCode, termName) {
-    sessionInput = document.getElementById("sessionInput");
-    sessionInput.value = String(year) + " " + termName;
+function hideDropdown(idName) {
+    dropdown = document.getElementById(idName);
+    dropdown.style.display = "none";
 }
 
 
@@ -61,8 +63,9 @@ function generateDepts() {
         deptDropDown = document.getElementById("deptDropDown");
         const deptLi = document.createElement("li");
         deptLi.innerHTML = deptName
-        // deptLi.className
+        deptLi.classList.add("dropdownLi");
         deptLi.addEventListener("click", function() {
+            hideDropdown('deptDropDown') // Hides the dropdown menu
             selectDept(deptName) // make this select that session and update courses to display
             // Gets the current selected year + term code from the input
             const year = document.getElementById("sessionInput").value.split(" ")[0]

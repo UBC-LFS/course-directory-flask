@@ -1,1 +1,2 @@
-# course-directory-flask
+# LFS Course Directory (with Flask)
+

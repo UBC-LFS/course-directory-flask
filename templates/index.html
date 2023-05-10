@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>LFS Course Directory</title>
-
+        <!-- Page icon -->
+        <link rel="shortcut icon" href="https://cdn.ubc.ca/clf/7.0.4/img/favicon.ico">
         <!-- CSS file -->
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
@@ -11,26 +12,22 @@
         <h2>LFS Course Directory</h2>
 
         <p>Please note the Session displays the courses offered in the selected Session, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.</p>
+        
+        <div class="filterOptionContainer">
+            <div class="dropdown-menu" onmouseover="showDropdown('sessionDropDown')" onmouseout="hideDropdown('sessionDropDown')">
+                <label>Session</label><br>
+                <input class="dropdown-input" id="sessionInput" type="text" placeholder="Select...">
+                <!-- Loop through each session option and displays it -->
+                <ul class="dropdownUl" id="sessionDropDown" style="display:none"></ul>
+            </div>
 
-        <div class="dropdown-menu">
-            <label>Session</label><br>
-            <input onclick="displaySessions()" id="sessionInput" type="text" placeholder="Select...">
-            
-            <!-- Loop through each session option and displays it -->
-            <ul id="sessionDropDown">
-                
-            </ul>
-        </div>
-
-        <!-- Department dropdown menu -->
-        <div class="dropdown-menu">
-            <label>Dept</label><br>
-            <input onclick="displayDept()" id="deptInput" type="text" placeholder="Select...">
-            
-            <!-- Loop through each session option and displays it -->
-            <ul id="deptDropDown">
-                
-            </ul>
+            <!-- Department dropdown menu -->
+            <div class="dropdown-menu" onmouseover="showDropdown('deptDropDown')" onmouseout="hideDropdown('deptDropDown')">
+                <label>Dept</label><br>
+                <input class="dropdown-input" id="deptInput" type="text" placeholder="Select...">
+                <!-- Loop through each session option and displays it -->
+                <ul class="dropdownUl" id="deptDropDown" style="display:none"></ul>
+            </div>
         </div>
 
 

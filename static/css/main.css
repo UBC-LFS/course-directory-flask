@@ -1,3 +1,43 @@
 body {
     font-family: sans-serif;
 }
+
+.filterOptionContainer {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+/* Dropdown menu CSS */
+.dropdown-menu {
+    float: left;
+    width: 200px;
+    margin-right: 60px;
+}
+.dropdown-input {
+    width: 200px;
+    font-size: 1em;
+    padding: 7.5px;
+}
+.dropdownUl {
+    position: absolute;
+    margin-top: 0;
+    list-style-type: none;
+    padding-left: 0;
+    background: white;
+    width: 218.5px;
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+.dropdownLi {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.dropdownLi:hover {
+    background: #002145;
+    color: white;
+}
+/* ^^^ */
