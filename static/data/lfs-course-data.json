@@ -1599,11 +1599,13 @@
                 ]
             },
             "FRE": {
-                "course": {
-                    "@key": "547",
-                    "@title": "Graduating Project",
-                    "@descr": " "
-                }
+                "course": [
+                    {
+                        "@key": "547",
+                        "@title": "Graduating Project",
+                        "@descr": " "
+                    }
+                ]
             },
             "GRS": {
                 "course": [
@@ -1736,11 +1738,13 @@
                 ]
             },
             "LWS": {
-                "course": {
-                    "@key": "548",
-                    "@title": "Major Project",
-                    "@descr": "Professional paper on topics focusing on emerging issues in water and land resources."
-                }
+                "course": [
+                    {
+                        "@key": "548",
+                        "@title": "Major Project",
+                        "@descr": "Professional paper on topics focusing on emerging issues in water and land resources."
+                    }
+                ]
             },
             "PLNT": {
                 "course": [

@@ -22,6 +22,13 @@ def getData(year, term):
         response_API = requests.get(url)
         data = response_API.text
         dept_courses_array = xmltodict.parse(data)["courses"]
+        # Fixes the error where departments with only 1 course uses a dict instead of an array -> results in undefined classes on Frontend
+        try:
+            if (type(xmltodict.parse(data)["courses"]["course"]) is dict):
+                dept_courses_array = {"course": [xmltodict.parse(data)["courses"]["course"]]}
+        except:
+            pass
+        
         courses.update({f"{dept}":dept_courses_array})
     courseJSONData['sessions'].update({f"{year}{term}":courses})
 

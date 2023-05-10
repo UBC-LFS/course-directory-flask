@@ -60,15 +60,24 @@
 
     function createCourseElement(dept, session) {
         coursesContainer = document.getElementById("coursesContainer")
+        // Gets the selected session to buid the course URL
+        const year = document.getElementById("sessionInput").value.split(" ")[0]
+        const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
+
         for (const course in courseJSONData[session][dept]["course"]) {
             const courseContent = courseJSONData[session][dept]["course"][course]
 
             const courseContainer = document.createElement("tr");
-            const courseTitle = document.createElement("th");
+            const courseTitleContainer = document.createElement("th");
+            const courseTitle = document.createElement("a");
             const courseDescription = document.createElement("th");
             const courseSyllabus = document.createElement("th");
 
             courseTitle.innerHTML = dept + " " + courseContent["@key"]
+            const courseURL =`https://courses.students.ubc.ca/cs/courseschedule?tname=subj-course&course=${courseContent['@key']}&sessyr=${year}&sesscd=${termCode}&dept=${dept}&pname=subjarea`
+            courseTitle.setAttribute("href", courseURL)
+
+
             courseDescription.innerHTML = courseContent["@title"]
             if (courseContent["@outlineurl"]) {
                 courseSyllabus.innerHTML = courseContent["@outlineurl"]
