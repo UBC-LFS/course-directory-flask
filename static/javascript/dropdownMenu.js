@@ -1,3 +1,4 @@
+// Sessions
 function selectSession(year, termCode, termName) {
     sessionInput = document.getElementById("sessionInput");
     sessionInput.value = String(year) + " " + termName;
@@ -10,10 +11,12 @@ function generateSessions(year, termCode, termName) {
     // sessionLi.className
     sessionLi.addEventListener("click", function() {
         selectSession(year, termCode, termName) // make this select that session and update courses to display
+        // Make this get the current selected department
+        const deptName = document.getElementById("deptInput").value
+        displayCourses(year, termCode, deptName)
     })
     sessionDropDown.append(sessionLi);
 }
-
 var currentYear = new Date().getFullYear();
 generateSessions(currentYear + 1, "W", "Winter"); // next year
 generateSessions(currentYear + 1, "S", "Summer"); // next year
@@ -22,8 +25,54 @@ generateSessions(currentYear, "S", "Summer"); // current year
 generateSessions(currentYear - 1, "W", "Winter"); // previous year
 generateSessions(currentYear - 1, "S", "Summer"); // previous year
 
+// For displaying dropdown menu options
 function displaySessions() {
     
 }
 
-LFSDepts = ['APBI', 'FNH', 'FOOD', 'FRE', 'GRS', 'HUNU', 'LFS', 'LWS', 'PLNT', 'SOIL']
+function selectSession(year, termCode, termName) {
+    sessionInput = document.getElementById("sessionInput");
+    sessionInput.value = String(year) + " " + termName;
+}
+
+
+// Select default session
+// Make the term change depending on the date
+selectSession(currentYear, "S", "Summer")
+
+// Sessions ^^^
+
+// Dept
+dropdownDeptOptions = ['-','APBI', 'FNH', 'FOOD', 'FRE', 'GRS', 'HUNU', 'LFS', 'LWS', 'PLNT', 'SOIL']
+
+function selectDept(dept) {
+    deptInput = document.getElementById("deptInput");
+    deptInput.value = dept;
+}
+
+// For displaying the department dropdown options
+function displayDept() {
+
+}
+
+function generateDepts() {
+    for (const dept in dropdownDeptOptions) {
+        const deptName = dropdownDeptOptions[dept]
+        deptDropDown = document.getElementById("deptDropDown");
+        const deptLi = document.createElement("li");
+        deptLi.innerHTML = deptName
+        // deptLi.className
+        deptLi.addEventListener("click", function() {
+            selectDept(deptName) // make this select that session and update courses to display
+            // Gets the current selected year + term code from the input
+            const year = document.getElementById("sessionInput").value.split(" ")[0]
+            const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
+            displayCourses(year, termCode, deptName)
+        })
+        deptDropDown.append(deptLi);
+    }
+
+}
+
+generateDepts()
+// Dept ^^^

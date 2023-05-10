@@ -13,19 +13,92 @@
         <p>Please note the Session displays the courses offered in the selected Session, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.</p>
 
         <div class="dropdown-menu">
-            <label>Session:</label><br>
+            <label>Session</label><br>
             <input onclick="displaySessions()" id="sessionInput" type="text" placeholder="Select...">
             
             <!-- Loop through each session option and displays it -->
             <ul id="sessionDropDown">
-
+                
             </ul>
-
-
         </div>
 
-    </body>
+        <!-- Department dropdown menu -->
+        <div class="dropdown-menu">
+            <label>Dept</label><br>
+            <input onclick="displayDept()" id="deptInput" type="text" placeholder="Select...">
+            
+            <!-- Loop through each session option and displays it -->
+            <ul id="deptDropDown">
+                
+            </ul>
+        </div>
 
+
+        <!-- Courses -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Syllabus</th>
+                </tr>
+            </thead>
+            <tbody id="coursesContainer">
+                <tr></tr>
+            </tbody>
+        </table>
+
+    </body>
+    
     <script src="{{url_for('static', filename='javascript/dropdownMenu.js')}}"></script>
-    <script src="{{url_for('static', filename='javascript/displayCourses.js')}}"></script>
 </html>
+
+<script>
+    // red underlines, but no bugs and works perfectly? hmm
+    // retrieves the JSON course data from Flask
+    var courseJSONData = {{ courseJSONData | tojson }};
+
+    function createCourseElement(dept, session) {
+        coursesContainer = document.getElementById("coursesContainer")
+        for (const course in courseJSONData[session][dept]["course"]) {
+            const courseContent = courseJSONData[session][dept]["course"][course]
+
+            const courseContainer = document.createElement("tr");
+            const courseTitle = document.createElement("th");
+            const courseDescription = document.createElement("th");
+            const courseSyllabus = document.createElement("th");
+
+            courseTitle.innerHTML = dept + " " + courseContent["@key"]
+            courseDescription.innerHTML = courseContent["@title"]
+            if (courseContent["@outlineurl"]) {
+                courseSyllabus.innerHTML = courseContent["@outlineurl"]
+            }
+            // Append row contents
+            courseContainer.append(courseTitle)
+            courseContainer.append(courseDescription)
+            courseContainer.append(courseSyllabus)
+            // Append row to table
+            coursesContainer.append(courseContainer)
+        }
+    }
+
+    function displayCourses(year, term, selectedDept) {
+        coursesContainer = document.getElementById("coursesContainer")
+        // Remove everything currently displayed
+        coursesContainer.innerHTML = ""
+        // loops through each department
+        const session = String(year) + term
+
+        if (selectedDept == "-") {
+            for (const dept in courseJSONData[session]) {
+                createCourseElement(dept, session)
+            }
+        }
+        
+        else if (selectedDept.length > 1) {
+            createCourseElement(selectedDept, session)
+        }
+    }
+    // Make this display the current year and term courses
+    displayCourses(2023, "S", "-")
+</script>
