@@ -34,7 +34,7 @@
             <!-- Search bar -->
             <label>Search</label><br>
             <input class="search-bar" id="" type="text" oninput="filtering(this.value)" placeholder="Search for a course or description">
-            
+            <br>
             <!-- Courses -->
             <table>
                 <thead>
@@ -75,7 +75,8 @@
             const courseTitleContainer = document.createElement("th");
             const courseTitle = document.createElement("a");
             const courseDescription = document.createElement("th");
-            const courseSyllabus = document.createElement("th");
+            const courseSyllabusContainer = document.createElement("th");
+            const courseSyllabus = document.createElement("a");
 
             courseTitle.innerHTML = dept + " " + courseContent["@key"]
             const courseURL =`https://courses.students.ubc.ca/cs/courseschedule?tname=subj-course&course=${courseContent['@key']}&sessyr=${year}&sesscd=${termCode}&dept=${dept}&pname=subjarea`
@@ -83,14 +84,17 @@
 
 
             courseDescription.innerHTML = courseContent["@title"]
-            if (courseContent["@outlineurl"]) {
-                courseSyllabus.innerHTML = courseContent["@outlineurl"]
+            if (courseContent["@syllabusTerm"] != "" && courseContent["@originalCourseName"] != "") {
+                const syllabusURL = `https://prod-lc01-pub.landfood.ubc.ca/lfssyllabi/syllabi/${courseContent["@syllabusTerm"]}/${courseContent["@originalCourseName"]}/index.html`
+                courseSyllabus.setAttribute("href", syllabusURL)
+                courseSyllabus.innerHTML = courseContent["@syllabusTerm"]
             }
             // Append row contents
             courseTitleContainer.append(courseTitle)
+            courseSyllabusContainer.append(courseSyllabus)
             courseContainer.append(courseTitleContainer)
             courseContainer.append(courseDescription)
-            courseContainer.append(courseSyllabus)
+            courseContainer.append(courseSyllabusContainer)
             // Append row to table
             coursesContainer.append(courseContainer)
         }

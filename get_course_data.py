@@ -15,8 +15,21 @@ LFSDepts = ['APBI', 'FNH', 'FOOD', 'FRE', 'GRS', 'HUNU', 'LFS', 'LWS', 'PLNT', '
 def buildURL(year, term, dept):
     return f"{baseURL}&sessyr={year}&sesscd={term}&req=2&dept={dept}&output=3"
 
+# Returns the variables necessary to build the course syllabus URL
+def hasSyllabus(courseName, syllabusInfo):
+    for term in syllabusInfo:
+        for course in term["courses"]:
+            if (courseName in course):
+                return term["term"], course
+    return "", ""
+
 def getData(year, term):
     courses = {}
+    # Gets the list of courses with a syllabus
+    syllabusInfo = list(json.loads(fetchDataAsText("https://prod-lc01-pub.landfood.ubc.ca/lfscourses/availableSyllabi")))
+    # Reverse list so the most recent years are at the top
+    syllabusInfo.reverse()
+
     for dept in LFSDepts:
         url = buildURL(year, term, dept)
         response_API = requests.get(url)
@@ -29,6 +42,15 @@ def getData(year, term):
         except:
             pass
         
+        # Grabs syllabus for the courses
+        if (dept_courses_array is not None): # Ensures that there are courses in the array
+            for course in dept_courses_array["course"]:
+                # Grabs the necessary variables to build the syllabus URL
+                syllabusTerm, originalCourseName = hasSyllabus(f"{dept} {str(course['@key'])}", syllabusInfo)
+                # Adds the variables to the dictionary
+                course["@syllabusTerm"] = str(syllabusTerm)
+                course["@originalCourseName"] = str(originalCourseName)
+        # Adds the array of courses in that department to the courses dictionary
         courses.update({f"{dept}":dept_courses_array})
     courseJSONData['sessions'].update({f"{year}{term}":courses})
 
@@ -46,3 +68,7 @@ def updateData():
     with open("static/data/lfs-course-data.json", "w") as courseData:
         json.dump(courseJSONData, courseData, indent=4)
     courseData.close()
+
+def fetchDataAsText(url):
+    response_API = requests.get(url)
+    return response_API.text
