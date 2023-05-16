@@ -29,13 +29,25 @@ generateSessions(currentYear - 1, "S", "Summer"); // previous year
 
 // For displaying dropdown menu options
 function showDropdown(idName) {
-    dropdown = document.getElementById(idName);
+    const dropdown = document.getElementById(idName);
+    const options = dropdown.children;
+    const inputID = idName.replace("DropDown", "Input")
+    const selectedOption = document.getElementById(inputID).value;
+    for (let i = 0; i < options.length; i++) {
+        if (options[i].innerHTML == selectedOption) {
+            options[i].classList.add("selected-dropdown-option")
+        }
+        else {
+            options[i].classList.remove("selected-dropdown-option")
+        }
+    }
     dropdown.style.display = "block";
 }
 
 function hideDropdown(idName) {
     dropdown = document.getElementById(idName);
     dropdown.style.display = "none";
+
 }
 
 

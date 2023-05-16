@@ -27,7 +27,7 @@
             <div class="filterOptionContainer">
                 <div class="dropdown-menu" onmouseover="showDropdown('sessionDropDown')" onmouseout="hideDropdown('sessionDropDown')">
                     <label>Session</label><br>
-                    <input class="dropdown-input" id="sessionInput" type="text" placeholder="Select...">
+                    <input class="dropdown-input" id="sessionInput" type="text" placeholder="Select..." readonly>
                     <!-- Loop through each session option and displays it -->
                     <ul class="dropdownUl" id="sessionDropDown" style="display:none"></ul>
                 </div>
@@ -35,7 +35,7 @@
                 <!-- Department dropdown menu -->
                 <div class="dropdown-menu" onmouseover="showDropdown('deptDropDown')" onmouseout="hideDropdown('deptDropDown')">
                     <label>Dept</label><br>
-                    <input class="dropdown-input" id="deptInput" type="text" placeholder="Select...">
+                    <input class="dropdown-input" id="deptInput" type="text" placeholder="Select..." readonly>
                     <!-- Loop through each session option and displays it -->
                     <ul class="dropdownUl" id="deptDropDown" style="display:none"></ul>
                 </div>
@@ -52,7 +52,8 @@
             <!-- Search bar -->
             <label>Search</label><br>
             <input class="search-bar" id="searchBar" type="text" oninput="filtering()" placeholder="Search for a course or description">
-            <br>
+            <br />
+            <p><span id="coursesFound">0</span> courses found</p>
             <!-- Courses -->
             <table>
                 <thead>
@@ -169,6 +170,9 @@
         else if (selectedDept.length > 1) {
             createCourseElement(selectedDept, session, searchInput)
         }
+
+        // # of courses found
+        document.getElementById("coursesFound").innerHTML = coursesContainer.children.length;
 
         // If no courses
         if (coursesContainer.innerHTML == "") {

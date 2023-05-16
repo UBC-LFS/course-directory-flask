@@ -83,6 +83,10 @@ body {
     background: #002145;
     color: white;
 }
+.selected-dropdown-option {
+    background: #002145;
+    color: white;
+}
 /* ^^^ */
 
 /* Toggle */
