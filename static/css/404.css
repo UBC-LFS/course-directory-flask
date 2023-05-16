@@ -1,0 +1,25 @@
+.page-container-404 {
+    width: 80%;
+    margin: 10% auto;
+}
+
+.title-404 {
+    color: #002145;
+    text-align: center;
+}
+
+.home-btn-404 {
+    padding: 10px 15px;
+    color: #fff;
+    background: #b0b58c;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.home-btn-404:hover {
+    background: #8c925e;
+}

@@ -9,6 +9,16 @@
 
     </head>
     <body>
+
+        <nav>
+            <div class="upper-nav">
+                <a class="upper-nav-logo" href="https://www.ubc.ca" title="The University of British Columbia (UBC)"></a>
+            </div>
+            <div class="lower-nav">
+                <a class="lower-nav-title" href="https://www.landfood.ubc.ca/">Faculty of Land and Food Systems</a>
+            </div>
+        </nav>
+
         <div class="course-directory-container">
             <h2>LFS Course Directory</h2>
 
@@ -29,16 +39,24 @@
                     <!-- Loop through each session option and displays it -->
                     <ul class="dropdownUl" id="deptDropDown" style="display:none"></ul>
                 </div>
+
+                <div class="toggle-container" onclick="filtering()">
+                    <label>Syllabus</label><br>
+                    <label class="toggle">
+                        <input class="toggle-checkbox" type="checkbox" id="toggle-status">
+                        <span class="toggle-btn"></span>
+                    </label>                      
+                </div>
             </div>
 
             <!-- Search bar -->
             <label>Search</label><br>
-            <input class="search-bar" id="searchBar" type="text" oninput="filtering(this.value)" placeholder="Search for a course or description">
+            <input class="search-bar" id="searchBar" type="text" oninput="filtering()" placeholder="Search for a course or description">
             <br>
             <!-- Courses -->
             <table>
                 <thead>
-                    <tr>
+                    <tr class="table-head">
                         <th class="table-title">Course</th>
                         <th class="table-title">Description</th>
                         <th class="table-title">Syllabus</th>
@@ -48,16 +66,21 @@
                 </tbody>
             </table>
         </div>
+
+        <footer>
+            
+        </footer>
     </body>
     
     <script src="{{url_for('static', filename='javascript/dropdownMenu.js')}}"></script>
 </html>
 
 <script>
-    function filtering(searchInput) {
+    function filtering() {
         const year = document.getElementById("sessionInput").value.split(" ")[0]
         const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
         const selectedDept = document.getElementById("deptInput").value
+        const searchInput = document.getElementById("searchBar").value
         // Run displayCourses and feed an argument for filtering
         displayCourses(year, termCode, selectedDept, searchInput) 
     }
@@ -70,16 +93,14 @@
         if (searchInput.length < 1) {
             return true
         }
-        // In name?
-        else if (courseName.includes(searchInput)) {
+        // In name
+        if (courseName.includes(searchInput)) {
             return true
         }
-        // In description?
+        // In description
         else if (courseDescription.includes(searchInput)) {
             return true
         }
-        // 
-        // 
         return false
     }
 
@@ -92,7 +113,8 @@
         // Gets the selected session to buid the course URL
         const year = document.getElementById("sessionInput").value.split(" ")[0]
         const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
-
+        // Gets the toggle status
+        const syllabusToggle = document.getElementById("toggle-status").checked;
         for (const course in courseJSONData[session][dept]["course"]) {
             const courseContent = courseJSONData[session][dept]["course"][course]
             // Runs through filters to decide if a course should be displayed or not
@@ -122,8 +144,11 @@
                 courseContainer.append(courseTitleContainer)
                 courseContainer.append(courseDescription)
                 courseContainer.append(courseSyllabusContainer)
-                // Append row to table
-                coursesContainer.append(courseContainer)
+                // Append row to table, but if the syllabusToggle is true, then only display courses with a syllabus
+                // (If then logic from CPSC 121)
+                if (!syllabusToggle || (courseContent["@syllabusTerm"] != "" && courseContent["@originalCourseName"] != "")) {
+                    coursesContainer.append(courseContainer)
+                }
             }
         }
     }
@@ -143,6 +168,11 @@
         
         else if (selectedDept.length > 1) {
             createCourseElement(selectedDept, session, searchInput)
+        }
+
+        // If no courses
+        if (coursesContainer.innerHTML == "") {
+            coursesContainer.innerHTML = "<br/>No courses found, try searching for another course!"
         }
     }
     // Make this display the current year and term courses
