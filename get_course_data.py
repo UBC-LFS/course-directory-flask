@@ -2,7 +2,8 @@ from datetime import date
 import requests
 import json
 import xmltodict # used to convert xml files to JSON
- 
+import os
+
 courseJSONData = {"sessions": {}}
 
 baseURL = "https://courses.students.ubc.ca/cs/servlets/SRVCourseSchedule?"
@@ -25,10 +26,14 @@ def hasSyllabus(courseName, syllabusInfo):
 
 def getData(year, term):
     courses = {}
+
+    """ Old method: fetched data from a different website, but we want to store the syllabuses in this one instead
     # Gets the list of courses with a syllabus
     syllabusInfo = list(json.loads(fetchDataAsText("https://prod-lc01-pub.landfood.ubc.ca/lfscourses/availableSyllabi")))
     # Reverse list so the most recent years are at the top
     syllabusInfo.reverse()
+    """
+    syllabusInfo = getCoursesWithSyllabus()
 
     for dept in LFSDepts:
         url = buildURL(year, term, dept)
@@ -72,3 +77,28 @@ def updateData():
 def fetchDataAsText(url):
     response_API = requests.get(url)
     return response_API.text
+
+# Looks at courseDirectory and returns an array of courses with a syllabus
+def getCoursesWithSyllabus():
+    coursesWithSyllabus = []
+    courseDirectory = "templates/CourseDirectory"
+    for subFolder in os.listdir(courseDirectory):
+        sessionFolder = courseDirectory + "/" + subFolder
+        # If the directory exist
+        if os.path.isdir(sessionFolder):
+            sessionWithSyllabus = {
+                "term": subFolder,
+                "courses": []
+            }
+            for originalCourseName in os.listdir(sessionFolder):
+                sessionSubFolder = sessionFolder + "/" + originalCourseName
+                # If the directory exist
+                if os.path.isdir(sessionSubFolder):
+                    sessionWithSyllabus["courses"].append(originalCourseName)
+            coursesWithSyllabus.append(sessionWithSyllabus)
+    return coursesWithSyllabus
+            
+
+
+            
+

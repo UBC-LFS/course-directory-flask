@@ -33,7 +33,7 @@
 
             <!-- Search bar -->
             <label>Search</label><br>
-            <input class="search-bar" id="" type="text" oninput="filtering(this.value)" placeholder="Search for a course or description">
+            <input class="search-bar" id="searchBar" type="text" oninput="filtering(this.value)" placeholder="Search for a course or description">
             <br>
             <!-- Courses -->
             <table>
@@ -54,15 +54,40 @@
 </html>
 
 <script>
-    function filtering(input) {
-        // Run createCourseElement and feed an argument for filtering
-        
+    function filtering(searchInput) {
+        const year = document.getElementById("sessionInput").value.split(" ")[0]
+        const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
+        const selectedDept = document.getElementById("deptInput").value
+        // Run displayCourses and feed an argument for filtering
+        displayCourses(year, termCode, selectedDept, searchInput) 
     }
+
+    function filterCourses(searchInput, courseName, courseDescription) {
+        searchInput = searchInput.toLowerCase()
+        courseName = courseName.toLowerCase()
+        courseDescription = courseDescription.toLowerCase()
+        // If no input
+        if (searchInput.length < 1) {
+            return true
+        }
+        // In name?
+        else if (courseName.includes(searchInput)) {
+            return true
+        }
+        // In description?
+        else if (courseDescription.includes(searchInput)) {
+            return true
+        }
+        // 
+        // 
+        return false
+    }
+
     // red underlines, but no bugs and works perfectly? hmm
     // retrieves the JSON course data from Flask
     var courseJSONData = {{ courseJSONData | tojson }};
-
-    function createCourseElement(dept, session) {
+    
+    function createCourseElement(dept, session, searchInput) {
         coursesContainer = document.getElementById("coursesContainer")
         // Gets the selected session to buid the course URL
         const year = document.getElementById("sessionInput").value.split(" ")[0]
@@ -70,37 +95,40 @@
 
         for (const course in courseJSONData[session][dept]["course"]) {
             const courseContent = courseJSONData[session][dept]["course"][course]
+            // Runs through filters to decide if a course should be displayed or not
+            if (filterCourses(searchInput, dept + " " + courseContent["@key"], courseContent["@title"])) {
+                const courseContainer = document.createElement("tr");
+                const courseTitleContainer = document.createElement("th");
+                const courseTitle = document.createElement("a");
+                const courseDescription = document.createElement("th");
+                const courseSyllabusContainer = document.createElement("th");
+                const courseSyllabus = document.createElement("a");
 
-            const courseContainer = document.createElement("tr");
-            const courseTitleContainer = document.createElement("th");
-            const courseTitle = document.createElement("a");
-            const courseDescription = document.createElement("th");
-            const courseSyllabusContainer = document.createElement("th");
-            const courseSyllabus = document.createElement("a");
-
-            courseTitle.innerHTML = dept + " " + courseContent["@key"]
-            const courseURL =`https://courses.students.ubc.ca/cs/courseschedule?tname=subj-course&course=${courseContent['@key']}&sessyr=${year}&sesscd=${termCode}&dept=${dept}&pname=subjarea`
-            courseTitle.setAttribute("href", courseURL)
+                courseTitle.innerHTML = dept + " " + courseContent["@key"]
+                const courseURL =`https://courses.students.ubc.ca/cs/courseschedule?tname=subj-course&course=${courseContent['@key']}&sessyr=${year}&sesscd=${termCode}&dept=${dept}&pname=subjarea`
+                courseTitle.setAttribute("href", courseURL)
 
 
-            courseDescription.innerHTML = courseContent["@title"]
-            if (courseContent["@syllabusTerm"] != "" && courseContent["@originalCourseName"] != "") {
-                const syllabusURL = `https://prod-lc01-pub.landfood.ubc.ca/lfssyllabi/syllabi/${courseContent["@syllabusTerm"]}/${courseContent["@originalCourseName"]}/index.html`
-                courseSyllabus.setAttribute("href", syllabusURL)
-                courseSyllabus.innerHTML = courseContent["@syllabusTerm"]
+                courseDescription.innerHTML = courseContent["@title"]
+                if (courseContent["@syllabusTerm"] != "" && courseContent["@originalCourseName"] != "") {
+                    const syllabusURL = `coursedirectory/${courseContent["@syllabusTerm"]}/${courseContent["@originalCourseName"]}`
+                    courseSyllabus.setAttribute("href", syllabusURL)
+                    courseSyllabus.innerHTML = courseContent["@syllabusTerm"]
+                    // courseSyllabusContainer.innerHTML = syllabusURL;
+                }
+                // Append row contents
+                courseTitleContainer.append(courseTitle)
+                courseSyllabusContainer.append(courseSyllabus)
+                courseContainer.append(courseTitleContainer)
+                courseContainer.append(courseDescription)
+                courseContainer.append(courseSyllabusContainer)
+                // Append row to table
+                coursesContainer.append(courseContainer)
             }
-            // Append row contents
-            courseTitleContainer.append(courseTitle)
-            courseSyllabusContainer.append(courseSyllabus)
-            courseContainer.append(courseTitleContainer)
-            courseContainer.append(courseDescription)
-            courseContainer.append(courseSyllabusContainer)
-            // Append row to table
-            coursesContainer.append(courseContainer)
         }
     }
 
-    function displayCourses(year, term, selectedDept) {
+    function displayCourses(year, term, selectedDept, searchInput) {
         coursesContainer = document.getElementById("coursesContainer")
         // Remove everything currently displayed
         coursesContainer.innerHTML = ""
@@ -109,14 +137,14 @@
 
         if (selectedDept == "- ALL -") {
             for (const dept in courseJSONData[session]) {
-                createCourseElement(dept, session)
+                createCourseElement(dept, session, searchInput)
             }
         }
         
         else if (selectedDept.length > 1) {
-            createCourseElement(selectedDept, session)
+            createCourseElement(selectedDept, session, searchInput)
         }
     }
     // Make this display the current year and term courses
-    displayCourses(2023, "S", "- ALL -")
+    displayCourses(2023, "S", "- ALL -", "")
 </script>

@@ -14,7 +14,8 @@ function generateSessions(year, termCode, termName) {
         selectSession(year, termCode, termName) // make this select that session and update courses to display
         // Make this get the current selected department
         const deptName = document.getElementById("deptInput").value
-        displayCourses(year, termCode, deptName)
+        const searchBarInput = document.getElementById("searchBar").value
+        displayCourses(year, termCode, deptName, searchBarInput)
     })
     sessionDropDown.append(sessionLi);
 }
@@ -67,7 +68,8 @@ function generateDepts() {
             // Gets the current selected year + term code from the input
             const year = document.getElementById("sessionInput").value.split(" ")[0]
             const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
-            displayCourses(year, termCode, deptName)
+            const searchBarInput = document.getElementById("searchBar").value
+            displayCourses(year, termCode, deptName, searchBarInput)
         })
         deptDropDown.append(deptLi);
     }
