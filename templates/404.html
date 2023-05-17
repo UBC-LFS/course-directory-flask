@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>LFS Course Directory</title>
+        <title>404 | LFS Course Directory</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <!-- Page icon -->
         <link rel="shortcut icon" href="https://cdn.ubc.ca/clf/7.0.4/img/favicon.ico">
         <!-- CSS file -->
@@ -9,24 +11,16 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/404.css') }}">
     </head>
     <body>
-
-        <nav>
-            <div class="upper-nav">
-                <a class="upper-nav-logo" href="https://www.ubc.ca" title="The University of British Columbia (UBC)"></a>
-            </div>
-            <div class="lower-nav">
-                <a class="lower-nav-title" href="https://www.landfood.ubc.ca/">Faculty of Land and Food Systems</a>
-            </div>
-        </nav>
-
-        <div class="page-container-404">
-            <h1 class="title-404">404 Page not found</h1>
-            <a class="home-btn-404" href="/">Go back home!</a>
-        </div>
-
-        <footer>
+        <div class="site-container">
+            {% include 'navigationbar.html' %}
             
-        </footer>
+            <div class="page-container-404">
+                <h1 class="title-404">404 page not found</h1>
+                <a class="home-btn-404" href="/">Go back home!</a>
+            </div>
+
+            {% include 'footer.html' %}
+        </div>
     </body>
 </html>
 

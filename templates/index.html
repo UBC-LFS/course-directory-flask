@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>LFS Course Directory</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <!-- Page icon -->
         <link rel="shortcut icon" href="https://cdn.ubc.ca/clf/7.0.4/img/favicon.ico">
         <!-- CSS file -->
@@ -9,68 +11,60 @@
 
     </head>
     <body>
+        <div class="site-container">
+            {% include 'navigationbar.html' %}
 
-        <nav>
-            <div class="upper-nav">
-                <a class="upper-nav-logo" href="https://www.ubc.ca" title="The University of British Columbia (UBC)"></a>
-            </div>
-            <div class="lower-nav">
-                <a class="lower-nav-title" href="https://www.landfood.ubc.ca/">Faculty of Land and Food Systems</a>
-            </div>
-        </nav>
+            <div class="course-directory-container">
+                <h2>LFS Course Directory</h2>
 
-        <div class="course-directory-container">
-            <h2>LFS Course Directory</h2>
+                <p>Please note the Session displays the courses offered in the selected Session, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.</p>
+                
+                <div class="filterOptionContainer">
+                    <div class="dropdown-menu" onmouseover="showDropdown('sessionDropDown')" onmouseout="hideDropdown('sessionDropDown')">
+                        <label>Session</label><br>
+                        <input class="dropdown-input" id="sessionInput" type="text" placeholder="Select..." readonly>
+                        <!-- Loop through each session option and displays it -->
+                        <ul class="dropdownUl" id="sessionDropDown" style="display:none"></ul>
+                    </div>
 
-            <p>Please note the Session displays the courses offered in the selected Session, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.</p>
-            
-            <div class="filterOptionContainer">
-                <div class="dropdown-menu" onmouseover="showDropdown('sessionDropDown')" onmouseout="hideDropdown('sessionDropDown')">
-                    <label>Session</label><br>
-                    <input class="dropdown-input" id="sessionInput" type="text" placeholder="Select..." readonly>
-                    <!-- Loop through each session option and displays it -->
-                    <ul class="dropdownUl" id="sessionDropDown" style="display:none"></ul>
+                    <!-- Department dropdown menu -->
+                    <div class="dropdown-menu" onmouseover="showDropdown('deptDropDown')" onmouseout="hideDropdown('deptDropDown')">
+                        <label>Dept</label><br>
+                        <input class="dropdown-input" id="deptInput" type="text" placeholder="Select..." readonly>
+                        <!-- Loop through each session option and displays it -->
+                        <ul class="dropdownUl" id="deptDropDown" style="display:none"></ul>
+                    </div>
+
+                    <div class="toggle-container" onclick="filtering()">
+                        <label>Syllabus</label><br>
+                        <label class="toggle">
+                            <input class="toggle-checkbox" type="checkbox" id="toggle-status">
+                            <span class="toggle-btn"></span>
+                        </label>                      
+                    </div>
                 </div>
 
-                <!-- Department dropdown menu -->
-                <div class="dropdown-menu" onmouseover="showDropdown('deptDropDown')" onmouseout="hideDropdown('deptDropDown')">
-                    <label>Dept</label><br>
-                    <input class="dropdown-input" id="deptInput" type="text" placeholder="Select..." readonly>
-                    <!-- Loop through each session option and displays it -->
-                    <ul class="dropdownUl" id="deptDropDown" style="display:none"></ul>
-                </div>
-
-                <div class="toggle-container" onclick="filtering()">
-                    <label>Syllabus</label><br>
-                    <label class="toggle">
-                        <input class="toggle-checkbox" type="checkbox" id="toggle-status">
-                        <span class="toggle-btn"></span>
-                    </label>                      
-                </div>
+                <!-- Search bar -->
+                <label>Search</label><br>
+                <input class="search-bar" id="searchBar" type="text" oninput="filtering()" placeholder="Search for a course or description">
+                <br />
+                <p><span id="coursesFound">0</span> courses found</p>
+                <!-- Courses -->
+                <table>
+                    <thead>
+                        <tr class="table-head">
+                            <th class="table-title">Course</th>
+                            <th class="table-title">Description</th>
+                            <th class="table-title">Syllabus</th>
+                        </tr>
+                    </thead>
+                    <tbody id="coursesContainer">
+                    </tbody>
+                </table>
             </div>
 
-            <!-- Search bar -->
-            <label>Search</label><br>
-            <input class="search-bar" id="searchBar" type="text" oninput="filtering()" placeholder="Search for a course or description">
-            <br />
-            <p><span id="coursesFound">0</span> courses found</p>
-            <!-- Courses -->
-            <table>
-                <thead>
-                    <tr class="table-head">
-                        <th class="table-title">Course</th>
-                        <th class="table-title">Description</th>
-                        <th class="table-title">Syllabus</th>
-                    </tr>
-                </thead>
-                <tbody id="coursesContainer">
-                </tbody>
-            </table>
+            {% include 'footer.html' %}
         </div>
-
-        <footer>
-            
-        </footer>
     </body>
     
     <script src="{{url_for('static', filename='javascript/dropdownMenu.js')}}"></script>
