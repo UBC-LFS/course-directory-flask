@@ -19,13 +19,11 @@ function generateSessions(year, termCode, termName) {
     })
     sessionDropDown.append(sessionLi);
 }
-var currentYear = new Date().getFullYear();
-generateSessions(currentYear + 1, "W", "Winter"); // next year
-generateSessions(currentYear + 1, "S", "Summer"); // next year
-generateSessions(currentYear, "W", "Winter"); // current year
-generateSessions(currentYear, "S", "Summer"); // current year
-generateSessions(currentYear - 1, "W", "Winter"); // previous year
-generateSessions(currentYear - 1, "S", "Summer"); // previous year
+// var currentYear = new Date().getFullYear();
+// generateSessions(currentYear, "W", "Winter"); // current year
+// generateSessions(currentYear, "S", "Summer"); // current year
+// generateSessions(currentYear - 1, "W", "Winter"); // previous year
+// generateSessions(currentYear - 1, "S", "Summer"); // previous year
 
 // For displaying dropdown menu options
 function showDropdown(idName) {
@@ -49,12 +47,6 @@ function hideDropdown(idName) {
     dropdown.style.display = "none";
 
 }
-
-
-// Select default session
-// Make the term change depending on the date
-selectSession(currentYear, "S", "Summer")
-
 // Sessions ^^^
 
 // Dept

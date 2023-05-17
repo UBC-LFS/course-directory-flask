@@ -4235,42 +4235,6 @@
                     }
                 ]
             }
-        },
-        "2022S": {
-            "APBI": null,
-            "FNH": null,
-            "FOOD": null,
-            "FRE": null,
-            "GRS": null,
-            "HUNU": null,
-            "LFS": null,
-            "LWS": null,
-            "PLNT": null,
-            "SOIL": null
-        },
-        "2024W": {
-            "APBI": null,
-            "FNH": null,
-            "FOOD": null,
-            "FRE": null,
-            "GRS": null,
-            "HUNU": null,
-            "LFS": null,
-            "LWS": null,
-            "PLNT": null,
-            "SOIL": null
-        },
-        "2024S": {
-            "APBI": null,
-            "FNH": null,
-            "FOOD": null,
-            "FRE": null,
-            "GRS": null,
-            "HUNU": null,
-            "LFS": null,
-            "LWS": null,
-            "PLNT": null,
-            "SOIL": null
         }
     }
 }

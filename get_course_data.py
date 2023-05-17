@@ -46,29 +46,32 @@ def getData(year, term):
                 dept_courses_array = {"course": [xmltodict.parse(data)["courses"]["course"]]}
         except:
             pass
-        
-        # Grabs syllabus for the courses
-        if (dept_courses_array is not None): # Ensures that there are courses in the array
+
+        # Ensures that there are courses in the array, if not, do not add courses to set
+        if (dept_courses_array is not None):
             for course in dept_courses_array["course"]:
                 # Grabs the necessary variables to build the syllabus URL
                 syllabusTerm, originalCourseName = hasSyllabus(f"{dept} {str(course['@key'])}", syllabusInfo)
                 # Adds the variables to the dictionary
                 course["@syllabusTerm"] = str(syllabusTerm)
                 course["@originalCourseName"] = str(originalCourseName)
-        # Adds the array of courses in that department to the courses dictionary
-        courses.update({f"{dept}":dept_courses_array})
-    courseJSONData['sessions'].update({f"{year}{term}":courses})
+            # Adds the array of courses in that department to the courses dictionary
+            courses.update({f"{dept}":dept_courses_array})
+    
+    # If there are courses in that session, add it to the set of courses
+    if (len(courses) > 0):
+        courseJSONData['sessions'].update({f"{year}{term}":courses})
 
 # W: winter, S: Summer
-# Maybe make this update every week or day to let the website load faster
+# Maybe make this update every week or day at 4am to let the website load faster
 # Add a try catch incase so we don't overwrite the current data
 def updateData():
+    getData(str(year + 1), "W")
+    getData(str(year + 1), "S")
     getData(str(year), "W")
     getData(str(year), "S")
     getData(str(year - 1), "W")
     getData(str(year - 1), "S")
-    getData(str(year + 1), "W")
-    getData(str(year + 1), "S")
 
     with open("static/data/lfs-course-data.json", "w") as courseData:
         json.dump(courseJSONData, courseData, indent=4)

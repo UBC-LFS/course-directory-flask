@@ -77,6 +77,10 @@
 </html>
 
 <script>
+    // red underlines, but no bugs and works perfectly? hmm
+    // retrieves the JSON course data from Flask
+    var courseJSONData = {{ courseJSONData | tojson }};
+
     function filtering() {
         const year = document.getElementById("sessionInput").value.split(" ")[0]
         const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
@@ -104,10 +108,6 @@
         }
         return false
     }
-
-    // red underlines, but no bugs and works perfectly? hmm
-    // retrieves the JSON course data from Flask
-    var courseJSONData = {{ courseJSONData | tojson }};
     
     function createCourseElement(dept, session, searchInput) {
         coursesContainer = document.getElementById("coursesContainer")
@@ -154,6 +154,17 @@
         }
     }
 
+    function getSessionVar(session) {
+        if (session.includes("w")) { // Winter
+            const year = session.replace("w", "")
+            return [year, "W", "Winter"]
+        }
+        else { // Summer
+            const year = session.replace("s", "")
+            return [year, "S", "Summer"]
+        }
+    }
+
     function displayCourses(year, term, selectedDept, searchInput) {
         coursesContainer = document.getElementById("coursesContainer")
         // Remove everything currently displayed
@@ -179,6 +190,18 @@
             coursesContainer.innerHTML = "<br/>No courses found, try searching for another course!"
         }
     }
+
     // Make this display the current year and term courses
-    displayCourses(2023, "S", "- ALL -", "")
+    const availableSessions = Object.keys(courseJSONData).reverse();
+    for (let i = 0; i < availableSessions.length; i++) {
+        const sessionInfo = getSessionVar(availableSessions[i].toLowerCase())
+        // Generate options in dropdown menu
+        generateSessions(sessionInfo[0], sessionInfo[1], sessionInfo[2]);
+    }
+    
+    // Selects the most recent session with courses in dropdown
+    const sessionInfo = getSessionVar(availableSessions[0].toLowerCase())
+    selectSession(sessionInfo[0], sessionInfo[1], sessionInfo[2]);
+    // Displays the most recent session courses
+    displayCourses(sessionInfo[0], sessionInfo[1], "- ALL -", "")
 </script>
