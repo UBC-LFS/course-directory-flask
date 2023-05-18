@@ -22,10 +22,12 @@ pip install virtualenv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
-### **Run**
+### **Running the web app**
+Run:
 ```
 main.py
 ```
+Go to: http://127.0.0.1:5000/ (localhost)
 
 ### **What does each file do?**
 #### **Python code:**
