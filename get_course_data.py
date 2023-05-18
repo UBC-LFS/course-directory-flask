@@ -53,6 +53,13 @@ def getData(year, term):
     
     # If there are courses in that session, add it to the set of courses
     if (len(courses) > 0):
+        # Backup the courses for that session
+        try:
+            with open(f"static/data/backedUpSessions/{year}{term}.json", "w") as sessionData:
+                json.dump({f"{year}{term}":courses}, sessionData, indent=4)
+        except:
+            print("Could not back up session data")
+            
         courseJSONData['sessions'].update({f"{year}{term}":courses})
 
 # W: winter, S: Summer

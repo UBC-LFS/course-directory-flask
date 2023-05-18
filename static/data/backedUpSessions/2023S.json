@@ -1,0 +1,525 @@
+{
+    "2023S": {
+        "APBI": {
+            "course": [
+                {
+                    "@key": "200",
+                    "@title": "Introduction to Soil Science",
+                    "@descr": "Physical, chemical and biological properties of soils; soil formation, classification, use and conservation. There are no prerequisites for this course, but background in Biology 12, Chemistry 12, and Physics 12 (or first-year university-level) is strongly advised.",
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "APBI 200 001 002 2021W2"
+                },
+                {
+                    "@key": "314",
+                    "@title": "Animals and Society",
+                    "@descr": "Contemporary use of animals for food production, companionship, recreation and science; social and ethical issues concerning human impacts on animals; animals in human culture; protection of animals by society and the law.",
+                    "@prereqnote": "At least third-year standing in any faculty.",
+                    "@syllabusTerm": "2020W1",
+                    "@originalCourseName": "APBI 314 001 2020W"
+                },
+                {
+                    "@key": "365",
+                    "@title": "Summer Practicum in Sustainable Agriculture and Food Systems",
+                    "@descr": "Based at the UBC Farm. Application required. Fees will be assessed to meet expenses.",
+                    "@prereqs": "One of APBI 260, APBI 265.",
+                    "@prereqnote": "and third-year standing.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "428",
+                    "@title": "Integrated Pest Management",
+                    "@descr": "Development and implementation of multi-disciplinary pest management programs in agricultural crops.",
+                    "@prereqs": "BIOL 121.",
+                    "@syllabusTerm": "2021WC",
+                    "@originalCourseName": "APBI 428 99C 2021WC"
+                },
+                {
+                    "@key": "443",
+                    "@title": "Field Study of Wine Grape Production",
+                    "@descr": "Lectures, field trips, laboratory sessions focused on major issues related to grape and wine production. Origin of grape varieties and rootstocks, morphological features of the grapevine, training systems, canopy management strategies, berry composition, the impact of terroir on wine quality. Credit will be granted for only one of PLNT 542, APBI 442 OR APBI 443.",
+                    "@prereqs": "One of BIOL 112, BIOL 121.",
+                    "@prereqnote": "And one 200-level BIOL course.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "462",
+                    "@title": "Conservation Agriculture and Biodiversity Monitoring",
+                    "@descr": "Biodiversity indicators and basic monitoring methods. Sources of agroecosystem biodiversity, including plants, insects, soil invertebrates, and vertebrates. Proficiency in using techniques to measure key abiotic factors in the field.",
+                    "@outlineurl": "https://blogs.ubc.ca/apbi462/",
+                    "@prereqs": "One of BIOL 300, GEOG 374, FRST 231, LFS  252.",
+                    "@prereqnote": "APBI 260 recommended",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "496A",
+                    "@title": "Applied Animal Biology Practicum - APBI PRACTICUM",
+                    "@descr": "Application of principles and concepts of Applied Animal Biology to experiential learning in the fields of wild, companion, lab, and farm animal welfare and management.",
+                    "@prereqnote": "Third-year standing or higher. APBI 314 and/or APBI 315 are recommended.",
+                    "@syllabusTerm": "2020W1",
+                    "@originalCourseName": "APBI 496A 001 2020W"
+                },
+                {
+                    "@key": "496B",
+                    "@title": "Applied Animal Biology Practicum - APBI PRACTICUM",
+                    "@descr": "Application of principles and concepts of Applied Animal Biology to experiential learning in the fields of wild, companion, lab, and farm animal welfare and management.",
+                    "@prereqnote": "Third-year standing or higher. APBI 314 and/or APBI 315 are recommended.",
+                    "@syllabusTerm": "2020W1",
+                    "@originalCourseName": "APBI 496B 001 2020W"
+                },
+                {
+                    "@key": "497A",
+                    "@title": "Directed Studies - DIR STUDIES",
+                    "@descr": " ",
+                    "@prereqnote": "Approval of program advisor.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "497B",
+                    "@title": "Directed Studies - DIR STUDIES",
+                    "@descr": " ",
+                    "@prereqnote": "Approval of program advisor.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "497C",
+                    "@title": "Directed Studies - DIR STUDIES",
+                    "@descr": " ",
+                    "@prereqnote": "Approval of program advisor.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "497E",
+                    "@title": "Directed Studies - DIR STUDIES",
+                    "@descr": " ",
+                    "@prereqnote": "Approval of program advisor.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "498",
+                    "@title": "Undergraduate Essay",
+                    "@descr": "Preparation of a comprehensive and analytical review of an approved topic under the supervision of a faculty member. Consultation with a program advisor is required.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "499",
+                    "@title": "Undergraduate Thesis",
+                    "@descr": "Design and execution of an experimental/analytical research project leading to the preparation of a thesis.",
+                    "@prereqnote": "Approval of a program advisor; consult before the end of classes in third year.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "FNH": {
+            "course": [
+                {
+                    "@key": "161",
+                    "@title": "Integrated Physiology for Human Nutrition II",
+                    "@descr": "Basic principles in human physiology, including function of the cardiovascular, immune, respiratory, urinary and reproductive systems, integration across systems, maintenance of homeostasis, and application to human nutrition.",
+                    "@prereqs": "FNH  160.",
+                    "@prereqnote": "FNH 160 and 161 together are credit-excluded with BIOL 153 and 155.",
+                    "@syllabusTerm": "2022W2",
+                    "@originalCourseName": "FNH 161 201 2022W2"
+                },
+                {
+                    "@key": "200",
+                    "@title": "Exploring Our Food",
+                    "@descr": "Chemical and physical properties of foods; issues pertaining to safety, nutritive value and consumer acceptability; government regulations pertaining to food safety, quality and additives; preservation techniques and transformation of agricultural commodities to food products; foods of the future.",
+                    "@outlineurl": "http://www.landfood.ubc.ca/courses/fnh/200/FNH200.syllabus.pdf",
+                    "@prereqnote": "At least second year standing required.",
+                    "@syllabusTerm": "2020WA",
+                    "@originalCourseName": "FNH 200 99A 2020W"
+                },
+                {
+                    "@key": "250",
+                    "@title": "Nutrition Concepts and Controversies",
+                    "@descr": "Fundamental concepts and principles of human nutrition applied to current nutrition issues.",
+                    "@prereqs": "Either (a) one of BIOL 111, BIOL 112, BIOL 153, BIOL 155 or (b) all of KIN  131, KIN  132.",
+                    "@prereqnote": "At least second-year standing required.",
+                    "@syllabusTerm": "2020W1",
+                    "@originalCourseName": "FNH 250 001 2020W"
+                },
+                {
+                    "@key": "330",
+                    "@title": "Introduction to Wine Science I",
+                    "@descr": "Principles of viticulture, enology, and wine microbiology and chemistry; marketing, regulation and classification of wines from selected regions of the world; social, economic and health aspects of wine consumption; wine appreciation.",
+                    "@prereqnote": "Third-year standing or higher.",
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "FNH 330 002 2021W2"
+                },
+                {
+                    "@key": "355",
+                    "@title": "International Nutrition",
+                    "@descr": "Conceptualization and scientific analyses of global problems in food and nutrition; complexities of food habits and malnutrition in various cultures around the world.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "381",
+                    "@title": "Dietetics Practice Education Placement I",
+                    "@descr": "Practice education placements in settings across British Columbia. Restricted to students in the Dietetics Major.",
+                    "@prereqs": "All of FNH  375, FNH  380.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "481",
+                    "@title": "Dietetics Practice Education Placement II",
+                    "@descr": "Practice education placements in settings across British Columbia. Restricted to students in the Dietetics Major. Pass/Fail.",
+                    "@prereqs": "All of FNH  380, FNH  381, FNH  480.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "497B",
+                    "@title": "Directed Studies in Food, Nutrition and Health - DST FOOD,NTR HLT",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "497C",
+                    "@title": "Directed Studies in Food, Nutrition and Health - DST FOOD,NTR HLT",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "497E",
+                    "@title": "Directed Studies in Food, Nutrition and Health - DST FOOD,NTR HLT",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "499",
+                    "@title": "Undergraduate Thesis",
+                    "@descr": "Design and execution of an experimental/analytical research project leading to preparation of a thesis.",
+                    "@prereqnote": "Approval of a program advisor; consult before the end of classes in third year.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "FOOD": {
+            "course": [
+                {
+                    "@key": "530B",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "530D",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "531",
+                    "@title": "Master of Food Science Practicum Project",
+                    "@descr": "Honours/Pass/Fail.",
+                    "@prereqs": "FOOD 511.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "549",
+                    "@title": "Master's Thesis",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "649",
+                    "@title": "Doctoral Dissertation",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "FRE": {
+            "course": [
+                {
+                    "@key": "547",
+                    "@title": "Graduating Project",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "GRS": {
+            "course": [
+                {
+                    "@key": "497B",
+                    "@title": "Regional Directed Field Studies - REG DIR FLD STUD",
+                    "@descr": "Participating students may be assessed a fee.",
+                    "@prereqs": "GRS  397.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "497E",
+                    "@title": "Regional Directed Field Studies - REG DIR FLD STUD",
+                    "@descr": "Participating students may be assessed a fee.",
+                    "@prereqs": "GRS  397.",
+                    "comments": {
+                        "comment": {
+                            "@text": "Urban Landscape Visualization II"
+                        }
+                    },
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "HUNU": {
+            "course": [
+                {
+                    "@key": "547A",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": "In special cases, directed studies on certain aspects of nutrition may be arranged for graduate students in attendance.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "547B",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": "In special cases, directed studies on certain aspects of nutrition may be arranged for graduate students in attendance.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "549",
+                    "@title": "M.Sc. Thesis",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "579",
+                    "@title": "Dietetics Practice Education Placement I",
+                    "@descr": "Restricted to students in the Master of Nutrition and Dietetics graduate program. Pass/fail.",
+                    "@prereqs": "All of HUNU 545, HUNU 575.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "649",
+                    "@title": "Doctoral Dissertation",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "LFS": {
+            "course": [
+                {
+                    "@key": "302A",
+                    "@title": "International Field Studies - INTERNL FLD STD",
+                    "@descr": "Field studies carried out abroad under staff direction. Participating students are assessed a fee.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "302B",
+                    "@title": "International Field Studies - INTERNL FLD STD",
+                    "@descr": "Field studies carried out abroad under staff direction. Participating students are assessed a fee.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "302D",
+                    "@title": "International Field Studies - INTERNL FLD STD",
+                    "@descr": "Field studies carried out abroad under staff direction. Participating students are assessed a fee.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "303",
+                    "@title": "International Field Studies in Policy Analysis for Agriculture and Natural Resources",
+                    "@descr": "Field studies carried out abroad under the direction of the instructor. Students will be guided to apply selected tools for analysis of agricultural and natural resource policy in developing countries with input from local policymakers. Participating students are assessed a fee.",
+                    "@prereqnote": "Third year standing and permission of instructor. 9 credits of upper level ECON, FRE or COMM courses are strongly recommended.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "398",
+                    "@title": "Co-operative Work Placement I",
+                    "@descr": "Work experience in relevant private and/or public sector settings.  Work terms are normally four months long.  Restricted to students admitted to the Co-op Program in Land and Food Systems. Pass/Fail.",
+                    "@prereqnote": "Must attend all Co-op pre-employment workshops.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "399",
+                    "@title": "Co-operative Work Placement II",
+                    "@descr": "Work experience in relevant private and/or public sector settings.  Work terms are normally four months long.  Restricted to students admitted to the Co-op Program in Land and Food Systems. Pass/Fail.",
+                    "@prereqs": "LFS  398.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "496A",
+                    "@title": "Career Development Practicum - CAREER PRACTICUM",
+                    "@descr": "Practical application of degree program learning appropriate to students' career goals. Enrolment subject to competition and availability of practicum placements.",
+                    "@syllabusTerm": "2022W1",
+                    "@originalCourseName": "LFS 496A 001 2022W1"
+                },
+                {
+                    "@key": "496B",
+                    "@title": "Career Development Practicum - CAREER PRACTICUM",
+                    "@descr": "Practical application of degree program learning appropriate to students' career goals. Enrolment subject to competition and availability of practicum placements.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "498",
+                    "@title": "Co-operative Work Placement III",
+                    "@descr": "Work experience in relevant private and/or public sector settings.  Work terms are normally four months long.  Restricted to students admitted to the Co-op Program in Land and Food Systems. Pass/Fail.",
+                    "@prereqs": "LFS  399.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "499",
+                    "@title": "Co-operative Work Placement IV",
+                    "@descr": "Work experience in relevant private and/or public sector settings.  Work terms are normally four months long.  Restricted to students admitted to the Co-op Program in Land and Food Systems. Pass/Fail.",
+                    "@prereqs": "LFS  498.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "530A",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "530B",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "549",
+                    "@title": "Master's Thesis",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "649",
+                    "@title": "Doctoral Dissertation",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "LWS": {
+            "course": [
+                {
+                    "@key": "548",
+                    "@title": "Major Project",
+                    "@descr": "Professional paper on topics focusing on emerging issues in water and land resources.",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "PLNT": {
+            "course": [
+                {
+                    "@key": "530B",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "530D",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "549",
+                    "@title": "Master's Thesis",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "590B",
+                    "@title": "Advanced Topics in Plant Science - ADV TCS PLNT SCI",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "590D",
+                    "@title": "Advanced Topics in Plant Science - ADV TCS PLNT SCI",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "649",
+                    "@title": "Doctoral Dissertation",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        },
+        "SOIL": {
+            "course": [
+                {
+                    "@key": "530B",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": " ",
+                    "@syllabusTerm": "2020W1",
+                    "@originalCourseName": "SOIL 530B 001 2020W"
+                },
+                {
+                    "@key": "530D",
+                    "@title": "Directed Studies - DIRECTED STUDIES",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "549",
+                    "@title": "Master's Thesis",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                },
+                {
+                    "@key": "649",
+                    "@title": "Doctoral Dissertation",
+                    "@descr": " ",
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
+                }
+            ]
+        }
+    }
+}
