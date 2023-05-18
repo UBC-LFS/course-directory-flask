@@ -61,6 +61,13 @@
                     <tbody id="coursesContainer">
                     </tbody>
                 </table>
+
+                <div class="paginationContainer">
+                    <ul class="paginationUl" id="paginationUl">
+                        <!-- li is appended here through js -->
+                    </ul>
+                </div>
+
             </div>
 
             {% include 'footer.html' %}
@@ -68,6 +75,7 @@
     </body>
     
     <script src="{{url_for('static', filename='javascript/dropdownMenu.js')}}"></script>
+    <script src="{{url_for('static', filename='javascript/displayCourses.js')}}"></script>
 </html>
 
 <script>
@@ -183,6 +191,10 @@
         if (coursesContainer.innerHTML == "") {
             coursesContainer.innerHTML = "<br/>No courses found, try searching for another course!"
         }
+
+        // Display 20 courses per page by default
+        makePagination(coursesContainer.children.length)
+        selectPagination(1)
     }
 
     // Make this display the current year and term courses

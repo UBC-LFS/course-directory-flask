@@ -3,12 +3,12 @@ import requests
 import json
 import xmltodict # used to convert xml files to JSON
 import os
+import time
 
 courseJSONData = {"sessions": {}}
 
 baseURL = "https://courses.students.ubc.ca/cs/servlets/SRVCourseSchedule?"
 year = date.today().year
-print(year)
 term = "sesscd=${term}"
 deptCode = "dept=${deptCode}"
 LFSDepts = ['APBI', 'FNH', 'FOOD', 'FRE', 'GRS', 'HUNU', 'LFS', 'LWS', 'PLNT', 'SOIL']
@@ -26,13 +26,6 @@ def hasSyllabus(courseName, syllabusInfo):
 
 def getData(year, term):
     courses = {}
-
-    """ Old method: fetched data from a different website, but we want to store the syllabuses in this one instead
-    # Gets the list of courses with a syllabus
-    syllabusInfo = list(json.loads(fetchDataAsText("https://prod-lc01-pub.landfood.ubc.ca/lfscourses/availableSyllabi")))
-    # Reverse list so the most recent years are at the top
-    syllabusInfo.reverse()
-    """
     syllabusInfo = getCoursesWithSyllabus()
 
     for dept in LFSDepts:
@@ -63,8 +56,6 @@ def getData(year, term):
         courseJSONData['sessions'].update({f"{year}{term}":courses})
 
 # W: winter, S: Summer
-# Maybe make this update every week or day at 4am to let the website load faster
-# Add a try catch incase so we don't overwrite the current data
 def updateData():
     getData(str(year + 1), "W")
     getData(str(year + 1), "S")
@@ -72,10 +63,41 @@ def updateData():
     getData(str(year), "S")
     getData(str(year - 1), "W")
     getData(str(year - 1), "S")
-
-    with open("static/data/lfs-course-data.json", "w") as courseData:
-        json.dump(courseJSONData, courseData, indent=4)
-    courseData.close()
+    try:
+        with open("static/data/lfs-course-data.json", "r") as courseData:
+            currentSavedJSONData = json.loads(courseData.read())
+        # If current data is valid, then back it up
+        if (currentSavedJSONData is dict):
+            with open("static/data/lfs-course-data-backup.json", "w") as courseData:
+                json.dump(currentSavedJSONData, courseData, indent=4)
+                print(f'Backed up data: {time.strftime("%A, %d. %B %Y %I:%M:%S %p")}')
+    except:
+        print("Data failed to back up. Stopping data update.")
+        print("Data failed to update. Reverting data update.")
+        with open("static/data/lfs-course-data-backup.json", "r") as courseData:
+            backedUpJSONData = json.loads(courseData.read())
+            courseData.close()
+        with open("static/data/lfs-course-data.json", "w") as courseData:
+            json.dump(backedUpJSONData, courseData, indent=4)
+            print(f'Finished reverting data at: {time.strftime("%A, %d. %B %Y %I:%M:%S %p")}')
+            courseData.close()
+        return
+    
+    # If data successfully backs up
+    try:
+        with open("static/data/lfs-course-data.json", "w") as courseData:
+            json.dump(courseJSONData, courseData, indent=4)
+            print(f'Data updated at: {time.strftime("%A, %d. %B %Y %I:%M:%S %p")}')
+        courseData.close()
+    except:
+        print("Data failed to update. Reverting data update.")
+        with open("static/data/lfs-course-data-backup.json", "r") as courseData:
+            backedUpJSONData = json.loads(courseData.read())
+            courseData.close()
+        with open("static/data/lfs-course-data.json", "w") as courseData:
+            json.dump(backedUpJSONData, courseData, indent=4)
+            print(f'Finished reverting data at: {time.strftime("%A, %d. %B %Y %I:%M:%S %p")}')
+            courseData.close()
 
 def fetchDataAsText(url):
     response_API = requests.get(url)
@@ -100,8 +122,3 @@ def getCoursesWithSyllabus():
                     sessionWithSyllabus["courses"].append(originalCourseName)
             coursesWithSyllabus.append(sessionWithSyllabus)
     return coursesWithSyllabus
-            
-
-
-            
-
