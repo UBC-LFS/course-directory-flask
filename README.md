@@ -12,9 +12,19 @@ When adding new syllabuses, ensure that the points below remain consistent. Not 
 4. Inside the course folder, there should be an `index.html` file and maybe a `source` folder containing the syllabus if the syllabus is not the `index.html` file.
 
 ## **Notes for developers**
-### **Running the code:**
+### **Clone the repository**
+```
+git clone https://github.com/UBC-LFS/course-directory-flask.git
+```
+### **Setting up**
 ``` python
-
+pip install virtualenv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+### **Run**
+```
+main.py
 ```
 
 ### **What does each file do?**
