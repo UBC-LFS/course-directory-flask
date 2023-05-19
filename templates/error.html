@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error | LFS Course Directory</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Page icon -->
+        <link rel="shortcut icon" href="https://cdn.ubc.ca/clf/7.0.4/img/favicon.ico">
+        <!-- CSS file -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/404.css') }}">
+    </head>
+    <body>
+        <div class="site-container">
+            {% include 'navigationbar.html' %}
+            
+            <div class="page-container-404">
+                <h1 class="title-404">An error has occurred! Please try again!</h1>
+                <a class="home-btn-404" href="/">Go back home!</a>
+            </div>
+
+            {% include 'footer.html' %}
+        </div>
+    </body>
+</html>
+

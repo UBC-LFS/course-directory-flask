@@ -1,0 +1,44 @@
+.site-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.page-container-404 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 12.5%;
+    position: relative;
+    padding-bottom: 200px;  /* Footer height */
+}
+
+.title-404 {
+    color: #002145;
+    text-align: center;
+}
+
+.home-btn-404 {
+    padding: 10px 15px;
+    color: #fff;
+    background: #b0b58c;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 200px;
+}
+.home-btn-404:hover {
+    background: #8c925e;
+}
+
+@media only screen and (max-width: 500px) {
+    .page-container-404 {
+        margin-top: 160px;
+    }
+    
+    .title-404 {
+        font-size: 2em;
+    }
+}
