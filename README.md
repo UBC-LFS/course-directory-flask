@@ -23,6 +23,10 @@ virtualenv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
+1. Create an empty folder called "CourseDirectory" inside the "templates" folder.
+
+2. Upload course syllabuses to the "CourseDirectory" folder.
+
 ### **Running the web app**
 Run:
 ```
