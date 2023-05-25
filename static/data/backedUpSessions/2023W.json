@@ -6,8 +6,8 @@
                     "@key": "200",
                     "@title": "Introduction to Soil Science",
                     "@descr": "Physical, chemical and biological properties of soils; soil formation, classification, use and conservation. There are no prerequisites for this course, but background in Biology 12, Chemistry 12, and Physics 12 (or first-year university-level) is strongly advised.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "APBI 200 001 002 2021W2"
+                    "@syllabusTerm": "2021SA",
+                    "@originalCourseName": "APBI 200 98A 2021SA"
                 },
                 {
                     "@key": "210",
@@ -30,15 +30,15 @@
                     "@key": "244",
                     "@title": "Atmospheric Environments",
                     "@descr": "Physical principles underlying weather and climates. Thermal, moisture and wind climates from the scale of plants and animals to the globe. Daily weather systems and climate change. Credit will be granted for only one of GEOS (or GEOB) 200, GEOS (or GEOB) 204 or APBI 244.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 244 001 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "260",
                     "@title": "Agroecology I: Introduction to principles and techniques",
                     "@descr": "Biophysical and socioeconomic factors affecting systems management and production in selected agroecosystems.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 260 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 260 001 2021W1"
                 },
                 {
                     "@key": "265",
@@ -51,8 +51,8 @@
                     "@key": "290",
                     "@title": "Introductory Topics in Applied Biology",
                     "@descr": "Analysis and interpretation of current issues in applied biology. Topics will vary from year to year.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 290 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 290 001 2021W1"
                 },
                 {
                     "@key": "311",
@@ -69,8 +69,8 @@
                     "@descr": "Reproductive and digestive physiology, and current technologies applied to these systems in domestic and wild animals.",
                     "@prereqs": "One of BIOL 204, BIOL 260.",
                     "@prereqnote": "3rd year standing.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 312 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 312 001 2021W1"
                 },
                 {
                     "@key": "313",
@@ -85,16 +85,16 @@
                     "@title": "Animals and Society",
                     "@descr": "Contemporary use of animals for food production, companionship, recreation and science; social and ethical issues concerning human impacts on animals; animals in human culture; protection of animals by society and the law.",
                     "@prereqnote": "At least third-year standing in any faculty.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 314 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 314 001 2021W1"
                 },
                 {
                     "@key": "315",
                     "@title": "Animal Welfare and the Ethics of Animal Use",
                     "@descr": "Scientific assessment of animal well-being, ethical concepts applied to animal use, and animal welfare issues arising in agriculture, biomedical research and other areas. Credit will be granted for only one of APBI 315, ANSC 515, or AANB 515.",
                     "@prereqnote": "At least third-year standing in any faculty.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "APBI 315   AANB 515 001 2021W2"
+                    "@syllabusTerm": "2022W2",
+                    "@originalCourseName": "APBI 315 001 2022W2"
                 },
                 {
                     "@key": "316",
@@ -111,13 +111,11 @@
                     "@originalCourseName": "APBI 317 002 2021W2"
                 },
                 {
-                    "@key": "319",
-                    "@title": "Aquaculture and the Environment",
-                    "@descr": "Interactions between aquaculture and the environment. Current issues, comparison of systems, species, production methods, environments, and socioeconomics.",
-                    "@prereqs": "One of BIOL 230, APBI 260, APBI 265, CONS 330, ENVR 200, ENVR 300.",
-                    "@prereqnote": "and third year standing. Or permission of the instructor.",
-                    "@syllabusTerm": "2021WC",
-                    "@originalCourseName": "APBI 319 99C 2021WC"
+                    "@key": "318",
+                    "@title": "Applied Plant Breeding",
+                    "@descr": "Small-scale classical (i.e., non-biotechnological) plant breeding and seed saving. Practical approaches to crop improvement, designing and implementing a simple plant breeding program.",
+                    "@syllabusTerm": "2022W1",
+                    "@originalCourseName": "APBI 318 001 2022W1"
                 },
                 {
                     "@key": "322",
@@ -138,8 +136,8 @@
                     "@key": "326",
                     "@title": "Introductory Plant Pathology",
                     "@descr": "Study of the ecology of plant pathogenic organisms; principles of disease development and control.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 326 001 2021W1"
                 },
                 {
                     "@key": "327",
@@ -153,8 +151,8 @@
                     "@key": "328",
                     "@title": "Weed Science",
                     "@descr": "Importance, identification, dissemination and biology of weeds; preventive, cultural, biological and chemical methods of control.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 328 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 328 001 2021W1"
                 },
                 {
                     "@key": "342",
@@ -193,24 +191,24 @@
                     "@title": "Research Methods in Applied Biology",
                     "@descr": "Research methods including research design, scientific critique, writing proposals and reports, and oral presentation.",
                     "@prereqnote": "Third-year standing in the Applied Biology program or permission of the instructor.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 398 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 398 001 2021W1"
                 },
                 {
                     "@key": "401",
                     "@title": "Soil Processes",
                     "@descr": "Understanding environmental factors influencing soil-forming processes and their ecological implications. Credit will be granted for only one of SOIL 501 or APBI 401.",
                     "@prereqs": "APBI 200.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 401 001 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "402",
                     "@title": "Sustainable Soil Management",
                     "@descr": "Application of fundamental, unifying, soil science principles in sustainable ecosystem management. Credit will be granted for only one of SOIL 502 or APBI 402.",
                     "@prereqs": "APBI 200.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "APBI 402 SOIL 502 001 2021W2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "405",
@@ -225,16 +223,16 @@
                     "@title": "Applied Animal Health and Physiology",
                     "@descr": "Application of physiology and pathology principles to health and disease of domestic animals.",
                     "@prereqs": "BIOL 201 and one of APBI 311, CAPS 301.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 410 002 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 410 002 2021W1"
                 },
                 {
                     "@key": "414",
                     "@title": "Animals and Global Issues",
                     "@descr": "Research seminar integrating diverse information to address global animal issues including: animal-source foods and human health, environmental impact of livestock production, trade in exotic animals.",
                     "@prereqs": "One of APBI 314, APBI 315.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 414 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 414 001 2021W1"
                 },
                 {
                     "@key": "415",
@@ -248,8 +246,8 @@
                     "@title": "Compassionate Conservation",
                     "@descr": "Evaluation of humane treatment of individual animals living in the wild and managed within conservation biology. Assessment of attitudes and viewpoints of the role of animal welfare in conservation biology.",
                     "@prereqnote": "Third-year standing or higher. APBI 315 and BIOL 416 or CONS 330 recommended.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 416 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 416 001 2021W1"
                 },
                 {
                     "@key": "419",
@@ -288,8 +286,8 @@
                     "@title": "Integrated Pest Management",
                     "@descr": "Development and implementation of multi-disciplinary pest management programs in agricultural crops.",
                     "@prereqs": "BIOL 121.",
-                    "@syllabusTerm": "2021WC",
-                    "@originalCourseName": "APBI 428 99C 2021WC"
+                    "@syllabusTerm": "2021SA",
+                    "@originalCourseName": "APBI 428 98A 2021SA"
                 },
                 {
                     "@key": "440",
@@ -313,8 +311,16 @@
                     "@descr": "The relationship between biological diversity and sustainability in food producing agroecosystems; emphasis on ecological similarities between natural ecosystems and managed  agroecosystems.",
                     "@prereqs": "APBI 360.",
                     "@prereqnote": "or equivalent.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 460 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 460 001 2021W1"
+                },
+                {
+                    "@key": "463",
+                    "@title": "Insects in Agroecosystems",
+                    "@descr": "Insect ecology and evolutionary biology of pests, predators, pollinators and other insect groups in agroecosystems. Application to biodiversity management and sustainable agricultural practices.",
+                    "@prereqs": "One of APBI 327, BIOL 327 and one of BIOL 300, GEOG 374, FRST 231, LFS  252, STAT 200.",
+                    "@syllabusTerm": "2022W2",
+                    "@originalCourseName": "APBI 463 002 2022W2"
                 },
                 {
                     "@key": "465",
@@ -353,8 +359,8 @@
                     "@title": "Advanced Topics in Applied Biology - HU WLDLFE CNFLCT",
                     "@descr": "Analysis and interpretation of current issues in applied biology.",
                     "@prereqnote": "3rd year standing or higher.",
-                    "@syllabusTerm": "2022W2",
-                    "@originalCourseName": "APBI 490D CONS 495 201 2022W2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "490E",
@@ -377,16 +383,16 @@
                     "@title": "Applied Animal Biology Practicum - APBI PRACTICUM",
                     "@descr": "Application of principles and concepts of Applied Animal Biology to experiential learning in the fields of wild, companion, lab, and farm animal welfare and management.",
                     "@prereqnote": "Third-year standing or higher. APBI 314 and/or APBI 315 are recommended.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 496A 001 2020W"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "APBI 496A 921 2021S1"
                 },
                 {
                     "@key": "496B",
                     "@title": "Applied Animal Biology Practicum - APBI PRACTICUM",
                     "@descr": "Application of principles and concepts of Applied Animal Biology to experiential learning in the fields of wild, companion, lab, and farm animal welfare and management.",
                     "@prereqnote": "Third-year standing or higher. APBI 314 and/or APBI 315 are recommended.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 496B 001 2020W"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "APBI 496B 921 2021S1"
                 },
                 {
                     "@key": "497A",
@@ -471,8 +477,8 @@
                     "@descr": "Chemical and physical properties of foods; issues pertaining to safety, nutritive value and consumer acceptability; government regulations pertaining to food safety, quality and additives; preservation techniques and transformation of agricultural commodities to food products; foods of the future.",
                     "@outlineurl": "http://www.landfood.ubc.ca/courses/fnh/200/FNH200.syllabus.pdf",
                     "@prereqnote": "At least second year standing required.",
-                    "@syllabusTerm": "2020WA",
-                    "@originalCourseName": "FNH 200 99A 2020W"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "FNH 200 921 2021S1"
                 },
                 {
                     "@key": "250",
@@ -480,32 +486,32 @@
                     "@descr": "Fundamental concepts and principles of human nutrition applied to current nutrition issues.",
                     "@prereqs": "Either (a) all of FNH  160, FNH  161 or (b) one of BIOL 111, BIOL 112, BIOL 153, BIOL 155 or (c) all of KIN  131, KIN  132.",
                     "@prereqnote": "At least second-year standing required.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 250 001 2020W"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "FNH 250 920 2021S1"
                 },
                 {
                     "@key": "300",
                     "@title": "Food Engineering",
                     "@descr": "Units and dimensions, mass balance, energy balance, steady state and transient heat flow, fluid handling and measurement.",
                     "@prereqs": "One of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157, PHYS 158, PHYS 170.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 300 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 300 001 2021W1"
                 },
                 {
                     "@key": "301",
                     "@title": "Food Chemistry",
                     "@descr": "Chemical and physical properties and reactions of food constituents, including water, carbohydrates, proteins, lipids, minerals and vitamins.",
                     "@prereqs": "Either (a) CHEM 201 or (b) CHEM 205;  and either (a) CHEM 203 or (b) CHEM 233.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 301 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "COPY_FNH 301 001 2021W1"
                 },
                 {
                     "@key": "302",
                     "@title": "Food Analysis",
                     "@descr": "Principles of and procedures for analysis of the chemical and physical properties of food; proximate analysis; introduction to instrumental analysis; reporting and analysis of data.",
                     "@prereqs": "Either (a) CHEM 201 or (b) CHEM 205;  and either (a) CHEM 203 or (b) CHEM 233.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 302 001 2020W"
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "FNH 302 001 2021W2"
                 },
                 {
                     "@key": "303",
@@ -514,7 +520,7 @@
                     "@prereqs": "One of LFS  252, BIOL 300, EPSE 482, FRST 231, STAT 200.",
                     "@prereqnote": "FNH 301 recommended.",
                     "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 303 001 2021W2"
+                    "@originalCourseName": "Copy_FNH 303 001 2021W2"
                 },
                 {
                     "@key": "309",
@@ -530,8 +536,8 @@
                     "@descr": "Roles of microorganisms in food production, preservation, spoilage, and foodborne disease; factors affecting growth, survival and inactivation of microorganisms in foods; methods for identifying, enumerating, and eliminating microorganisms in food-production environments.",
                     "@prereqs": "BIOL 112.",
                     "@prereqnote": "third-year standing.",
-                    "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "FNH 313 001 2022W1"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "COPY - FNH 313 001 2021W1"
                 },
                 {
                     "@key": "325",
@@ -539,8 +545,8 @@
                     "@descr": "Laboratory techniques used in food chemistry, microbiology and processing; statistical analysis and presentation of experimental data; scientific report writing. Enrolment restricted to Food Science students.",
                     "@prereqs": "FNH  200.",
                     "@coreqs": "All of FNH  301, FNH  309, FNH  313.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 325 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "COPY - FNH 325 001 2021W1"
                 },
                 {
                     "@key": "326",
@@ -556,8 +562,8 @@
                     "@title": "Introduction to Wine Science I",
                     "@descr": "Principles of viticulture, enology, and wine microbiology and chemistry; marketing, regulation and classification of wines from selected regions of the world; social, economic and health aspects of wine consumption; wine appreciation.",
                     "@prereqnote": "Third-year standing or higher.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 330 002 2021W2"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "FNH 330 951 2021S1"
                 },
                 {
                     "@key": "335",
@@ -566,7 +572,7 @@
                     "@prereqs": "FNH  330.",
                     "@prereqnote": "and third-year standing or higher.",
                     "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 335 001 2021W2"
+                    "@originalCourseName": "Copy - FNH 335 001 2021W2"
                 },
                 {
                     "@key": "340",
@@ -581,8 +587,8 @@
                     "@title": "Critical Perspectives on Consumer Food Practices",
                     "@descr": "Personal, collective, and policy factors affecting food choices, including perceptions of healthy eating, gender, identity, family structures, and economic, sociocultural, and political forces.",
                     "@prereqnote": "At least third year standing required.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 342 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 342 001 2021W1"
                 },
                 {
                     "@key": "345",
@@ -597,16 +603,16 @@
                     "@title": "Fundamentals of Nutrition",
                     "@descr": "Fundamentals of energy and macronutrient metabolism.",
                     "@prereqs": "FNH  250 and one of BIOL 201, BIOC 202.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 350 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 350 001 2021W1"
                 },
                 {
                     "@key": "351",
                     "@title": "Vitamins, Minerals, and Health",
                     "@descr": "Vitamin and mineral nutrition and their role in maintaining and promoting health.",
                     "@prereqs": "FNH  250 and one of BIOL 201, BIOC 202.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 351 002 2021W2"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 351 001 2021W1"
                 },
                 {
                     "@key": "355",
@@ -620,8 +626,8 @@
                     "@title": "Nutrition Assessment",
                     "@descr": "The use of dietary, anthropometric, biochemical, and related information for the assessment of nutritional status of individuals and populations.",
                     "@prereqs": "FNH  250.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 370 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 370 001 2021W1"
                 },
                 {
                     "@key": "371",
@@ -629,7 +635,7 @@
                     "@descr": "Nutritional requirements and dietary patterns of healthy individuals throughout the life span.",
                     "@prereqs": "FNH  250.",
                     "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 371 002 2021W2"
+                    "@originalCourseName": "COPY_FNH 371 002 2021W2"
                 },
                 {
                     "@key": "375",
@@ -637,23 +643,23 @@
                     "@descr": "Etiology, pathophysiology, and nutrition therapy for selected diseases and conditions. Topics include metabolism, obesity, eating disorders, diabetes, hypertension, and cardiovascular disease. Restricted to students in year 3 of the dietetics major.",
                     "@prereqs": "All of FNH  350, FNH  370 and one of BIOL 153, BIOL 155.",
                     "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 375 201 2021W2"
+                    "@originalCourseName": "Copy - FNH 375 201 2021W2"
                 },
                 {
                     "@key": "380",
                     "@title": "Professional Dietetic Practice I",
                     "@descr": "Introduction to the profession of dietetics in Canada. Restricted to students in the Dietetics Major.",
                     "@prereqnote": "Third-year standing in the Dietetics Major.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 380 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 380 001 2021W1"
                 },
                 {
                     "@key": "398",
                     "@title": "Research Methods in Human Nutrition",
                     "@descr": "Process of research; principles and processes in utilizing research. Restricted to students in majors in the FNH program.",
                     "@prereqs": "FNH  250 and either (a) LFS  252 or (b) BIOL 300 or (c) EPSE 482 or (d) FRST 231 or (e) STAT 200.",
-                    "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "FNH 398 001 2022W1"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 398 001 2021W1"
                 },
                 {
                     "@key": "402",
@@ -669,8 +675,8 @@
                     "@descr": "Canadian and international laws governing food composition, grading, quality and safety; hazard analysis critical control points; statistical quality assurance.",
                     "@prereqs": "One of LFS  252, STAT 200, FRST 231, BIOL 300.",
                     "@prereqnote": "or equivalent background in statistics.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 403 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 403 001 2021W1"
                 },
                 {
                     "@key": "404",
@@ -694,8 +700,8 @@
                     "@title": "Food Safety",
                     "@descr": "Microbial and chemical factors that underlie public health challenges in the food supply chain; prevalence and nature of organisms which cause foodborne diseases; approaches and technologies for improvement of food safety.",
                     "@prereqs": "One of MICB 201, MICB 202, CHEM 233, FNH  313.",
-                    "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "FNH 413 001 2022W1"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 413 001 2021W1"
                 },
                 {
                     "@key": "414",
@@ -710,8 +716,8 @@
                     "@title": "Business Concepts in Food, Nutrition, and Health",
                     "@descr": "Introduction to and application of business activities in food, nutrition, and health settings. Credit will only be granted for only one of FNH 415, FOOD 515, or FRE 515.",
                     "@prereqnote": "At least third-year standing in the Faculty of Land and Food Systems.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 415 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "COPY - FNH 415 001 2021W1"
                 },
                 {
                     "@key": "419",
@@ -728,16 +734,16 @@
                     "@descr": "Integrated course designed to illustrate principles of research and product development in the food industry.",
                     "@outlineurl": "http://www.landfood.ubc.ca/courses/fnh/425/",
                     "@prereqs": "All of FNH  325, FNH  326.",
-                    "@syllabusTerm": "2020W1-2",
-                    "@originalCourseName": "FNH 425 001 2020W"
+                    "@syllabusTerm": "2022W1-2",
+                    "@originalCourseName": "FNH 425 001 2022W1-2"
                 },
                 {
                     "@key": "440",
                     "@title": "Food Service Systems Management",
                     "@descr": "Management responsibilities in quantity food production with emphasis on menu planning, purchasing and service. Includes planning and equipping food services. Restricted to students in the Dietetics major. Note: Course registrants are required to possess a Foodsafe II certificate.",
                     "@prereqs": "FNH  340.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 440 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 440 001 2021W1"
                 },
                 {
                     "@key": "451",
@@ -761,8 +767,8 @@
                     "@title": "Nutrition Care II ",
                     "@descr": "Etiology, pathophysiology and nutrition therapy for selected diseases and conditions. Topics include nutrition support, gastrointestinal conditions, surgery, allergies and intolerances. Restricted to students in year 4 of the dietetics major.",
                     "@prereqs": "All of FNH  371, FNH  375.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 470 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "Copy - FNH 470 001 2021W1"
                 },
                 {
                     "@key": "472",
@@ -780,7 +786,7 @@
                     "@prereqs": "FNH  250.",
                     "@prereqnote": "and fourth-year standing.",
                     "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 473 001 2021W2"
+                    "@originalCourseName": "COPY_FNH 473 001 2021W2"
                 },
                 {
                     "@key": "474",
@@ -788,7 +794,7 @@
                     "@descr": "Nutritional needs of athletes, including energy, carbohydrate and protein; hydration; pre-and post-event nutrition, weight management and body composition issues; ergogenic aids; sports-specific guidelines; and special athlete populations.",
                     "@prereqs": "All of FNH  350, FNH  351.",
                     "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 474 002 2021W2"
+                    "@originalCourseName": "COPY_FNH 474 002 2021W2"
                 },
                 {
                     "@key": "475",
@@ -796,7 +802,7 @@
                     "@descr": "Etiology, pathophysiology and nutrition therapy for selected diseases and conditions. Topics include neurological disorders, dysphagia, critical care, oncology, hepatobiliary conditions, HIV and renal disease. Restricted to students in year 4 of the dietetics major.",
                     "@prereqs": "All of BIOC 302, FNH  470.",
                     "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 475 001 2021W2"
+                    "@originalCourseName": "Copy - FNH 475 001 2021W2"
                 },
                 {
                     "@key": "477",
@@ -819,8 +825,8 @@
                     "@title": "Dietetics Practice Education Placement III",
                     "@descr": "Practice education placements in settings across British Columbia. Restricted to students in the Dietetics Major. Pass/Fail.",
                     "@prereqs": "FNH  481.",
-                    "@syllabusTerm": "2022W1-2",
-                    "@originalCourseName": "FNH 482 490 497 2022W1 2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "483",
@@ -835,8 +841,8 @@
                     "@title": "Advanced Topics in Food, Nutrition, and Health",
                     "@descr": "Analysis and interpretation of current issues in food, nutrition and health.",
                     "@prereqnote": "3rd year standing or higher.",
-                    "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "FNH 490 001 2022W1"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FNH 490 004 2021W1"
                 },
                 {
                     "@key": "497A",
@@ -894,15 +900,15 @@
                     "@key": "511",
                     "@title": "Master of Food Science Workshops",
                     "@descr": "Honours/Pass/Fail.",
-                    "@syllabusTerm": "2022W1-2",
-                    "@originalCourseName": "FOOD 511 002 2022W1 2"
+                    "@syllabusTerm": "2021W1-2",
+                    "@originalCourseName": "FOOD 511 002 2021W1-2"
                 },
                 {
                     "@key": "512",
                     "@title": "Hazard Analysis and Critical Control Point and Food Safety Management",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FOOD 512 002 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FOOD 512 002 2021W1"
                 },
                 {
                     "@key": "515",
@@ -952,8 +958,8 @@
                     "@key": "523",
                     "@title": "Advances in Food Microbiology",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FOOD 523 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FOOD 523 001 2021W1"
                 },
                 {
                     "@key": "524",
@@ -966,8 +972,8 @@
                     "@key": "525",
                     "@title": "Advances in Food Toxicology",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FOOD 525 002 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "527A",
@@ -1065,40 +1071,40 @@
                     "@title": "Introduction to Global Food Markets",
                     "@descr": "An overview of global food markets including recent trends (e.g., vertical coordination, strategic alliances, multinationals and small firms in niche markets), marketing and trade institutions such as state-trading enterprises and WTO regulations, issues specific to developing nations, and case studies.",
                     "@prereqs": "One of ECON 101, ECON 310.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FRE 306 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FRE 306 001 2021W1"
                 },
                 {
                     "@key": "326",
                     "@title": "Empirical Methods for Food and Resource Economics",
                     "@descr": "Introduction to empirical methods with applications for problems in food and resource economics; standard linear regression and methods to address data deficiencies; interpretation of regression results for forecasting and policy analysis.",
                     "@prereqs": "One of LFS  252, STAT 200, BIOL 300.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FRE 326 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FRE 326 001 2021W1"
                 },
                 {
                     "@key": "340",
                     "@title": "International Agricultural Development",
                     "@descr": "Characteristics, processes and sources of economic growth, role of agricultural and resource sectors in economic growth, analysis of output and input markets in those sectors, policy failures, tools for empirical analysis of rural markets, growth, and the environment.",
                     "@prereqs": "One of ECON 101, ECON 310.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FRE 340 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FRE 340 001 2021W1"
                 },
                 {
                     "@key": "374",
                     "@title": "Land and Resource Economics",
                     "@descr": "Willingness to pay, opportunity costs, externalities, and market failures in natural resource markets; dynamic efficiency; economic applications including mineral, marine, forest, land, water, and biodiversity.",
                     "@prereqs": "One of ECON 101, ECON 310.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "ECON FRE 374 001 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "385",
                     "@title": "Quantitative Methods for Business and Resource Management",
                     "@descr": "Spreadsheet modeling and analysis of business and resource management problems: decision analysis, forecasting, linear programming, simulation modeling, and inventory management.",
                     "@prereqs": "One of ECON 101, ECON 310 and one of LFS  252, BIOL 300, FRST 231, STAT 200.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FRE 385 585 001 2021W2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "394",
@@ -1129,15 +1135,15 @@
                     "@title": "Current Issues in Food and Resource Economics",
                     "@descr": " ",
                     "@prereqs": "One of ECON 101, ECON 310.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FRE 490 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FRE 490 001 2021W1"
                 },
                 {
                     "@key": "500",
                     "@title": "MSc Seminar",
                     "@descr": "Pass/Fail.",
-                    "@syllabusTerm": "2020W1-2",
-                    "@originalCourseName": "FRE 500 001 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "501",
@@ -1150,8 +1156,8 @@
                     "@key": "502",
                     "@title": "Food Market Analysis",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FRE 502 001 2020W"
+                    "@syllabusTerm": "2022W1",
+                    "@originalCourseName": "FRE 502 001 2022W1"
                 },
                 {
                     "@key": "505",
@@ -1171,8 +1177,8 @@
                     "@key": "516",
                     "@title": "Financial and Marketing Management in Agri-food Industries",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FRE 516 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FRE 516 001 2021W1"
                 },
                 {
                     "@key": "517",
@@ -1213,8 +1219,8 @@
                     "@key": "521G",
                     "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
                     "@descr": " ",
-                    "@syllabusTerm": "2022W2",
-                    "@originalCourseName": "FRE 521G 002 2022W2"
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "FRE 521G 001 2021W2"
                 },
                 {
                     "@key": "523",
@@ -1228,7 +1234,7 @@
                     "@title": "Environmental Economics and Policy: Theory",
                     "@descr": " ",
                     "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FRE 526 001 2021W2"
+                    "@originalCourseName": "COPY_FRE 526 001 2021W2"
                 },
                 {
                     "@key": "527",
@@ -1241,22 +1247,22 @@
                     "@key": "528",
                     "@title": "Applied Econometrics",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FRE 528 002 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "FRE 528 002 2021W1"
                 },
                 {
                     "@key": "529",
                     "@title": "Estimating Econometric Models",
                     "@descr": " ",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "FRE 529 001 2021W2"
                 },
                 {
                     "@key": "530",
                     "@title": "Econometrics with Time Series Data",
                     "@descr": " ",
-                    "@syllabusTerm": "2022W2",
-                    "@originalCourseName": "FRE 530 002 2022W2"
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "COPY - FRE 530 001 2021W2"
                 },
                 {
                     "@key": "531",
@@ -1276,8 +1282,8 @@
                     "@key": "600",
                     "@title": "PhD Seminar",
                     "@descr": "Pass/Fail.",
-                    "@syllabusTerm": "2020W1-2",
-                    "@originalCourseName": "FRE 600 001 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 }
             ]
         },
@@ -1288,8 +1294,8 @@
                     "@title": "Global Issues in Cultural Context",
                     "@descr": "Students interact face-to-face and online as a community of learners to discuss global issues in agriculture, food, and natural resources in cultural context. Typically taken prior to studying abroad.",
                     "@prereqnote": "Open only to students in the B.Sc. (GRS) program.",
-                    "@syllabusTerm": "2020W1-2",
-                    "@originalCourseName": "GRS 290 390 490 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "300",
@@ -1360,8 +1366,8 @@
                     "@key": "505",
                     "@title": "Current Issues in Applied Nutrition",
                     "@descr": " ",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "HUNU 505 001 2021W1"
                 },
                 {
                     "@key": "510",
@@ -1388,8 +1394,8 @@
                     "@key": "531",
                     "@title": "M.Sc. Seminar",
                     "@descr": " ",
-                    "@syllabusTerm": "2022W1-2",
-                    "@originalCourseName": "HUNU 531 631 2022W1 2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "540",
@@ -1412,8 +1418,8 @@
                     "@title": "Counselling Skills in Dietetics",
                     "@descr": "Restricted to students in the Master of Nutrition and Dietetics graduate program.",
                     "@prereqs": "HUNU 510.",
-                    "@syllabusTerm": "2022W2",
-                    "@originalCourseName": "FNH 345 HUNU 545 2022W2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "547B",
@@ -1446,7 +1452,7 @@
                     "@title": "Advances in Human Nutrition",
                     "@descr": " ",
                     "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "HUNU 550 001 2022W1"
+                    "@originalCourseName": "COPY_HUNU 550 001 2022W1"
                 },
                 {
                     "@key": "560",
@@ -1467,8 +1473,8 @@
                     "@title": "Nutrition Care I",
                     "@descr": "Restricted to students in the Master of Nutrition and Dietetics graduate program.",
                     "@prereqs": "All of HUNU 500, HUNU 510, HUNU 550.",
-                    "@syllabusTerm": "2022W2",
-                    "@originalCourseName": "FNH 375 HUNU 575 201 2022W2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "576",
@@ -1546,15 +1552,15 @@
                     "@key": "150",
                     "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
                     "@descr": "Communicating concepts of food systems and links to human and environmental health through writing, elements of argumentation, evaluating evidence, and searching for and citing references to back up claims; small-class experience. Enrolment limited to LFS students with first year status.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "LFS 150 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "LFS 150 005 2021W1"
                 },
                 {
                     "@key": "250",
                     "@title": "Land, Food and Community I: Introduction to Food Systems and Sustainability",
                     "@descr": "Managed systems and concepts of sustainability; economic, ecological and social components; managed landscapes, agri-food systems, and communities; urban and rural systems; the land, food, nutrition and human health continuum.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "LFS 250 198 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "LFS 250 198 2021W1"
                 },
                 {
                     "@key": "252",
@@ -1575,23 +1581,23 @@
                     "@key": "302B",
                     "@title": "International Field Studies - INTERNL FLD STD",
                     "@descr": "Field studies carried out abroad under staff direction. Participating students are assessed a fee.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "LFS 302B 921 2021S1"
                 },
                 {
                     "@key": "340",
                     "@title": "First Nations Health and the Traditional Role of Plants",
                     "@descr": "This Interprofessional Health and Human Service (IHHS) course covers the First Nations medical systems and medicinal plants. Bridging the traditional with modern sciences. Credit will be granted for only one of LFS 340 or IHHS 301.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "LFS 340 002 2021W2"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "LFS 340 001 2021W1"
                 },
                 {
                     "@key": "350",
                     "@title": "Land, Food, and Community II: Principles and Practice of Community Food Security",
                     "@descr": "Project-based application of the principles and processes of community food security. Emphasis on developing skills required to address economic, ecological, social, and technological components of managed landscapes, agri-food systems, and communities comprising the land, food, nutrition and health continuum.",
                     "@prereqs": "LFS  250.",
-                    "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "LFS 350 001 2022W1"
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "LFS 350 002 2021W2"
                 },
                 {
                     "@key": "398",
@@ -1666,8 +1672,8 @@
                     "@key": "500",
                     "@title": "Graduate Seminar",
                     "@descr": " ",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021W1-2",
+                    "@originalCourseName": "LFS 500 001 2021W1-2"
                 },
                 {
                     "@key": "530A",
@@ -1705,22 +1711,22 @@
                     "@key": "501",
                     "@title": "Advanced Soil Processes",
                     "@descr": "Integration of soil physics, chemistry, and biology in understanding essential soil processes.",
-                    "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "APBI 401 SOIL 501 LWS 501 2022W1"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "510",
                     "@title": "Land and Water Seminar",
                     "@descr": "Current and emerging issues relevant within the general context of land and water systems, and the significance of professional credibility and exposure.",
-                    "@syllabusTerm": "2020W1-2",
-                    "@originalCourseName": "LWS 510 003 2020W"
+                    "@syllabusTerm": "2021W1-2",
+                    "@originalCourseName": "LWS 510 003 2021W1-2"
                 },
                 {
                     "@key": "516",
                     "@title": "Urban Watershed Management",
                     "@descr": "Urbanization impacts on water resources with a focus on rainwater management, water quality, point and non-point sources of pollution, drinking water and waste water, riparian buffer zones, cumulative effects, and application of beneficial management practices.",
-                    "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "SOIL LWS 516 001 2022W1"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "517",
@@ -1772,8 +1778,8 @@
                     "@key": "523",
                     "@title": "Graduate Research Seminar",
                     "@descr": " ",
-                    "@syllabusTerm": "2022W1-2",
-                    "@originalCourseName": "PLNT 523 001 002 003 2022W1 2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "530B",
@@ -1833,36 +1839,36 @@
                     "@key": "500",
                     "@title": "Graduate Seminar",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "SOIL 500 001 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "501",
                     "@title": "Advanced Soil Processes",
                     "@descr": "Integration of soil physics, chemistry, and biology in understanding essential soil processes.",
-                    "@syllabusTerm": "2022W1",
-                    "@originalCourseName": "APBI 401 SOIL 501 LWS 501 2022W1"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "502",
                     "@title": "Advanced Sustainable Soil Management",
                     "@descr": " ",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "APBI 402 SOIL 502 001 2021W2"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "516",
                     "@title": "Urban Watershed Management",
                     "@descr": "Urbanization impacts on water resources with a focus on rainwater management, water quality, point and non-point sources of pollution, drinking water and waste water, riparian buffer zones, cumulative effects, and application of beneficial management practices.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "SOIL 516 001 2021W1"
                 },
                 {
                     "@key": "517",
                     "@title": "Land and Water Resource Evaluation",
                     "@descr": "Topics in land and water system evaluations and assessing resource development options; monitoring and modelling environmental systems.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "LWS SOIL 517 001 2020W"
+                    "@syllabusTerm": "",
+                    "@originalCourseName": ""
                 },
                 {
                     "@key": "524",
@@ -1876,8 +1882,8 @@
                     "@key": "530B",
                     "@title": "Directed Studies - DIRECTED STUDIES",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "SOIL 530B 001 2020W"
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "SOIL 530B 002 2021W2"
                 },
                 {
                     "@key": "530D",

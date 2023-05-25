@@ -6,16 +6,16 @@
                     "@key": "200",
                     "@title": "Introduction to Soil Science",
                     "@descr": "Physical, chemical and biological properties of soils; soil formation, classification, use and conservation. There are no prerequisites for this course, but background in Biology 12, Chemistry 12, and Physics 12 (or first-year university-level) is strongly advised.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "APBI 200 001 002 2021W2"
+                    "@syllabusTerm": "2021SA",
+                    "@originalCourseName": "APBI 200 98A 2021SA"
                 },
                 {
                     "@key": "314",
                     "@title": "Animals and Society",
                     "@descr": "Contemporary use of animals for food production, companionship, recreation and science; social and ethical issues concerning human impacts on animals; animals in human culture; protection of animals by society and the law.",
                     "@prereqnote": "At least third-year standing in any faculty.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 314 001 2020W"
+                    "@syllabusTerm": "2021W1",
+                    "@originalCourseName": "APBI 314 001 2021W1"
                 },
                 {
                     "@key": "365",
@@ -31,8 +31,8 @@
                     "@title": "Integrated Pest Management",
                     "@descr": "Development and implementation of multi-disciplinary pest management programs in agricultural crops.",
                     "@prereqs": "BIOL 121.",
-                    "@syllabusTerm": "2021WC",
-                    "@originalCourseName": "APBI 428 99C 2021WC"
+                    "@syllabusTerm": "2021SA",
+                    "@originalCourseName": "APBI 428 98A 2021SA"
                 },
                 {
                     "@key": "443",
@@ -50,24 +50,24 @@
                     "@outlineurl": "https://blogs.ubc.ca/apbi462/",
                     "@prereqs": "One of BIOL 300, GEOG 374, FRST 231, LFS  252.",
                     "@prereqnote": "APBI 260 recommended",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "APBI 462 921 2021S1"
                 },
                 {
                     "@key": "496A",
                     "@title": "Applied Animal Biology Practicum - APBI PRACTICUM",
                     "@descr": "Application of principles and concepts of Applied Animal Biology to experiential learning in the fields of wild, companion, lab, and farm animal welfare and management.",
                     "@prereqnote": "Third-year standing or higher. APBI 314 and/or APBI 315 are recommended.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 496A 001 2020W"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "APBI 496A 921 2021S1"
                 },
                 {
                     "@key": "496B",
                     "@title": "Applied Animal Biology Practicum - APBI PRACTICUM",
                     "@descr": "Application of principles and concepts of Applied Animal Biology to experiential learning in the fields of wild, companion, lab, and farm animal welfare and management.",
                     "@prereqnote": "Third-year standing or higher. APBI 314 and/or APBI 315 are recommended.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "APBI 496B 001 2020W"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "APBI 496B 921 2021S1"
                 },
                 {
                     "@key": "497A",
@@ -135,8 +135,8 @@
                     "@descr": "Chemical and physical properties of foods; issues pertaining to safety, nutritive value and consumer acceptability; government regulations pertaining to food safety, quality and additives; preservation techniques and transformation of agricultural commodities to food products; foods of the future.",
                     "@outlineurl": "http://www.landfood.ubc.ca/courses/fnh/200/FNH200.syllabus.pdf",
                     "@prereqnote": "At least second year standing required.",
-                    "@syllabusTerm": "2020WA",
-                    "@originalCourseName": "FNH 200 99A 2020W"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "FNH 200 921 2021S1"
                 },
                 {
                     "@key": "250",
@@ -144,16 +144,16 @@
                     "@descr": "Fundamental concepts and principles of human nutrition applied to current nutrition issues.",
                     "@prereqs": "Either (a) one of BIOL 111, BIOL 112, BIOL 153, BIOL 155 or (b) all of KIN  131, KIN  132.",
                     "@prereqnote": "At least second-year standing required.",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "FNH 250 001 2020W"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "FNH 250 920 2021S1"
                 },
                 {
                     "@key": "330",
                     "@title": "Introduction to Wine Science I",
                     "@descr": "Principles of viticulture, enology, and wine microbiology and chemistry; marketing, regulation and classification of wines from selected regions of the world; social, economic and health aspects of wine consumption; wine appreciation.",
                     "@prereqnote": "Third-year standing or higher.",
-                    "@syllabusTerm": "2021W2",
-                    "@originalCourseName": "FNH 330 002 2021W2"
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "FNH 330 951 2021S1"
                 },
                 {
                     "@key": "355",
@@ -167,8 +167,8 @@
                     "@title": "Dietetics Practice Education Placement I",
                     "@descr": "Practice education placements in settings across British Columbia. Restricted to students in the Dietetics Major.",
                     "@prereqs": "All of FNH  375, FNH  380.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "FNH 381 921 2021S1"
                 },
                 {
                     "@key": "481",
@@ -230,8 +230,8 @@
                     "@title": "Master of Food Science Practicum Project",
                     "@descr": "Honours/Pass/Fail.",
                     "@prereqs": "FOOD 511.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021S1-2",
+                    "@originalCourseName": "FOOD 531 941 2021S1-2"
                 },
                 {
                     "@key": "549",
@@ -313,8 +313,8 @@
                     "@title": "Dietetics Practice Education Placement I",
                     "@descr": "Restricted to students in the Master of Nutrition and Dietetics graduate program. Pass/fail.",
                     "@prereqs": "All of HUNU 545, HUNU 575.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2023S1-2",
+                    "@originalCourseName": "HUNU 579 943 2023S1-2"
                 },
                 {
                     "@key": "649",
@@ -338,15 +338,15 @@
                     "@key": "302B",
                     "@title": "International Field Studies - INTERNL FLD STD",
                     "@descr": "Field studies carried out abroad under staff direction. Participating students are assessed a fee.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021S1",
+                    "@originalCourseName": "LFS 302B 921 2021S1"
                 },
                 {
                     "@key": "302D",
                     "@title": "International Field Studies - INTERNL FLD STD",
                     "@descr": "Field studies carried out abroad under staff direction. Participating students are assessed a fee.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2022S2",
+                    "@originalCourseName": "LFS 302D 941 2022S2"
                 },
                 {
                     "@key": "303",
@@ -438,8 +438,8 @@
                     "@key": "548",
                     "@title": "Major Project",
                     "@descr": "Professional paper on topics focusing on emerging issues in water and land resources.",
-                    "@syllabusTerm": "",
-                    "@originalCourseName": ""
+                    "@syllabusTerm": "2021S1-2",
+                    "@originalCourseName": "LWS 548 943 2021S1-2"
                 }
             ]
         },
@@ -495,8 +495,8 @@
                     "@key": "530B",
                     "@title": "Directed Studies - DIRECTED STUDIES",
                     "@descr": " ",
-                    "@syllabusTerm": "2020W1",
-                    "@originalCourseName": "SOIL 530B 001 2020W"
+                    "@syllabusTerm": "2021W2",
+                    "@originalCourseName": "SOIL 530B 002 2021W2"
                 },
                 {
                     "@key": "530D",

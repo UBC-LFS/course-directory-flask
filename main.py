@@ -5,6 +5,16 @@ import time
 import atexit
 from apscheduler.schedulers.background import BackgroundScheduler
 
+def updateDataFunc():
+    try:
+        print("Attempting to update data")
+        updateData()
+    except:
+        print(f'Unable to update data: {time.strftime("%A, %d. %B %Y %I:%M:%S %p")}')
+
+# Update data when app runs (incase there are new syllabuses added)
+updateDataFunc()
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -58,12 +68,8 @@ def page_not_found(e):
 
 def updateDataOrNo():
     # If it's 4 am, update the data
-    try:
-        if (str(time.strftime("%I %p")) == str("04 AM")):
-            print("Attempting to update data")
-            updateData()
-    except:
-        print(f'Unable to update data: {time.strftime("%A, %d. %B %Y %I:%M:%S %p")}')
+    if (str(time.strftime("%I %p")) == str("04 AM")):
+        updateDataFunc()
 
 # Create the background scheduler
 scheduler = BackgroundScheduler()
