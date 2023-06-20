@@ -3,18 +3,18 @@ import requests
 import json
 import xmltodict # used to convert xml files to JSON
 import os
-from dotenv import load_dotenv
 import time
 
-load_dotenv()
-# Loads API tokens
-clientID = os.getenv("CLIENT-ID")
-clientSecret = os.getenv("CLIENT-SECRET")
-
 courseJSONData = {"sessions": {}}
-year = date.today().year
 
+baseURL = "https://courses.students.ubc.ca/cs/servlets/SRVCourseSchedule?"
+year = date.today().year
+term = "sesscd=${term}"
+deptCode = "dept=${deptCode}"
 LFSDepts = ['APBI', 'FNH', 'FOOD', 'FRE', 'GRS', 'HUNU', 'LFS', 'LWS', 'PLNT', 'SOIL']
+
+def buildURL(year, term, dept):
+    return f"{baseURL}&sessyr={year}&sesscd={term}&req=2&dept={dept}&output=3"
 
 # Returns the variables necessary to build the course syllabus URL
 def hasSyllabus(courseName, syllabusInfo):
@@ -29,27 +29,25 @@ def getData(year, term):
     syllabusInfo = getCoursesWithSyllabus()
 
     for dept in LFSDepts:
-        url = f"https://stg.api.ubc.ca/academic-exp/v1/course-section-details?academicYear={year}&courseSubject={dept}_V&page=1&pageSize=500"
-        data = requests.get(url, headers={"x-client-id":clientID, "x-client-secret":clientSecret}).text
-        deptCourseData = json.loads(data)['pageItems']
-        dept_courses_array = []
+        url = buildURL(year, term, dept)
+        response_API = requests.get(url)
+        data = response_API.text
+        dept_courses_array = xmltodict.parse(data)["courses"]
+        # Fixes the error where departments with only 1 course uses a dict instead of an array -> results in undefined classes on Frontend
+        try:
+            if (type(xmltodict.parse(data)["courses"]["course"]) is dict):
+                dept_courses_array = {"course": [xmltodict.parse(data)["courses"]["course"]]}
+        except:
+            pass
+
         # Ensures that there are courses in the array, if not, do not add courses to set
-        if (len(deptCourseData) > 0):
-            for course in deptCourseData:
-                # if term matches course and the course is open
-                if (term == course["academicPeriod"]["academicPeriodName"].split(" ")[1][0] and ("Open" == course["sectionStatus"]["code"] or "Preliminary" == course["sectionStatus"]["code"])):
-                    courseJSON = {
-                        "@key": course["course"]["courseNumber"],
-                        "@title": course["course"]["title"],
-                        "@syllabusTerm": "",
-                        "@originalCourseName": ""
-                    }
-                    # Grabs the necessary variables to build the syllabus URL
-                    syllabusTerm, originalCourseName = hasSyllabus(f"{dept} {str(courseJSON['@key'])}", syllabusInfo)
-                    # Adds the variables to the dictionary
-                    courseJSON["@syllabusTerm"] = str(syllabusTerm)
-                    courseJSON["@originalCourseName"] = str(originalCourseName)
-                    dept_courses_array.append(courseJSON)
+        if (dept_courses_array is not None):
+            for course in dept_courses_array["course"]:
+                # Grabs the necessary variables to build the syllabus URL
+                syllabusTerm, originalCourseName = hasSyllabus(f"{dept} {str(course['@key'])}", syllabusInfo)
+                # Adds the variables to the dictionary
+                course["@syllabusTerm"] = str(syllabusTerm)
+                course["@originalCourseName"] = str(originalCourseName)
             # Adds the array of courses in that department to the courses dictionary
             courses.update({f"{dept}":dept_courses_array})
     
@@ -72,7 +70,6 @@ def updateData():
     getData(str(year), "S")
     getData(str(year - 1), "W")
     getData(str(year - 1), "S")
-
     try:
         with open("static/data/lfs-course-data.json", "r") as courseData:
             currentSavedJSONData = json.loads(courseData.read())

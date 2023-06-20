@@ -1,0 +1,366 @@
+{
+    "2022S": {
+        "APBI": [
+            {
+                "@key": "365",
+                "@title": "Summer Practicum in Sustainable Agriculture and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "462",
+                "@title": "Conservation Agriculture and Biodiversity Monitoring",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "APBI 462 921 2023S1"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "2023S1-2",
+                "@originalCourseName": "APBI 200 951 2023S1-2"
+            },
+            {
+                "@key": "462",
+                "@title": "Conservation Agriculture and Biodiversity Monitoring",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "APBI 462 921 2023S1"
+            },
+            {
+                "@key": "100",
+                "@title": "Soil and the Global Environment",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "497E",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "499",
+                "@title": "Undergraduate Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "428",
+                "@title": "Integrated Pest Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "314",
+                "@title": "Animals and Society",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "APBI 314 921 2023S1"
+            },
+            {
+                "@key": "496B",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "APBI 496B 921 2023S1"
+            }
+        ],
+        "FNH": [
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 200 921 2023S1"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            },
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 200 921 2023S1"
+            },
+            {
+                "@key": "355",
+                "@title": "International Nutrition",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            },
+            {
+                "@key": "497E",
+                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "250",
+                "@title": "Nutrition Concepts and Controversies",
+                "@syllabusTerm": "2023S1-2",
+                "@originalCourseName": "FNH 250 98A 2023S1-2"
+            },
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 200 921 2023S1"
+            },
+            {
+                "@key": "381",
+                "@title": "Dietetics Practice Education Placement I",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "497E",
+                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            },
+            {
+                "@key": "499",
+                "@title": "Undergraduate Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science 1",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 330 951 2023S1"
+            }
+        ],
+        "FOOD": [
+            {
+                "@key": "531",
+                "@title": "Master of Food Science Practicum Project",
+                "@syllabusTerm": "2023S1-2",
+                "@originalCourseName": "FOOD 531 943 2023S1-2"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            }
+        ],
+        "FRE": [
+            {
+                "@key": "547",
+                "@title": "Graduating Project",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            }
+        ],
+        "GRS": [
+            {
+                "@key": "497B",
+                "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "497E",
+                "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            }
+        ],
+        "HUNU": [
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "549",
+                "@title": "M.Sc. Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            }
+        ],
+        "LFS": [
+            {
+                "@key": "496A",
+                "@title": "Career Development Practicum - Career Development Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "499",
+                "@title": "Co-operative Work Placement IV",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "496B",
+                "@title": "Career Development Practicum - Career Development Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "490-",
+                "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "398",
+                "@title": "Co-operative Work Placement I",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "490-",
+                "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "302D",
+                "@title": "International Field Studies - International Field Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "302B",
+                "@title": "International Field Studies - International Field Studies",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "LFS 302B 921 2023S1"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "490-",
+                "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "498",
+                "@title": "Co-operative Work Placement III",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            }
+        ],
+        "LWS": [
+            {
+                "@key": "548",
+                "@title": "Major Project",
+                "@syllabusTerm": "2023S1-2",
+                "@originalCourseName": "LWS 548 943 2023S1-2"
+            }
+        ],
+        "PLNT": [
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "590",
+                "@title": "Advanced Topics in Plant Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "590",
+                "@title": "Advanced Topics in Plant Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            }
+        ],
+        "SOIL": [
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            }
+        ]
+    }
+}

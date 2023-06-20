@@ -82,7 +82,6 @@
     // red underlines, but no bugs and works perfectly? hmm
     // retrieves the JSON course data from Flask
     var courseJSONData = {{ courseJSONData | tojson }};
-
     function filtering() {
         const year = document.getElementById("sessionInput").value.split(" ")[0]
         const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
@@ -118,8 +117,9 @@
         const termCode = document.getElementById("sessionInput").value.split(" ")[1][0]
         // Gets the toggle status
         const syllabusToggle = document.getElementById("toggle-status").checked;
-        for (const course in courseJSONData[session][dept]["course"]) {
-            const courseContent = courseJSONData[session][dept]["course"][course]
+        // console.log("ahhshsh")
+        for (const courseContent of courseJSONData[session][dept]) {
+            // const courseContent = courseJSONData[session][dept][course]
             // Runs through filters to decide if a course should be displayed or not
             if (filterCourses(searchInput, dept + " " + courseContent["@key"], courseContent["@title"])) {
                 const courseContainer = document.createElement("tr");
