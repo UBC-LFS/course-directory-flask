@@ -36,7 +36,6 @@ def home():
         except:
             return redirect(url_for('error'))
 
-
 # Opens the syllabus URL
 @app.route("/coursedirectory/<session>/<course>/")
 def courseDirectory(session, course):

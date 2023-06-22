@@ -2,6 +2,12 @@
     "2023W": {
         "APBI": [
             {
+                "@key": "210",
+                "@title": "Vascular Plants",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            },
+            {
                 "@key": "324",
                 "@title": "Introduction to Seed Plant Taxonomy",
                 "@syllabusTerm": "",
@@ -12,21 +18,9 @@
                 "@title": "Soil Sampling, Analyses and Data Interpretation",
                 "@syllabusTerm": "",
                 "@originalCourseName": ""
-            },
-            {
-                "@key": "210",
-                "@title": "Vascular Plants",
-                "@syllabusTerm": "",
-                "@originalCourseName": ""
             }
         ],
         "LWS": [
-            {
-                "@key": "516",
-                "@title": "Urban Watershed Management",
-                "@syllabusTerm": "",
-                "@originalCourseName": ""
-            },
             {
                 "@key": "516",
                 "@title": "Urban Watershed Management",
@@ -44,14 +38,8 @@
             {
                 "@key": "516",
                 "@title": "Urban Watershed Management",
-                "@syllabusTerm": "",
-                "@originalCourseName": ""
-            },
-            {
-                "@key": "516",
-                "@title": "Urban Watershed Management",
-                "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "SOIL 516 001 2021W1"
             }
         ]
     }
