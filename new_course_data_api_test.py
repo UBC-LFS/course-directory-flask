@@ -1,3 +1,5 @@
+# Just a file to test code, does not effect actual application
+
 import json
 
 deptCourses = [

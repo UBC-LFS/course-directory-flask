@@ -1,3 +1,4 @@
+# Get courses from the old API - no longer works
 from datetime import date
 import requests
 import json
