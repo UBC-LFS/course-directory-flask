@@ -1,14 +1,26 @@
 {
     "2024W": {
-        "APBI": [],
-        "FNH": [],
-        "FOOD": [],
-        "FRE": [],
-        "GRS": [],
-        "HUNU": [],
-        "LFS": [],
-        "LWS": [],
-        "PLNT": [],
-        "SOIL": []
+        "FNH": [
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2021S1",
+                "@originalCourseName": "FNH 200 921 2021S1"
+            }
+        ],
+        "LFS": [
+            {
+                "@key": "250",
+                "@title": "Land, Food and Community I: Introduction to Food Systems and Sustainability",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "LFS 250 198 2021W1"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": ""
+            }
+        ]
     }
 }

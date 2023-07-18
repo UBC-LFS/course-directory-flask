@@ -5,61 +5,78 @@
                 "@key": "100",
                 "@title": "Soil and the Global Environment",
                 "@syllabusTerm": "2021S1",
-                "@originalCourseName": "APBI 100 98A 2021S1"
+                "@originalCourseName": "APBI 100 98A 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-793"
             },
             {
                 "@key": "200",
                 "@title": "Introduction to Soil Science",
                 "@syllabusTerm": "2021SA",
-                "@originalCourseName": "APBI 200 98A 2021SA"
+                "@originalCourseName": "APBI 200 98A 2021SA",
+                "@courseDefinition": "COURSE_DEFINITION-3-795"
             },
             {
                 "@key": "314",
                 "@title": "Animals and Society",
                 "@syllabusTerm": "2021W1",
-                "@originalCourseName": "APBI 314 001 2021W1"
+                "@originalCourseName": "APBI 314 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-806"
             },
             {
                 "@key": "365",
                 "@title": "Summer Practicum in Sustainable Agriculture and Food Systems",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-821"
             },
             {
                 "@key": "428",
                 "@title": "Integrated Pest Management",
                 "@syllabusTerm": "2021SA",
-                "@originalCourseName": "APBI 428 98A 2021SA"
+                "@originalCourseName": "APBI 428 98A 2021SA",
+                "@courseDefinition": "COURSE_DEFINITION-3-844"
             },
             {
                 "@key": "462",
                 "@title": "Conservation Agriculture and Biodiversity Monitoring",
                 "@syllabusTerm": "2021S1",
-                "@originalCourseName": "APBI 462 921 2021S1"
+                "@originalCourseName": "APBI 462 921 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-851"
             },
             {
                 "@key": "496B",
                 "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
                 "@syllabusTerm": "2021S1",
-                "@originalCourseName": "APBI 496B 921 2021S1"
+                "@originalCourseName": "APBI 496B 921 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-136304"
+            },
+            {
+                "@key": "496M",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-170004"
             },
             {
                 "@key": "497B",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-136415"
             },
             {
                 "@key": "497E",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-120634"
             },
             {
                 "@key": "499",
                 "@title": "Undergraduate Thesis",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-858"
             }
         ],
         "FNH": [
@@ -67,63 +84,59 @@
                 "@key": "200",
                 "@title": "Exploring Our Food",
                 "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 200 921 2021S1"
+                "@originalCourseName": "FNH 200 921 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10234"
             },
             {
                 "@key": "250",
                 "@title": "Nutrition Concepts and Controversies",
                 "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 250 920 2021S1"
+                "@originalCourseName": "FNH 250 920 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10235"
             },
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
                 "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1"
+                "@originalCourseName": "FNH 330 951 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248"
             },
             {
                 "@key": "355",
                 "@title": "International Nutrition",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10256"
             },
             {
                 "@key": "381",
                 "@title": "Dietetics Practice Education Placement I",
                 "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 381 921 2021S1"
+                "@originalCourseName": "FNH 381 921 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10261"
             },
             {
                 "@key": "497E",
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-139305"
             },
             {
                 "@key": "499",
                 "@title": "Undergraduate Thesis",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10297"
             }
         ],
         "FOOD": [
             {
-                "@key": "531",
-                "@title": "Master of Food Science Practicum Project",
-                "@syllabusTerm": "2021S1-2",
-                "@originalCourseName": "FOOD 531 941 2021S1-2"
-            },
-            {
-                "@key": "549-",
-                "@title": "Master's Thesis - Master's Thesis",
-                "@syllabusTerm": "",
-                "@originalCourseName": ""
-            },
-            {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10506"
             }
         ],
         "FRE": [
@@ -131,7 +144,8 @@
                 "@key": "547",
                 "@title": "Graduating Project",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10867"
             }
         ],
         "GRS": [
@@ -139,13 +153,15 @@
                 "@key": "497B",
                 "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-139603"
             },
             {
                 "@key": "497E",
                 "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-108147"
             }
         ],
         "HUNU": [
@@ -153,13 +169,15 @@
                 "@key": "549",
                 "@title": "M.Sc. Thesis",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13544"
             },
             {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13558"
             }
         ],
         "LFS": [
@@ -167,61 +185,71 @@
                 "@key": "302B",
                 "@title": "International Field Studies - International Field Studies",
                 "@syllabusTerm": "2021S1",
-                "@originalCourseName": "LFS 302B 921 2021S1"
+                "@originalCourseName": "LFS 302B 921 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-156105"
             },
             {
                 "@key": "302D",
                 "@title": "International Field Studies - International Field Studies",
                 "@syllabusTerm": "2022S2",
-                "@originalCourseName": "LFS 302D 941 2022S2"
+                "@originalCourseName": "LFS 302D 941 2022S2",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-116973"
             },
             {
                 "@key": "398",
                 "@title": "Co-operative Work Placement I",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15232"
             },
             {
                 "@key": "490-",
                 "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-148391"
             },
             {
                 "@key": "496A",
                 "@title": "Career Development Practicum - Career Development Practicum",
                 "@syllabusTerm": "2022W1",
-                "@originalCourseName": "LFS 496A 001 2022W1"
+                "@originalCourseName": "LFS 496A 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-109131"
             },
             {
                 "@key": "496B",
                 "@title": "Career Development Practicum - Career Development Practicum",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-132721"
             },
             {
                 "@key": "498",
                 "@title": "Co-operative Work Placement III",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15240"
             },
             {
                 "@key": "499",
                 "@title": "Co-operative Work Placement IV",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15241"
             },
             {
                 "@key": "549",
                 "@title": "Master's Thesis",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15248"
             },
             {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15250"
             }
         ],
         "LWS": [
@@ -229,7 +257,8 @@
                 "@key": "548",
                 "@title": "Major Project",
                 "@syllabusTerm": "2021S1-2",
-                "@originalCourseName": "LWS 548 943 2021S1-2"
+                "@originalCourseName": "LWS 548 943 2021S1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15728"
             }
         ],
         "PLNT": [
@@ -237,19 +266,22 @@
                 "@key": "549-",
                 "@title": "Master's Thesis - Master's Thesis",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-125902"
             },
             {
                 "@key": "590",
                 "@title": "Advanced Topics in Plant Science",
                 "@syllabusTerm": "2021W1-2",
-                "@originalCourseName": "PLNT 590 003 2021W1-2"
+                "@originalCourseName": "PLNT 590 003 2021W1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-20331"
             },
             {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-20333"
             }
         ],
         "SOIL": [
@@ -257,13 +289,15 @@
                 "@key": "549",
                 "@title": "Master's Thesis",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22507"
             },
             {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22510"
             }
         ]
     }

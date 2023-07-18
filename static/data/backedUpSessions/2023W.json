@@ -2,44 +2,29 @@
     "2023W": {
         "APBI": [
             {
-                "@key": "210",
-                "@title": "Vascular Plants",
-                "@syllabusTerm": "",
-                "@originalCourseName": ""
-            },
-            {
                 "@key": "324",
                 "@title": "Introduction to Seed Plant Taxonomy",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
-            },
-            {
-                "@key": "403",
-                "@title": "Soil Sampling, Analyses and Data Interpretation",
-                "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-813"
             }
         ],
-        "LWS": [
+        "FOOD": [
             {
-                "@key": "516",
-                "@title": "Urban Watershed Management",
-                "@syllabusTerm": "",
-                "@originalCourseName": ""
+                "@key": "527A",
+                "@title": "Special Topics in Food Science - SP TPS FOOD SCIE",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FOOD 527A 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-154841"
             }
         ],
-        "SOIL": [
+        "LFS": [
             {
-                "@key": "503",
-                "@title": "Advanced Soil Sampling, Analyses and Data Interpretation",
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
                 "@syllabusTerm": "",
-                "@originalCourseName": ""
-            },
-            {
-                "@key": "516",
-                "@title": "Urban Watershed Management",
-                "@syllabusTerm": "2021W1",
-                "@originalCourseName": "SOIL 516 001 2021W1"
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15250"
             }
         ]
     }

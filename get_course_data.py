@@ -37,7 +37,7 @@ def getData(year, term):
     syllabusInfo = getCoursesWithSyllabus()
 
     for dept in LFSDepts:
-        url = f"https://stg.api.ubc.ca/academic-exp/v1/course-section-details?academicYear={year}&courseSubject={dept}_V&page=1&pageSize=500"
+        url = f"https://sat.api.ubc.ca/academic-exp/v1/course-section-details?academicYear={year}&courseSubject={dept}_V&page=1&pageSize=500"
         data = requests.get(
             url,
             headers={"x-client-id": clientID, "x-client-secret": clientSecret}
@@ -54,7 +54,8 @@ def getData(year, term):
                         "@key": course["course"]["courseNumber"],
                         "@title": course["course"]["title"],
                         "@syllabusTerm": "",
-                        "@originalCourseName": ""
+                        "@originalCourseName": "",
+                        "@courseDefinition": course["course"]["courseId"] # new course coding for the new courses website
                     }
                     # Grabs the necessary variables to build the syllabus URL
                     syllabusTerm, originalCourseName = hasSyllabus(
@@ -89,8 +90,8 @@ def getData(year, term):
 
 # W: winter, S: Summer
 def updateData():
-    getData(str(year + 1), "W")
-    getData(str(year + 1), "S")
+    # getData(str(year + 1), "W")
+    # getData(str(year + 1), "S")
     getData(str(year), "W")
     getData(str(year), "S")
     getData(str(year - 1), "W")
