@@ -29,7 +29,15 @@ def hasSyllabus(courseName, syllabusInfo):
 
 
 def courseOneIsHigher(courseOne, courseTwo):
-    return (courseOne["@key"] > courseTwo["@key"])
+    # If same course
+    if (courseOne["@key"] == courseTwo["@key"]):
+        # same type of course (labs, tutorial, lecture, etc)
+        # if (courseOne["@sectionNumber"] == courseTwo["@sectionNumber"]):
+        #     pass
+        # else:
+        return (courseOne["@sectionNumber"] > courseTwo["@sectionNumber"])
+    else:
+        return (courseOne["@key"] > courseTwo["@key"])
 
 
 def getData(year, term):
@@ -55,7 +63,8 @@ def getData(year, term):
                         "@title": course["course"]["title"],
                         "@syllabusTerm": "",
                         "@originalCourseName": "",
-                        "@courseDefinition": course["course"]["courseId"] # new course coding for the new courses website
+                        "@courseDefinition": course["course"]["courseId"], # new course coding for the new courses website
+                        "@sectionNumber": course["sectionNumber"]
                     }
                     # Grabs the necessary variables to build the syllabus URL
                     syllabusTerm, originalCourseName = hasSyllabus(

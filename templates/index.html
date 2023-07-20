@@ -137,12 +137,12 @@
                     const courseSyllabusContainer = document.createElement("th");
                     const courseSyllabus = document.createElement("a");
 
-                    courseTitle.innerHTML = dept + " " + courseContent["@key"]
+                    courseTitle.innerHTML = dept + " " + courseContent["@key"] + " " + courseContent["@sectionNumber"]
                     // const courseURL = `https://courses.students.ubc.ca/cs/courseschedule?tname=subj-course&course=${courseContent['@key']}&sessyr=${year}&sesscd=${termCode}&dept=${dept}&pname=subjarea`
                     // NEW Courses website
                     const courseURL = `https://dev-54ta5gq-eyrppwecrywg4.ca-1.platformsh.site/browse-courses/course/${courseContent['@courseDefinition']}`
                     courseTitle.setAttribute("href", courseURL)
-
+                    courseTitle.classList.add("courseTitle")
 
                     courseDescription.innerHTML = courseContent["@title"]
                     if (courseContent["@syllabusTerm"] != "" && courseContent["@originalCourseName"] != "") {

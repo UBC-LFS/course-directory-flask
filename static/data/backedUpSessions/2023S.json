@@ -1,7 +1,63 @@
 {
     "2023S": {
-        "APBI": [],
+        "APBI": [
+            {
+                "@key": "100",
+                "@title": "Soil and the Global Environment",
+                "@syllabusTerm": "2021S1",
+                "@originalCourseName": "APBI 100 98A 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-793",
+                "@sectionNumber": "98A"
+            },
+            {
+                "@key": "402",
+                "@title": "Sustainable Soil Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-826",
+                "@sectionNumber": "T01"
+            }
+        ],
+        "FNH": [
+            {
+                "@key": "250",
+                "@title": "Nutrition Concepts and Controversies",
+                "@syllabusTerm": "2021S1",
+                "@originalCourseName": "FNH 250 920 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10235",
+                "@sectionNumber": "003"
+            }
+        ],
         "FOOD": [],
-        "LFS": []
+        "FRE": [
+            {
+                "@key": "295",
+                "@title": "Managerial Economics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10824",
+                "@sectionNumber": "101"
+            }
+        ],
+        "GRS": [
+            {
+                "@key": "390-",
+                "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-139600",
+                "@sectionNumber": "-_103"
+            }
+        ],
+        "LFS": [
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "LFS 150 005 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "001"
+            }
+        ]
     }
 }

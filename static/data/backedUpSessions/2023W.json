@@ -2,29 +2,43 @@
     "2023W": {
         "APBI": [
             {
+                "@key": "244",
+                "@title": "Atmospheric Environments",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-799",
+                "@sectionNumber": "1"
+            },
+            {
                 "@key": "324",
                 "@title": "Introduction to Seed Plant Taxonomy",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-813"
+                "@courseDefinition": "COURSE_DEFINITION-3-813",
+                "@sectionNumber": "001"
             }
         ],
+        "FNH": [],
         "FOOD": [
             {
                 "@key": "527A",
                 "@title": "Special Topics in Food Science - SP TPS FOOD SCIE",
                 "@syllabusTerm": "2021W2",
                 "@originalCourseName": "FOOD 527A 001 2021W2",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-154841"
+                "@courseDefinition": "COURSE_DEFINITION-STVC-154841",
+                "@sectionNumber": "A_001"
             }
         ],
+        "FRE": [],
+        "GRS": [],
         "LFS": [
             {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15250"
+                "@courseDefinition": "COURSE_DEFINITION-3-15250",
+                "@sectionNumber": "003"
             }
         ]
     }

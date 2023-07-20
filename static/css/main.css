@@ -204,6 +204,10 @@ tr:hover {
 }
 /* Pagination ^^^ */
 
+.courseTitle {
+    text-decoration: none;
+}
+
 /* Make filters stack on top of each other on smaller screens */
 @media only screen and (max-width: 730px) {
     .dropdown-menu {
