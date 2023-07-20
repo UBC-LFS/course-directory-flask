@@ -20,8 +20,8 @@
             {
                 "@key": "314",
                 "@title": "Animals and Society",
-                "@syllabusTerm": "2021W1",
-                "@originalCourseName": "APBI 314 001 2021W1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-806",
                 "@sectionNumber": "941"
             },
@@ -52,16 +52,16 @@
             {
                 "@key": "462",
                 "@title": "Conservation Agriculture and Biodiversity Monitoring",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "APBI 462 921 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-851",
                 "@sectionNumber": "L01"
             },
             {
                 "@key": "496B",
                 "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "APBI 496B 921 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-STVC-136304",
                 "@sectionNumber": "B_951"
             },
@@ -126,24 +126,24 @@
             {
                 "@key": "200",
                 "@title": "Exploring Our Food",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 200 921 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10234",
                 "@sectionNumber": "942"
             },
             {
                 "@key": "200",
                 "@title": "Exploring Our Food",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 200 921 2021S1",
+                "@syllabusTerm": "2021SA",
+                "@originalCourseName": "FNH 200 98B 2021SA",
                 "@courseDefinition": "COURSE_DEFINITION-3-10234",
                 "@sectionNumber": "98B"
             },
             {
                 "@key": "250",
                 "@title": "Nutrition Concepts and Controversies",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 250 920 2021S1",
+                "@syllabusTerm": "2021SA",
+                "@originalCourseName": "FNH 250 98A 2021SA",
                 "@courseDefinition": "COURSE_DEFINITION-3-10235",
                 "@sectionNumber": "98A"
             },
@@ -158,64 +158,64 @@
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L01"
             },
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L02"
             },
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L03"
             },
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L04"
             },
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L05"
             },
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L06"
             },
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L07"
             },
             {
                 "@key": "330",
                 "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "FNH 330 951 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L08"
             },
@@ -320,16 +320,16 @@
             {
                 "@key": "302B",
                 "@title": "International Field Studies - International Field Studies",
-                "@syllabusTerm": "2021S1",
-                "@originalCourseName": "LFS 302B 921 2021S1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-STVC-156105",
                 "@sectionNumber": "B_921"
             },
             {
                 "@key": "302D",
                 "@title": "International Field Studies - International Field Studies",
-                "@syllabusTerm": "2022S2",
-                "@originalCourseName": "LFS 302D 941 2022S2",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-STVC-116973",
                 "@sectionNumber": "D_941"
             },
@@ -368,8 +368,8 @@
             {
                 "@key": "496A",
                 "@title": "Career Development Practicum - Career Development Practicum",
-                "@syllabusTerm": "2022W1",
-                "@originalCourseName": "LFS 496A 001 2022W1",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-STVC-109131",
                 "@sectionNumber": "A_942"
             },
@@ -436,16 +436,16 @@
             {
                 "@key": "590",
                 "@title": "Advanced Topics in Plant Science",
-                "@syllabusTerm": "2021W1-2",
-                "@originalCourseName": "PLNT 590 003 2021W1-2",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-20331",
                 "@sectionNumber": "920"
             },
             {
                 "@key": "590",
                 "@title": "Advanced Topics in Plant Science",
-                "@syllabusTerm": "2021W1-2",
-                "@originalCourseName": "PLNT 590 003 2021W1-2",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-20331",
                 "@sectionNumber": "L01"
             },

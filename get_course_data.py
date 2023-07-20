@@ -20,11 +20,22 @@ LFSDepts = ['APBI', 'FNH', 'FOOD', 'FRE',
 # Returns the variables necessary to build the course syllabus URL
 
 
-def hasSyllabus(courseName, syllabusInfo):
+def hasSyllabus(courseName, sectionNumber, syllabusInfo):
+    foundSyllabusNotSameSection = False
     for term in syllabusInfo:
         for course in term["courses"]:
-            if (courseName in course):
+            if (courseName + " " + sectionNumber in course):
+                # print("PERFECT " + courseName + " " + sectionNumber + " " + course)
                 return term["term"], course
+            # if didn't find a course in the same section yet
+            # elif (courseName in course and not foundSyllabusNotSameSection):
+            #     foundSyllabusNotSameSection = True
+            #     courseTermVar, courseVar = term["term"], course
+            
+    # if (foundSyllabusNotSameSection):
+    #     # print("that works too: " + courseTermVar + " " + courseVar)
+    #     return courseTermVar, courseVar
+        
     return "", ""
 
 
@@ -67,8 +78,7 @@ def getData(year, term):
                         "@sectionNumber": course["sectionNumber"]
                     }
                     # Grabs the necessary variables to build the syllabus URL
-                    syllabusTerm, originalCourseName = hasSyllabus(
-                        f"{dept} {str(courseJSON['@key'])}", syllabusInfo)
+                    syllabusTerm, originalCourseName = hasSyllabus(f"{dept} {str(courseJSON['@key'])}", str(courseJSON['@sectionNumber']), syllabusInfo)
                     # Adds the variables to the dictionary
                     courseJSON["@syllabusTerm"] = str(syllabusTerm)
                     courseJSON["@originalCourseName"] = str(originalCourseName)
