@@ -6,10 +6,10 @@ import atexit
 from apscheduler.schedulers.background import BackgroundScheduler
 
 def updateDataFunc():
-    # try:
+    try:
         print("Attempting to update data")
         updateData()
-    # except:
+    except:
         print(f'Unable to update data: {time.strftime("%A, %d. %B %Y %I:%M:%S %p")}')
 
 # Update data when app runs (incase there are new syllabuses added)
