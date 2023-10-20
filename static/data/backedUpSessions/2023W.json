@@ -2,12 +2,364 @@
     "2023W": {
         "APBI": [
             {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "APBI 200 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L03"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L04"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L05"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L06"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L07"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L08"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L09"
+            },
+            {
+                "@key": "200",
+                "@title": "Introduction to Soil Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-795",
+                "@sectionNumber": "L10"
+            },
+            {
+                "@key": "210",
+                "@title": "Vascular Plants",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-796",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "210",
+                "@title": "Vascular Plants",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-796",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "210",
+                "@title": "Vascular Plants",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-796",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "210",
+                "@title": "Vascular Plants",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-796",
+                "@sectionNumber": "L03"
+            },
+            {
+                "@key": "210",
+                "@title": "Vascular Plants",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-796",
+                "@sectionNumber": "L05"
+            },
+            {
+                "@key": "210",
+                "@title": "Vascular Plants",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-796",
+                "@sectionNumber": "L06"
+            },
+            {
+                "@key": "210",
+                "@title": "Vascular Plants",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-796",
+                "@sectionNumber": "L08"
+            },
+            {
+                "@key": "214",
+                "@title": "Animal Sheltering and Companion Animal Support Services",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "APBI 214 002 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-632985",
+                "@sectionNumber": "002"
+            },
+            {
                 "@key": "244",
                 "@title": "Atmospheric Environments",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-799",
-                "@sectionNumber": "1"
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "244",
+                "@title": "Atmospheric Environments",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-799",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "244",
+                "@title": "Atmospheric Environments",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-799",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "244",
+                "@title": "Atmospheric Environments",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-799",
+                "@sectionNumber": "L03"
+            },
+            {
+                "@key": "244",
+                "@title": "Atmospheric Environments",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-799",
+                "@sectionNumber": "L04"
+            },
+            {
+                "@key": "244",
+                "@title": "Atmospheric Environments",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-799",
+                "@sectionNumber": "L05"
+            },
+            {
+                "@key": "244",
+                "@title": "Atmospheric Environments",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-799",
+                "@sectionNumber": "L06"
+            },
+            {
+                "@key": "260",
+                "@title": "Agroecology I: Introduction to principles and techniques",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 260 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-800",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "260",
+                "@title": "Agroecology I: Introduction to principles and techniques",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-800",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "260",
+                "@title": "Agroecology I: Introduction to principles and techniques",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-800",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "265",
+                "@title": "Sustainable Agriculture and Food Systems",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "APBI 265 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-801",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "290",
+                "@title": "Introductory Topics in Applied Biology",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 290 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-802",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "290",
+                "@title": "Introductory Topics in Applied Biology",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "APBI 290 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-802",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "311",
+                "@title": "Comparative Cardiovascular, Respiratory and Osmoregulatory Physiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-804",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "312",
+                "@title": "Reproductive and Digestive Physiology",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 312 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-805",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "313",
+                "@title": "Experimental Analysis of Animal Behaviour",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "APBI 313 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-632975",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "314",
+                "@title": "Animals and Society",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 314 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-806",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "314",
+                "@title": "Animals and Society",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "APBI 314 003 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-806",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "315",
+                "@title": "Animal Welfare and the Ethics of Animal Use",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "APBI 315 001 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-807",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "316",
+                "@title": "Equine Biology, Health and Welfare",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "APBI 316 001 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-808",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "317",
+                "@title": "Welfare and Ethics of using Animals in Science",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "APBI 317 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-809",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "318",
+                "@title": "Applied Plant Breeding",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "APBI 318 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-810",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "319",
+                "@title": "Aquaculture and the Environment",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-811",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "322",
+                "@title": "Horticultural Techniques",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-812",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "322",
+                "@title": "Horticultural Techniques",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-812",
+                "@sectionNumber": "L01"
             },
             {
                 "@key": "324",
@@ -16,28 +368,2543 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-813",
                 "@sectionNumber": "001"
+            },
+            {
+                "@key": "324",
+                "@title": "Introduction to Seed Plant Taxonomy",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-813",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "324",
+                "@title": "Introduction to Seed Plant Taxonomy",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-813",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "326",
+                "@title": "Introductory Plant Pathology",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 326 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-814",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "326",
+                "@title": "Introductory Plant Pathology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-814",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "327",
+                "@title": "Introduction to Entomology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-815",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "327",
+                "@title": "Introduction to Entomology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-815",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "327",
+                "@title": "Introduction to Entomology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-815",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "327",
+                "@title": "Introduction to Entomology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-815",
+                "@sectionNumber": "L03"
+            },
+            {
+                "@key": "327",
+                "@title": "Introduction to Entomology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-815",
+                "@sectionNumber": "L04"
+            },
+            {
+                "@key": "328",
+                "@title": "Weed Science",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 328 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-816",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "328",
+                "@title": "Weed Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-816",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "328",
+                "@title": "Weed Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-816",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "342",
+                "@title": "Soil Biology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-817",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "342",
+                "@title": "Soil Biology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-817",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "351",
+                "@title": "Plant Physiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-818",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "351",
+                "@title": "Plant Physiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-818",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "351",
+                "@title": "Plant Physiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-818",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "351",
+                "@title": "Plant Physiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-818",
+                "@sectionNumber": "L03"
+            },
+            {
+                "@key": "351",
+                "@title": "Plant Physiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-818",
+                "@sectionNumber": "L04"
+            },
+            {
+                "@key": "360",
+                "@title": "Agroecology II: Ecology of Agricultural Systems",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "APBI 360 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-819",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "361",
+                "@title": "Key Indicators of Agroecosystem Sustainability",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "APBI 361 199 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-820",
+                "@sectionNumber": "199"
+            },
+            {
+                "@key": "398",
+                "@title": "Research Methods in Applied Biology",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 398 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-823",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "401",
+                "@title": "Soil Processes",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-825",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "401",
+                "@title": "Soil Processes",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-825",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "402",
+                "@title": "Sustainable Soil Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-826",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "405",
+                "@title": "Plant-Water Relations for Sustainable Agriculture",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "APBI 405 002 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-628624",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "410",
+                "@title": "Applied Animal Health and Physiology",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 410 002 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-828",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "414",
+                "@title": "Animals and Global Issues",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 414 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-832",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "415",
+                "@title": "Applied Animal Behaviour",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "APBI 415 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-833",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "419",
+                "@title": "Fish Health",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "APBI 419 201 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-837",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "423",
+                "@title": "Ecological Restoration",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-841",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "426",
+                "@title": "Plant-Microbe Interactions",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-842",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "426",
+                "@title": "Plant-Microbe Interactions",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-842",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "427",
+                "@title": "Insect Ecology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-843",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "428",
+                "@title": "Integrated Pest Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-844",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "440",
+                "@title": "Plant Genomics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-845",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "444",
+                "@title": "Agroforestry",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-848",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "460",
+                "@title": "Agroecology III: Synthesis and evaluation",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "APBI 460 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-849",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "463",
+                "@title": "Insects in Agroecosystems",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "APBI 463 002 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-628589",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "465",
+                "@title": "Capstone in Sustainable Agriculture and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-852",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "490A",
+                "@title": "Advanced Topics in Applied Biology - EXP DSGN, STATS",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-233445",
+                "@sectionNumber": "A_101"
+            },
+            {
+                "@key": "490B",
+                "@title": "Advanced Topics in Applied Biology - POLLINATN ECOLGY",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263400",
+                "@sectionNumber": "B_102"
+            },
+            {
+                "@key": "490C",
+                "@title": "Advanced Topics in Applied Biology - INDIGNOUS FD SYS",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263399",
+                "@sectionNumber": "C_103"
+            },
+            {
+                "@key": "490D",
+                "@title": "Advanced Topics in Applied Biology - HU WLDLFE CNFLCT",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-257441",
+                "@sectionNumber": "D_201"
+            },
+            {
+                "@key": "490E",
+                "@title": "Advanced Topics in Applied Biology - HW,D SHELT ANMLS",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263401",
+                "@sectionNumber": "E_202"
+            },
+            {
+                "@key": "490F",
+                "@title": "Advanced Topics in Applied Biology - SOILS & LANDSC",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251456",
+                "@sectionNumber": "F_104"
+            },
+            {
+                "@key": "490G",
+                "@title": "Advanced Topics in Applied Biology - INDIGENOUS ECO",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263404",
+                "@sectionNumber": "G_105"
+            },
+            {
+                "@key": "496A",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263342",
+                "@sectionNumber": "A_001"
+            },
+            {
+                "@key": "496B",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251400",
+                "@sectionNumber": "B_001"
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251581",
+                "@sectionNumber": "B_001"
+            },
+            {
+                "@key": "497E",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-239627",
+                "@sectionNumber": "E_001"
+            },
+            {
+                "@key": "499",
+                "@title": "Undergraduate Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-858",
+                "@sectionNumber": "001"
             }
         ],
-        "FNH": [],
+        "FNH": [
+            {
+                "@key": "160",
+                "@title": "Integrated Physiology for Human Nutrition I",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "FNH 160 101 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-628632",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "160",
+                "@title": "Integrated Physiology for Human Nutrition I",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "FNH 160 201 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-628632",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "161",
+                "@title": "Integrated Physiology for Human Nutrition II",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "FNH 161 201 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-628381",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 200 101 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10234",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FNH 200 103 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10234",
+                "@sectionNumber": "103"
+            },
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "COPY_FNH 200 104 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10234",
+                "@sectionNumber": "104"
+            },
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "FNH 200 105 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10234",
+                "@sectionNumber": "105"
+            },
+            {
+                "@key": "250",
+                "@title": "Nutrition Concepts and Controversies",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 250 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10235",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "250",
+                "@title": "Nutrition Concepts and Controversies",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "COPY_FNH 250 003 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10235",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "300",
+                "@title": "Food Engineering",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 300 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10240",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "300",
+                "@title": "Food Engineering",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10240",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "301",
+                "@title": "Food Chemistry",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "COPY_FNH 301 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10241",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "301",
+                "@title": "Food Chemistry",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10241",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "302",
+                "@title": "Food Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10242",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "302",
+                "@title": "Food Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10242",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "303",
+                "@title": "Food Product Development",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "Copy_FNH 303 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10243",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "309",
+                "@title": "Food Processing",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FNH 309 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10244",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "309",
+                "@title": "Food Processing",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10244",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "313",
+                "@title": "Food Microbiology",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "COPY - FNH 313 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10245",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "325",
+                "@title": "Food Science Laboratory I",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "COPY - FNH 325 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10246",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "325",
+                "@title": "Food Science Laboratory I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10246",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "326",
+                "@title": "Food Science Laboratory II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10247",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 330 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "COPY - FNH 330 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L1A"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L1B"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L1C"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L1D"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L1E"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L1F"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L1G"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L1H"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L2A"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L2B"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L2C"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L2D"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L2E"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L2F"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L2G"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L2H"
+            },
+            {
+                "@key": "335",
+                "@title": "Introduction to Wine Science II",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "Copy - FNH 335 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10249",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "335",
+                "@title": "Introduction to Wine Science II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10249",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "340",
+                "@title": "Food Theory and Applications",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FNH 340 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10250",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "340",
+                "@title": "Food Theory and Applications",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10250",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "340",
+                "@title": "Food Theory and Applications",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10250",
+                "@sectionNumber": "L03"
+            },
+            {
+                "@key": "342",
+                "@title": "Critical Perspectives on Consumer Food Practices",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 342 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10252",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "345",
+                "@title": "Counselling Skills in Dietetics",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FNH 345 201 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10253",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "350",
+                "@title": "Fundamentals of Nutrition",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 350 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10254",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "350",
+                "@title": "Fundamentals of Nutrition",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "COPY_FNH 350 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10254",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "351",
+                "@title": "Vitamins, Minerals, and Health",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 351 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10255",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "351",
+                "@title": "Vitamins, Minerals, and Health",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "Copy_FNH 351 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10255",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "355",
+                "@title": "International Nutrition",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10256",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "355",
+                "@title": "International Nutrition",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10256",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "370",
+                "@title": "Nutrition Assessment",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 370 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10257",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "371",
+                "@title": "Human Nutrition Over The Life Span",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "COPY_FNH 371 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10258",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "375",
+                "@title": "Nutrition Care I",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "Copy - FNH 375 201 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10259",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "380",
+                "@title": "Professional Dietetic Practice I",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 380 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10260",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "398",
+                "@title": "Research Methods in Human Nutrition",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 398 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10262",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "398",
+                "@title": "Research Methods in Human Nutrition",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10262",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "402",
+                "@title": "Functional Foods",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10265",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "403",
+                "@title": "Food Laws, Regulations and Quality Assurance",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 403 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10266",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "403",
+                "@title": "Food Laws, Regulations and Quality Assurance",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10266",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "403",
+                "@title": "Food Laws, Regulations and Quality Assurance",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10266",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "403",
+                "@title": "Food Laws, Regulations and Quality Assurance",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10266",
+                "@sectionNumber": "T02"
+            },
+            {
+                "@key": "403",
+                "@title": "Food Laws, Regulations and Quality Assurance",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10266",
+                "@sectionNumber": "T03"
+            },
+            {
+                "@key": "404",
+                "@title": "Food Safety and Quality Management",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "FNH 404 201 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-628460",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "405",
+                "@title": "Microbiology of Food and Beverage Fermentation",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "FNH 405 101 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10267",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "413",
+                "@title": "Food Safety",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 413 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10268",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "414",
+                "@title": "Sustainability in the Food Industry",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "FNH 414 101 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-628597",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "415",
+                "@title": "Business Concepts in Food, Nutrition, and Health",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "COPY - FNH 415 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10269",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "419",
+                "@title": "Interfacial Phenomena",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10270",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "425",
+                "@title": "Food Science Laboratory III",
+                "@syllabusTerm": "2022W1-2",
+                "@originalCourseName": "FNH 425 001 2022W1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10271",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "440",
+                "@title": "Food Service Systems Management",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FNH 440 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10275",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "440",
+                "@title": "Food Service Systems Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10275",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "451",
+                "@title": "Nutrient Metabolism and Implications for Health",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "FNH 451 001 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10277",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "455",
+                "@title": "Applied International Nutrition",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FNH 455 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10281",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "470",
+                "@title": "Nutrition Care II",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "Copy - FNH 470 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10283",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "472",
+                "@title": "Maternal and Fetal Nutrition",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10285",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "473",
+                "@title": "Applied Public Health Nutrition",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "COPY_FNH 473 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10286",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "474",
+                "@title": "Sport Nutrition",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "COPY_FNH 474 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10287",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "475",
+                "@title": "Nutrition Care III",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "Copy - FNH 475 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10288",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "477",
+                "@title": "Nutrition and Disease Prevention",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FNH 477 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10289",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "480",
+                "@title": "Professional Dietetic Practice II",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FNH 480 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10290",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "482",
+                "@title": "Dietetics Practice Education Placement III",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10292",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "482",
+                "@title": "Dietetics Practice Education Placement III",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10292",
+                "@sectionNumber": "202"
+            },
+            {
+                "@key": "483",
+                "@title": "Dietetics Practice Education Placement IV",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10293",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "483",
+                "@title": "Dietetics Practice Education Placement IV",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10293",
+                "@sectionNumber": "102"
+            },
+            {
+                "@key": "490",
+                "@title": "Advanced Topics in Food, Nutrition, and Health",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "FNH 490 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10294",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-240487",
+                "@sectionNumber": "B_101"
+            },
+            {
+                "@key": "497E",
+                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
+                "@sectionNumber": "E_001"
+            },
+            {
+                "@key": "499",
+                "@title": "Undergraduate Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10297",
+                "@sectionNumber": "001"
+            }
+        ],
         "FOOD": [
+            {
+                "@key": "500",
+                "@title": "M.Sc. Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10473",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "510",
+                "@title": "Advances in Food Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10483",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "511",
+                "@title": "Master of Food Science Workshops",
+                "@syllabusTerm": "2021W1-2",
+                "@originalCourseName": "FOOD 511 002 2021W1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10484",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "512",
+                "@title": "Hazard Analysis and Critical Control Point and Food Safety Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10485",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "515",
+                "@title": "Fundamentals of Agri-Food Business",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10487",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "516",
+                "@title": "Advanced Food Safety and Quality Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10488",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "520",
+                "@title": "Advances in Food Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10491",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "520",
+                "@title": "Advances in Food Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10491",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "521",
+                "@title": "Advances in Food Biotechnology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10492",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "522",
+                "@title": "Advances in Food Chemistry",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10493",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "523",
+                "@title": "Advances in Food Microbiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10494",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "524",
+                "@title": "Advances in Food Processing",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10495",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "524",
+                "@title": "Advances in Food Processing",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10495",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "524",
+                "@title": "Advances in Food Processing",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10495",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "525",
+                "@title": "Advances in Food Toxicology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10496",
+                "@sectionNumber": "001"
+            },
             {
                 "@key": "527A",
                 "@title": "Special Topics in Food Science - SP TPS FOOD SCIE",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-154841",
-                "@sectionNumber": "A_001"
+                "@courseDefinition": "COURSE_DEFINITION-STVC-264442",
+                "@sectionNumber": "A_002"
+            },
+            {
+                "@key": "528",
+                "@title": "International Food Laws and Regulations",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10499",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "529",
+                "@title": "Laboratory Methods in Sensory Evaluation",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FOOD 529 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10500",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "529",
+                "@title": "Laboratory Methods in Sensory Evaluation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10500",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
+                "@sectionNumber": "-_003"
+            },
+            {
+                "@key": "600",
+                "@title": "Ph.D. Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10505",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10506",
+                "@sectionNumber": "003"
             }
         ],
-        "FRE": [],
-        "GRS": [],
+        "FRE": [
+            {
+                "@key": "302",
+                "@title": "Small Business Management in Agri-food Industries",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10826",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "302",
+                "@title": "Small Business Management in Agri-food Industries",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FRE 302 201 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10826",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "306",
+                "@title": "Introduction to Global Food Markets",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FRE 306 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10827",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "326",
+                "@title": "Empirical Methods for Food and Resource Economics",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FRE 326 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10828",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "340",
+                "@title": "International Agricultural Development",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FRE 340 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10829",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "374",
+                "@title": "Land and Resource Economics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10830",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "385",
+                "@title": "Quantitative Methods for Business and Resource Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10831",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "385",
+                "@title": "Quantitative Methods for Business and Resource Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10831",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "394",
+                "@title": "Environment, Society and Government",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10832",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "394",
+                "@title": "Environment, Society and Government",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10832",
+                "@sectionNumber": "103"
+            },
+            {
+                "@key": "420",
+                "@title": "The Economics of International Trade and the Environment",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FRE 420 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10835",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "474",
+                "@title": "Causal Inference in the Economics of Natural Resource Conservation",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FRE 474 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10838",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "474",
+                "@title": "Causal Inference in the Economics of Natural Resource Conservation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10838",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "490",
+                "@title": "Current Issues in Food and Resource Economics",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FRE 490 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10840",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "490",
+                "@title": "Current Issues in Food and Resource Economics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10840",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "501",
+                "@title": "Strategic Economic Analysis of Agri-Food Markets",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "FRE 501 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10845",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "502",
+                "@title": "Food Market Analysis",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "FRE 502 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10846",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "515",
+                "@title": "Agribusiness Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10850",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "516",
+                "@title": "Financial and Marketing Management in Agri-food Industries",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "FRE 516 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10851",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "516",
+                "@title": "Financial and Marketing Management in Agri-food Industries",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10851",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "517",
+                "@title": "Futures Trading in Agricultural Commodities",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10852",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "518",
+                "@title": "Survey Design and Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10853",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "520",
+                "@title": "Professional Masters Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10854",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "528",
+                "@title": "Applied Econometrics",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "FRE 528 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10862",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "528",
+                "@title": "Applied Econometrics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10862",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "529",
+                "@title": "Estimating Econometric Models",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10863",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "585",
+                "@title": "Quantitative Methods for Business and Natural Resource Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10868",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "600",
+                "@title": "PhD Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10870",
+                "@sectionNumber": "003"
+            }
+        ],
+        "GRS": [
+            {
+                "@key": "290-",
+                "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-264758",
+                "@sectionNumber": "-_001"
+            },
+            {
+                "@key": "290-",
+                "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-264758",
+                "@sectionNumber": "-_103"
+            },
+            {
+                "@key": "290-",
+                "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-264758",
+                "@sectionNumber": "-_104"
+            },
+            {
+                "@key": "390-",
+                "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252846",
+                "@sectionNumber": "-_001"
+            },
+            {
+                "@key": "390-",
+                "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252846",
+                "@sectionNumber": "-_102"
+            },
+            {
+                "@key": "390-",
+                "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252846",
+                "@sectionNumber": "-_103"
+            },
+            {
+                "@key": "490",
+                "@title": "Global Issues in Cultural Context",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-12227",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "490",
+                "@title": "Global Issues in Cultural Context",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-12227",
+                "@sectionNumber": "102"
+            },
+            {
+                "@key": "490",
+                "@title": "Global Issues in Cultural Context",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-12227",
+                "@sectionNumber": "103"
+            }
+        ],
+        "HUNU": [
+            {
+                "@key": "500",
+                "@title": "Research Methods in Human Nutrition",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13525",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "505",
+                "@title": "Current Issues in Applied Nutrition",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "HUNU 505 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-13527",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "510",
+                "@title": "Nutrition Assessment Across the Lifespan",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "HUNU 510 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-13530",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "515",
+                "@title": "Business & Entrepreneurship in Dietetics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13533",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "525",
+                "@title": "Indigenous Health in Dietetics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13538",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "531",
+                "@title": "M.Sc. Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13539",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "540",
+                "@title": "Advances in Food Theory and Applications",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "HUNU 540 001 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-13540",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "540",
+                "@title": "Advances in Food Theory and Applications",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13540",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "541",
+                "@title": "Food Provision and Management in Dietetics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13541",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "541",
+                "@title": "Food Provision and Management in Dietetics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13541",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "545",
+                "@title": "Counselling Skills in Dietetics",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13542",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "549",
+                "@title": "M.Sc. Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13544",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "550",
+                "@title": "Advances in Human Nutrition",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "COPY_HUNU 550 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-13545",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "550",
+                "@title": "Advances in Human Nutrition",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13545",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "560",
+                "@title": "Leadership in Dietetics and Health",
+                "@syllabusTerm": "2023W1",
+                "@originalCourseName": "HUNU 560 001 2023W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-13546",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "573",
+                "@title": "Population and Public Health Dietetics",
+                "@syllabusTerm": "2023W2",
+                "@originalCourseName": "HUNU 573 002 2023W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-13547",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "575",
+                "@title": "Nutrition Care I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13548",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "576",
+                "@title": "Nutrition Care II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13549",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "576",
+                "@title": "Nutrition Care II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13549",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "577",
+                "@title": "Nutrition Care III",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13550",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "577",
+                "@title": "Nutrition Care III",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13550",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "580",
+                "@title": "Professional Dietetic Practice II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13552",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "581",
+                "@title": "Dietetics Practice Education Placement II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13553",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "631",
+                "@title": "Ph.D. Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13557",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "631",
+                "@title": "Ph.D. Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13557",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13558",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13558",
+                "@sectionNumber": "003"
+            }
+        ],
         "LFS": [
+            {
+                "@key": "100",
+                "@title": "Introduction to Land, Food and Community",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15218",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "100",
+                "@title": "Introduction to Land, Food and Community",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15218",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "100",
+                "@title": "Introduction to Land, Food and Community",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15218",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "101",
+                "@title": "Principles of Microeconomics with Applications to Land and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15219",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "101",
+                "@title": "Principles of Microeconomics with Applications to Land and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15219",
+                "@sectionNumber": "T1A"
+            },
+            {
+                "@key": "110",
+                "@title": "Land One: First-year Integrative Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15220",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "110",
+                "@title": "Land One: First-year Integrative Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15220",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "110",
+                "@title": "Land One: First-year Integrative Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15220",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "LFS 150 002 & LFS 150 008 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "LFS 150 004 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "004"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "LFS 150 005 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "005"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "LFS 150 006 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "006"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "2022W2",
+                "@originalCourseName": "LFS 150 007 2022W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "007"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "LFS 150 008 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "008"
+            },
+            {
+                "@key": "150",
+                "@title": "Scholarly Writing and Argumentation in Land and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15221",
+                "@sectionNumber": "201"
+            },
+            {
+                "@key": "250",
+                "@title": "Land, Food and Community I: Introduction to Food Systems and Sustainability",
+                "@syllabusTerm": "2021W1-2",
+                "@originalCourseName": "COPY_LFS 250 001 2021W1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15223",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "250",
+                "@title": "Land, Food and Community I: Introduction to Food Systems and Sustainability",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15223",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "250",
+                "@title": "Land, Food and Community I: Introduction to Food Systems and Sustainability",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15223",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "250",
+                "@title": "Land, Food and Community I: Introduction to Food Systems and Sustainability",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15223",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "250",
+                "@title": "Land, Food and Community I: Introduction to Food Systems and Sustainability",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15223",
+                "@sectionNumber": "T02"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "LFS 252 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T02"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T03"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T04"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T05"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T06"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T07"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T08"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T09"
+            },
+            {
+                "@key": "252",
+                "@title": "Land, Food, and Community: Quantitative Data Analysis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15224",
+                "@sectionNumber": "T10"
+            },
+            {
+                "@key": "340",
+                "@title": "First Nations Health and the Traditional Role of Plants",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "LFS 340 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-15230",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "350",
+                "@title": "Land, Food, and Community II: Principles and Practice of Community Food Security",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "LFS 350 001 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-15231",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "350",
+                "@title": "Land, Food, and Community II: Principles and Practice of Community Food Security",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "LFS 350 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15231",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "350",
+                "@title": "Land, Food, and Community II: Principles and Practice of Community Food Security",
+                "@syllabusTerm": "2022W1",
+                "@originalCourseName": "LFS 350 199 2022W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-15231",
+                "@sectionNumber": "199"
+            },
+            {
+                "@key": "398",
+                "@title": "Co-operative Work Placement I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15232",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "399",
+                "@title": "Co-operative Work Placement II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15233",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "399",
+                "@title": "Co-operative Work Placement II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15233",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "400",
+                "@title": "Audio Storytelling",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "LFS 400 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15235",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "400",
+                "@title": "Audio Storytelling",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15235",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "402",
+                "@title": "Living Language: Science and Society",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15236",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "450",
+                "@title": "Land, Food, and Community III: Leadership in Campus Food System Sustainability",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "LFS 450 001 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15237",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "496A",
+                "@title": "Career Development Practicum - Career Development Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-229816",
+                "@sectionNumber": "A_001"
+            },
+            {
+                "@key": "496B",
+                "@title": "Career Development Practicum - Career Development Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-247767",
+                "@sectionNumber": "B_001"
+            },
+            {
+                "@key": "498",
+                "@title": "Co-operative Work Placement III",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15240",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "500",
+                "@title": "Graduate Seminar",
+                "@syllabusTerm": "2021W1-2",
+                "@originalCourseName": "LFS 500 001 2021W1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15243",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "500",
+                "@title": "Graduate Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15243",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "530A",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-259789",
+                "@sectionNumber": "A_001"
+            },
+            {
+                "@key": "530A",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-259789",
+                "@sectionNumber": "A_002"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15248",
+                "@sectionNumber": "003"
+            },
             {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-15250",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15250",
+                "@sectionNumber": "003"
+            }
+        ],
+        "LWS": [
+            {
+                "@key": "501",
+                "@title": "Advanced Soil Processes",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15724",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "501",
+                "@title": "Advanced Soil Processes",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15724",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "510",
+                "@title": "Land and Water Seminar",
+                "@syllabusTerm": "2021W1-2",
+                "@originalCourseName": "LWS 510 003 2021W1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15725",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "515",
+                "@title": "Watershed Science",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15726",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "516",
+                "@title": "Urban Watershed Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-628390",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "517",
+                "@title": "Land and Water Resource Evaluation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15727",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "525",
+                "@title": "Global Issues in Land and Water Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-628421",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "550",
+                "@title": "Professional Communications Strategies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15729",
+                "@sectionNumber": "002"
+            }
+        ],
+        "PLNT": [
+            {
+                "@key": "523",
+                "@title": "Graduate Research Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-20312",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "523",
+                "@title": "Graduate Research Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-20312",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "540",
+                "@title": "Plant Molecular Biology Laboratory",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-20327",
+                "@sectionNumber": "101"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242960",
+                "@sectionNumber": "-_003"
+            },
+            {
+                "@key": "590A",
+                "@title": "Advanced Topics in Plant Science - PLNT IMG PROCESS",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242967",
+                "@sectionNumber": "A_001"
+            },
+            {
+                "@key": "590B",
+                "@title": "Advanced Topics in Plant Science - ADV PLNT WATER",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-236946",
+                "@sectionNumber": "B_002"
+            },
+            {
+                "@key": "590G",
+                "@title": "Advanced Topics in Plant Science - INDIGENOUS ECO",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-224853",
+                "@sectionNumber": "G_001"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-20333",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-20333",
+                "@sectionNumber": "003"
+            }
+        ],
+        "SOIL": [
+            {
+                "@key": "500",
+                "@title": "Graduate Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22486",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "500",
+                "@title": "Graduate Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22486",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "500",
+                "@title": "Graduate Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22486",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "501",
+                "@title": "Advanced Soil Processes",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22487",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "501",
+                "@title": "Advanced Soil Processes",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22487",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "502",
+                "@title": "Advanced Sustainable Soil Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22488",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "502",
+                "@title": "Advanced Sustainable Soil Management",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22488",
+                "@sectionNumber": "T01"
+            },
+            {
+                "@key": "516",
+                "@title": "Urban Watershed Management",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "SOIL 516 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-22496",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "517",
+                "@title": "Land and Water Resource Evaluation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22497",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22507",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22507",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22507",
+                "@sectionNumber": "003"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22510",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22510",
                 "@sectionNumber": "003"
             }
         ]

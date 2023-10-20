@@ -2,22 +2,6 @@
     "2022W": {
         "APBI": [
             {
-                "@key": "100",
-                "@title": "Soil and the Global Environment",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-793",
-                "@sectionNumber": "99A"
-            },
-            {
-                "@key": "100",
-                "@title": "Soil and the Global Environment",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-793",
-                "@sectionNumber": "99B"
-            },
-            {
                 "@key": "200",
                 "@title": "Introduction to Soil Science",
                 "@syllabusTerm": "",
@@ -114,52 +98,12 @@
                 "@sectionNumber": "L10"
             },
             {
-                "@key": "200",
-                "@title": "Introduction to Soil Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-795",
-                "@sectionNumber": "PR1"
-            },
-            {
-                "@key": "200",
-                "@title": "Introduction to Soil Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-795",
-                "@sectionNumber": "PR2"
-            },
-            {
-                "@key": "200",
-                "@title": "Introduction to Soil Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-795",
-                "@sectionNumber": "PR3"
-            },
-            {
-                "@key": "200",
-                "@title": "Introduction to Soil Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-795",
-                "@sectionNumber": "PR4"
-            },
-            {
                 "@key": "210",
                 "@title": "Vascular Plants",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-796",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "210",
-                "@title": "Vascular Plants",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-796",
-                "@sectionNumber": "L01"
             },
             {
                 "@key": "210",
@@ -176,14 +120,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-796",
                 "@sectionNumber": "L03"
-            },
-            {
-                "@key": "210",
-                "@title": "Vascular Plants",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-796",
-                "@sectionNumber": "L04"
             },
             {
                 "@key": "210",
@@ -216,30 +152,6 @@
                 "@originalCourseName": "APBI 214 002 2022W2",
                 "@courseDefinition": "COURSE_DEFINITION-3-632985",
                 "@sectionNumber": "002"
-            },
-            {
-                "@key": "222",
-                "@title": "Introduction to Horticulture",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-797",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "222",
-                "@title": "Introduction to Horticulture",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-797",
-                "@sectionNumber": "L01"
-            },
-            {
-                "@key": "235",
-                "@title": "Biotechnology in Agricultural Food Production",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-798",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "244",
@@ -338,14 +250,6 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "290",
-                "@title": "Introductory Topics in Applied Biology",
-                "@syllabusTerm": "2021W2",
-                "@originalCourseName": "APBI 290 002 2021W2",
-                "@courseDefinition": "COURSE_DEFINITION-3-802",
-                "@sectionNumber": "002"
-            },
-            {
                 "@key": "311",
                 "@title": "Comparative Cardiovascular, Respiratory and Osmoregulatory Physiology",
                 "@syllabusTerm": "",
@@ -418,14 +322,6 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "319",
-                "@title": "Aquaculture and the Environment",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-811",
-                "@sectionNumber": "99C"
-            },
-            {
                 "@key": "322",
                 "@title": "Horticultural Techniques",
                 "@syllabusTerm": "",
@@ -456,6 +352,14 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-813",
                 "@sectionNumber": "L01"
+            },
+            {
+                "@key": "324",
+                "@title": "Introduction to Seed Plant Taxonomy",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-813",
+                "@sectionNumber": "L02"
             },
             {
                 "@key": "326",
@@ -514,30 +418,6 @@
                 "@sectionNumber": "L04"
             },
             {
-                "@key": "328",
-                "@title": "Weed Science",
-                "@syllabusTerm": "2021W1",
-                "@originalCourseName": "APBI 328 001 2021W1",
-                "@courseDefinition": "COURSE_DEFINITION-3-816",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "328",
-                "@title": "Weed Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-816",
-                "@sectionNumber": "L01"
-            },
-            {
-                "@key": "328",
-                "@title": "Weed Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-816",
-                "@sectionNumber": "L02"
-            },
-            {
                 "@key": "342",
                 "@title": "Soil Biology",
                 "@syllabusTerm": "",
@@ -560,6 +440,22 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-818",
                 "@sectionNumber": "101"
+            },
+            {
+                "@key": "351",
+                "@title": "Plant Physiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-818",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "351",
+                "@title": "Plant Physiology",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-818",
+                "@sectionNumber": "L02"
             },
             {
                 "@key": "351",
@@ -592,14 +488,6 @@
                 "@originalCourseName": "APBI 361 199 2021W2",
                 "@courseDefinition": "COURSE_DEFINITION-3-820",
                 "@sectionNumber": "199"
-            },
-            {
-                "@key": "365",
-                "@title": "Summer Practicum in Sustainable Agriculture and Food Systems",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-821",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "398",
@@ -658,22 +546,6 @@
                 "@sectionNumber": "L01"
             },
             {
-                "@key": "403",
-                "@title": "Soil Sampling, Analyses and Data Interpretation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-827",
-                "@sectionNumber": "PR1"
-            },
-            {
-                "@key": "403",
-                "@title": "Soil Sampling, Analyses and Data Interpretation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-827",
-                "@sectionNumber": "PR2"
-            },
-            {
                 "@key": "405",
                 "@title": "Plant-Water Relations for Sustainable Agriculture",
                 "@syllabusTerm": "2022W2",
@@ -688,38 +560,6 @@
                 "@originalCourseName": "APBI 410 002 2021W1",
                 "@courseDefinition": "COURSE_DEFINITION-3-828",
                 "@sectionNumber": "002"
-            },
-            {
-                "@key": "411",
-                "@title": "Reproductive Physiology and Technology",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-829",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "411",
-                "@title": "Reproductive Physiology and Technology",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-829",
-                "@sectionNumber": "L01"
-            },
-            {
-                "@key": "412",
-                "@title": "Belowground Ecosystems",
-                "@syllabusTerm": "2021W2",
-                "@originalCourseName": "APBI 412 001 2021W2",
-                "@courseDefinition": "COURSE_DEFINITION-3-830",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "413",
-                "@title": "Stress and Coping in Animals",
-                "@syllabusTerm": "2021W1",
-                "@originalCourseName": "APBI 413 001 2021W1",
-                "@courseDefinition": "COURSE_DEFINITION-3-831",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "414",
@@ -746,44 +586,12 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "417",
-                "@title": "Production and Postharvest Physiology of Vegetable Crops",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-835",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "417",
-                "@title": "Production and Postharvest Physiology of Vegetable Crops",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-835",
-                "@sectionNumber": "L01"
-            },
-            {
-                "@key": "418",
-                "@title": "Intensive Fish Production",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-836",
-                "@sectionNumber": "99A"
-            },
-            {
                 "@key": "419",
                 "@title": "Fish Health",
                 "@syllabusTerm": "2022W2",
                 "@originalCourseName": "APBI 419 201 2022W2",
                 "@courseDefinition": "COURSE_DEFINITION-3-837",
                 "@sectionNumber": "201"
-            },
-            {
-                "@key": "419",
-                "@title": "Fish Health",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-837",
-                "@sectionNumber": "99C"
             },
             {
                 "@key": "423",
@@ -824,14 +632,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-844",
                 "@sectionNumber": "201"
-            },
-            {
-                "@key": "428",
-                "@title": "Integrated Pest Management",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-844",
-                "@sectionNumber": "99C"
             },
             {
                 "@key": "440",
@@ -882,11 +682,19 @@
                 "@sectionNumber": "002"
             },
             {
+                "@key": "465",
+                "@title": "Capstone in Sustainable Agriculture and Food Systems",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-852",
+                "@sectionNumber": "001"
+            },
+            {
                 "@key": "490A",
                 "@title": "Advanced Topics in Applied Biology - EXP DSGN, STATS",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-112640",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-233445",
                 "@sectionNumber": "A_101"
             },
             {
@@ -894,7 +702,7 @@
                 "@title": "Advanced Topics in Applied Biology - POLLINATN ECOLGY",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-151849",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263400",
                 "@sectionNumber": "B_102"
             },
             {
@@ -902,15 +710,15 @@
                 "@title": "Advanced Topics in Applied Biology - INDIGNOUS FD SYS",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-151848",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263399",
                 "@sectionNumber": "C_103"
             },
             {
-                "@key": "490E",
-                "@title": "Advanced Topics in Applied Biology - HW,D SHELT ANMLS",
+                "@key": "490D",
+                "@title": "Advanced Topics in Applied Biology - HU WLDLFE CNFLCT",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-151850",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-257441",
                 "@sectionNumber": "D_201"
             },
             {
@@ -918,23 +726,31 @@
                 "@title": "Advanced Topics in Applied Biology - HW,D SHELT ANMLS",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-151850",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263401",
                 "@sectionNumber": "E_202"
             },
             {
-                "@key": "495",
-                "@title": "Human Wildlife Conflict",
+                "@key": "496A",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-854",
-                "@sectionNumber": "001"
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263342",
+                "@sectionNumber": "A_001"
+            },
+            {
+                "@key": "496A",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263342",
+                "@sectionNumber": "A_002"
             },
             {
                 "@key": "496B",
                 "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136304",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251400",
                 "@sectionNumber": "B_001"
             },
             {
@@ -942,71 +758,15 @@
                 "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136304",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251400",
                 "@sectionNumber": "B_002"
             },
             {
-                "@key": "496B",
-                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136304",
-                "@sectionNumber": "B_003"
-            },
-            {
-                "@key": "496M",
-                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-170004",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "496M",
-                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-170004",
-                "@sectionNumber": "A_002"
-            },
-            {
-                "@key": "496M",
-                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-170004",
-                "@sectionNumber": "A_003"
-            },
-            {
-                "@key": "497A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-104968",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "497A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-104968",
-                "@sectionNumber": "A_002"
-            },
-            {
                 "@key": "497B",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136415",
-                "@sectionNumber": "B_001"
-            },
-            {
-                "@key": "497B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136415",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251581",
                 "@sectionNumber": "B_002"
             },
             {
@@ -1014,39 +774,15 @@
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-144231",
-                "@sectionNumber": "C_001"
-            },
-            {
-                "@key": "497C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-144231",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-257567",
                 "@sectionNumber": "C_002"
-            },
-            {
-                "@key": "497D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136425",
-                "@sectionNumber": "D_001"
-            },
-            {
-                "@key": "497D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136425",
-                "@sectionNumber": "D_002"
             },
             {
                 "@key": "497E",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-120634",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-239627",
                 "@sectionNumber": "E_001"
             },
             {
@@ -1054,15 +790,7 @@
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-120634",
-                "@sectionNumber": "E_101"
-            },
-            {
-                "@key": "497E",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-120634",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-239627",
                 "@sectionNumber": "E_102"
             },
             {
@@ -1071,22 +799,6 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-857",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "498",
-                "@title": "Undergraduate Essay",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-857",
-                "@sectionNumber": "102"
-            },
-            {
-                "@key": "499",
-                "@title": "Undergraduate Thesis",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-858",
                 "@sectionNumber": "101"
             },
             {
@@ -1095,7 +807,7 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-858",
-                "@sectionNumber": "102"
+                "@sectionNumber": "001"
             }
         ],
         "FNH": [
@@ -1154,14 +866,6 @@
                 "@originalCourseName": "FNH 200 105 2022W1",
                 "@courseDefinition": "COURSE_DEFINITION-3-10234",
                 "@sectionNumber": "105"
-            },
-            {
-                "@key": "200",
-                "@title": "Exploring Our Food",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10234",
-                "@sectionNumber": "99A"
             },
             {
                 "@key": "250",
@@ -1262,10 +966,18 @@
             {
                 "@key": "325",
                 "@title": "Food Science Laboratory I",
+                "@syllabusTerm": "2021W1",
+                "@originalCourseName": "COPY - FNH 325 001 2021W1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10246",
+                "@sectionNumber": "001"
+            },
+            {
+                "@key": "325",
+                "@title": "Food Science Laboratory I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10246",
-                "@sectionNumber": "PRP"
+                "@sectionNumber": "T01"
             },
             {
                 "@key": "326",
@@ -1274,14 +986,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10247",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "326",
-                "@title": "Food Science Laboratory II",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10247",
-                "@sectionNumber": "PRP"
             },
             {
                 "@key": "326",
@@ -1293,7 +997,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "2021W1",
                 "@originalCourseName": "FNH 330 001 2021W1",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1301,7 +1005,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "2021W2",
                 "@originalCourseName": "COPY - FNH 330 002 2021W2",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1309,7 +1013,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1317,7 +1021,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1325,7 +1029,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1333,7 +1037,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1341,7 +1045,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1349,7 +1053,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1357,7 +1061,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1365,7 +1069,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1373,7 +1077,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1381,7 +1085,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1389,7 +1093,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1397,7 +1101,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1405,7 +1109,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1413,7 +1117,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1421,7 +1125,7 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
@@ -1429,27 +1133,11 @@
             },
             {
                 "@key": "330",
-                "@title": "Introduction to Wine Science 1",
+                "@title": "Introduction to Wine Science I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10248",
                 "@sectionNumber": "L2H"
-            },
-            {
-                "@key": "330",
-                "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10248",
-                "@sectionNumber": "PR1"
-            },
-            {
-                "@key": "330",
-                "@title": "Introduction to Wine Science 1",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10248",
-                "@sectionNumber": "PR2"
             },
             {
                 "@key": "335",
@@ -1468,14 +1156,6 @@
                 "@sectionNumber": "L01"
             },
             {
-                "@key": "335",
-                "@title": "Introduction to Wine Science II",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10249",
-                "@sectionNumber": "PR1"
-            },
-            {
                 "@key": "340",
                 "@title": "Food Theory and Applications",
                 "@syllabusTerm": "2021W2",
@@ -1492,28 +1172,12 @@
                 "@sectionNumber": "L02"
             },
             {
-                "@key": "341",
-                "@title": "Food Theory Applications",
+                "@key": "340",
+                "@title": "Food Theory and Applications",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10251",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "341",
-                "@title": "Food Theory Applications",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10251",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "341",
-                "@title": "Food Theory Applications",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10251",
-                "@sectionNumber": "003"
+                "@courseDefinition": "COURSE_DEFINITION-3-10250",
+                "@sectionNumber": "L03"
             },
             {
                 "@key": "342",
@@ -1700,14 +1364,6 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "413",
-                "@title": "Food Safety",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10268",
-                "@sectionNumber": "101"
-            },
-            {
                 "@key": "414",
                 "@title": "Sustainability in the Food Industry",
                 "@syllabusTerm": "2022W1",
@@ -1724,36 +1380,12 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "419",
-                "@title": "Interfacial Phenomena",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10270",
-                "@sectionNumber": "001"
-            },
-            {
                 "@key": "425",
                 "@title": "Food Science Laboratory III",
                 "@syllabusTerm": "2022W1-2",
                 "@originalCourseName": "FNH 425 001 2022W1-2",
                 "@courseDefinition": "COURSE_DEFINITION-3-10271",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "430",
-                "@title": "Enology and Wine Biotechnology",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10272",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "436",
-                "@title": "Integrated Functional Genomics",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10273",
-                "@sectionNumber": "101"
             },
             {
                 "@key": "440",
@@ -1786,22 +1418,6 @@
                 "@originalCourseName": "FNH 455 001 2021W2",
                 "@courseDefinition": "COURSE_DEFINITION-3-10281",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "460",
-                "@title": "International Nutrition Field Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10282",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "460",
-                "@title": "International Nutrition Field Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10282",
-                "@sectionNumber": "002"
             },
             {
                 "@key": "470",
@@ -1860,22 +1476,6 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "481",
-                "@title": "Dietetics Practice Education Placement II",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10291",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "481",
-                "@title": "Dietetics Practice Education Placement II",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10291",
-                "@sectionNumber": "002"
-            },
-            {
                 "@key": "482",
                 "@title": "Dietetics Practice Education Placement III",
                 "@syllabusTerm": "",
@@ -1905,38 +1505,22 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10294",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "490",
-                "@title": "Advanced Topics in Food, Nutrition, and Health",
-                "@syllabusTerm": "2021W1",
-                "@originalCourseName": "FNH 490 004 2021W1",
-                "@courseDefinition": "COURSE_DEFINITION-3-10294",
-                "@sectionNumber": "004"
-            },
-            {
-                "@key": "490",
-                "@title": "Advanced Topics in Food, Nutrition, and Health",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10294",
                 "@sectionNumber": "DY5"
             },
             {
-                "@key": "497A",
-                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
+                "@key": "490",
+                "@title": "Advanced Topics in Food, Nutrition, and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-147114",
-                "@sectionNumber": "A_101"
+                "@courseDefinition": "COURSE_DEFINITION-3-10294",
+                "@sectionNumber": "OF2"
             },
             {
                 "@key": "497A",
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-147114",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-258386",
                 "@sectionNumber": "A_102"
             },
             {
@@ -1944,7 +1528,7 @@
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-123610",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-240487",
                 "@sectionNumber": "B_101"
             },
             {
@@ -1952,7 +1536,7 @@
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-123610",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-240487",
                 "@sectionNumber": "B_102"
             },
             {
@@ -1960,7 +1544,7 @@
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
                 "@sectionNumber": "E_001"
             },
             {
@@ -1968,31 +1552,15 @@
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
-                "@sectionNumber": "E_101"
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
+                "@sectionNumber": "E_DY5"
             },
             {
                 "@key": "497E",
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
-                "@sectionNumber": "E_102"
-            },
-            {
-                "@key": "497E",
-                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
-                "@sectionNumber": "E_OF1"
-            },
-            {
-                "@key": "497E",
-                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
                 "@sectionNumber": "E_OF2"
             },
             {
@@ -2000,16 +1568,8 @@
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
                 "@sectionNumber": "E_ON1"
-            },
-            {
-                "@key": "497E",
-                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
-                "@sectionNumber": "E_ON2"
             },
             {
                 "@key": "499",
@@ -2018,22 +1578,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10297",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "499",
-                "@title": "Undergraduate Thesis",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10297",
-                "@sectionNumber": "101"
-            },
-            {
-                "@key": "499",
-                "@title": "Undergraduate Thesis",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10297",
-                "@sectionNumber": "102"
             }
         ],
         "FOOD": [
@@ -2052,6 +1596,14 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10473",
                 "@sectionNumber": "002"
+            },
+            {
+                "@key": "500",
+                "@title": "M.Sc. Seminar",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10473",
+                "@sectionNumber": "003"
             },
             {
                 "@key": "510",
@@ -2091,14 +1643,6 @@
                 "@syllabusTerm": "2022W2",
                 "@originalCourseName": "FOOD 516 001 2022W2",
                 "@courseDefinition": "COURSE_DEFINITION-3-10488",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "519",
-                "@title": "Interfacial Phenomena",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10490",
                 "@sectionNumber": "001"
             },
             {
@@ -2178,7 +1722,7 @@
                 "@title": "Special Topics in Food Science - SP TPS FOOD SCIE",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-154841",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-264442",
                 "@sectionNumber": "A_001"
             },
             {
@@ -2190,107 +1734,43 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
+                "@key": "529",
+                "@title": "Laboratory Methods in Sensory Evaluation",
+                "@syllabusTerm": "2021W2",
+                "@originalCourseName": "FOOD 529 002 2021W2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10500",
+                "@sectionNumber": "002"
+            },
+            {
+                "@key": "529",
+                "@title": "Laboratory Methods in Sensory Evaluation",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-107744",
-                "@sectionNumber": "A_001"
+                "@courseDefinition": "COURSE_DEFINITION-3-10500",
+                "@sectionNumber": "L02"
             },
             {
                 "@key": "530A",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-107744",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-228499",
                 "@sectionNumber": "A_002"
             },
             {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-107744",
-                "@sectionNumber": "A_003"
-            },
-            {
                 "@key": "530B",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-107742",
-                "@sectionNumber": "B_001"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-107742",
-                "@sectionNumber": "B_002"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-107742",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-228492",
                 "@sectionNumber": "B_003"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139216",
-                "@sectionNumber": "C_001"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139216",
-                "@sectionNumber": "C_002"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139216",
-                "@sectionNumber": "C_003"
-            },
-            {
-                "@key": "530D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-131376",
-                "@sectionNumber": "D_004"
-            },
-            {
-                "@key": "531",
-                "@title": "Master of Food Science Practicum Project",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10502",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "531",
-                "@title": "Master of Food Science Practicum Project",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10502",
-                "@sectionNumber": "002"
             },
             {
                 "@key": "549-",
                 "@title": "Master's Thesis - Master's Thesis",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139224",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
                 "@sectionNumber": "-_001"
             },
             {
@@ -2298,8 +1778,16 @@
                 "@title": "Master's Thesis - Master's Thesis",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139224",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
                 "@sectionNumber": "-_002"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
+                "@sectionNumber": "-_003"
             },
             {
                 "@key": "600",
@@ -2308,14 +1796,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10505",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "600",
-                "@title": "Ph.D. Seminar",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10505",
-                "@sectionNumber": "002"
             },
             {
                 "@key": "600",
@@ -2332,14 +1812,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10506",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "649",
-                "@title": "Doctoral Dissertation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10506",
-                "@sectionNumber": "002"
             },
             {
                 "@key": "649",
@@ -2351,38 +1823,6 @@
             }
         ],
         "FRE": [
-            {
-                "@key": "295",
-                "@title": "Managerial Economics",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10824",
-                "@sectionNumber": "101"
-            },
-            {
-                "@key": "295",
-                "@title": "Managerial Economics",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10824",
-                "@sectionNumber": "102"
-            },
-            {
-                "@key": "295",
-                "@title": "Managerial Economics",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10824",
-                "@sectionNumber": "103"
-            },
-            {
-                "@key": "295",
-                "@title": "Managerial Economics",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10824",
-                "@sectionNumber": "105"
-            },
             {
                 "@key": "295",
                 "@title": "Managerial Economics",
@@ -2461,14 +1901,6 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10832",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "394",
-                "@title": "Government and Business",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10832",
                 "@sectionNumber": "101"
             },
             {
@@ -2477,15 +1909,7 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10832",
-                "@sectionNumber": "105"
-            },
-            {
-                "@key": "420",
-                "@title": "The Economics of International Trade and the Environment",
-                "@syllabusTerm": "2021W2",
-                "@originalCourseName": "FRE 420 001 2021W2",
-                "@courseDefinition": "COURSE_DEFINITION-3-10835",
-                "@sectionNumber": "001"
+                "@sectionNumber": "103"
             },
             {
                 "@key": "460",
@@ -2517,22 +1941,6 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10844",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "500",
-                "@title": "MSc Seminar",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10844",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "500",
-                "@title": "MSc Seminar",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10844",
                 "@sectionNumber": "003"
             },
             {
@@ -2549,14 +1957,6 @@
                 "@syllabusTerm": "2022W1",
                 "@originalCourseName": "FRE 502 001 2022W1",
                 "@courseDefinition": "COURSE_DEFINITION-3-10846",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "504",
-                "@title": "Agricultural and Resource Policy Analysis",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10848",
                 "@sectionNumber": "001"
             },
             {
@@ -2592,14 +1992,6 @@
                 "@sectionNumber": "L01"
             },
             {
-                "@key": "517",
-                "@title": "Futures Trading in Agricultural Commodities",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10852",
-                "@sectionNumber": "002"
-            },
-            {
                 "@key": "518",
                 "@title": "Survey Design and Data Analysis",
                 "@syllabusTerm": "",
@@ -2616,27 +2008,11 @@
                 "@sectionNumber": "003"
             },
             {
-                "@key": "521C",
-                "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-100202",
-                "@sectionNumber": "C_001"
-            },
-            {
-                "@key": "521C",
-                "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-100202",
-                "@sectionNumber": "C_002"
-            },
-            {
                 "@key": "521D",
                 "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-131669",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-246664",
                 "@sectionNumber": "D_002"
             },
             {
@@ -2644,7 +2020,7 @@
                 "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-131669",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-246664",
                 "@sectionNumber": "D_L02"
             },
             {
@@ -2652,15 +2028,7 @@
                 "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-115751",
-                "@sectionNumber": "E_001"
-            },
-            {
-                "@key": "521E",
-                "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-115751",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-234698",
                 "@sectionNumber": "E_002"
             },
             {
@@ -2668,7 +2036,7 @@
                 "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-147307",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-258645",
                 "@sectionNumber": "G_002"
             },
             {
@@ -2676,16 +2044,8 @@
                 "@title": "Topics in Food and Resource Economics - TOPICS IN FRE",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-147306",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-258641",
                 "@sectionNumber": "R_001"
-            },
-            {
-                "@key": "522",
-                "@title": "Environmental Externalities in the Global Economy",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10856",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "523",
@@ -2728,28 +2088,12 @@
                 "@sectionNumber": "L01"
             },
             {
-                "@key": "529",
-                "@title": "Estimating Econometric Models",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10863",
-                "@sectionNumber": "002"
-            },
-            {
                 "@key": "530",
                 "@title": "Econometrics with Time Series Data",
                 "@syllabusTerm": "2022W2",
                 "@originalCourseName": "COPY_FRE 530 002 2022W2",
                 "@courseDefinition": "COURSE_DEFINITION-3-10864",
                 "@sectionNumber": "002"
-            },
-            {
-                "@key": "530",
-                "@title": "Econometrics with Time Series Data",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10864",
-                "@sectionNumber": "L02"
             },
             {
                 "@key": "531",
@@ -2760,36 +2104,12 @@
                 "@sectionNumber": "002"
             },
             {
-                "@key": "541",
-                "@title": "Project Monitoring and Evaluation in International Development",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10866",
-                "@sectionNumber": "001"
-            },
-            {
                 "@key": "547",
                 "@title": "Graduating Project",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10867",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "547",
-                "@title": "Graduating Project",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10867",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "547",
-                "@title": "Graduating Project",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10867",
-                "@sectionNumber": "003"
             },
             {
                 "@key": "585",
@@ -2797,30 +2117,6 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10868",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "585",
-                "@title": "Quantitative Methods for Business and Natural Resource Management",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10868",
-                "@sectionNumber": "L02"
-            },
-            {
-                "@key": "600",
-                "@title": "PhD Seminar",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10870",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "600",
-                "@title": "PhD Seminar",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10870",
                 "@sectionNumber": "002"
             },
             {
@@ -2838,7 +2134,7 @@
                 "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-155162",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-264758",
                 "@sectionNumber": "-_001"
             },
             {
@@ -2846,15 +2142,7 @@
                 "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-155162",
-                "@sectionNumber": "-_102"
-            },
-            {
-                "@key": "290-",
-                "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-155162",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-264758",
                 "@sectionNumber": "-_103"
             },
             {
@@ -2862,23 +2150,15 @@
                 "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-155162",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-264758",
                 "@sectionNumber": "-_104"
-            },
-            {
-                "@key": "300",
-                "@title": "Global Water and Energy Nexus",
-                "@syllabusTerm": "2021W2",
-                "@originalCourseName": "GRS 300 001 2021W2",
-                "@courseDefinition": "COURSE_DEFINITION-3-12223",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "390-",
                 "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139600",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252846",
                 "@sectionNumber": "-_001"
             },
             {
@@ -2886,7 +2166,7 @@
                 "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139600",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252846",
                 "@sectionNumber": "-_102"
             },
             {
@@ -2894,7 +2174,7 @@
                 "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139600",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252846",
                 "@sectionNumber": "-_103"
             },
             {
@@ -2902,39 +2182,15 @@
                 "@title": "Global Issues in Cultural Context - GLOBAL ISSUES",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139600",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252846",
                 "@sectionNumber": "-_104"
             },
             {
-                "@key": "397A",
-                "@title": "Regional Directed Field Studies - REG DIR FLD STUD",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-131775",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "397A",
-                "@title": "Regional Directed Field Studies - REG DIR FLD STUD",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-131775",
-                "@sectionNumber": "A_002"
-            },
-            {
                 "@key": "397B",
                 "@title": "Regional Directed Field Studies - REG DIR FLD STUD",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-100540",
-                "@sectionNumber": "B_003"
-            },
-            {
-                "@key": "397B",
-                "@title": "Regional Directed Field Studies - REG DIR FLD STUD",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-100540",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-222872",
                 "@sectionNumber": "B_004"
             },
             {
@@ -2962,19 +2218,11 @@
                 "@sectionNumber": "103"
             },
             {
-                "@key": "490",
-                "@title": "Global Issues in Cultural Context",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-12227",
-                "@sectionNumber": "104"
-            },
-            {
                 "@key": "497B",
                 "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139603",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252850",
                 "@sectionNumber": "B_001"
             },
             {
@@ -2982,23 +2230,15 @@
                 "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139603",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252850",
                 "@sectionNumber": "B_002"
-            },
-            {
-                "@key": "497B",
-                "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139603",
-                "@sectionNumber": "B_003"
             },
             {
                 "@key": "497E",
                 "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-108147",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-228856",
                 "@sectionNumber": "E_101"
             }
         ],
@@ -3009,22 +2249,6 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-13525",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "503",
-                "@title": "Current Issues in Nutrition and Metabolism",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-13526",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "505",
-                "@title": "Current Issues in Applied Nutrition",
-                "@syllabusTerm": "2021W1",
-                "@originalCourseName": "HUNU 505 001 2021W1",
-                "@courseDefinition": "COURSE_DEFINITION-3-13527",
                 "@sectionNumber": "001"
             },
             {
@@ -3088,7 +2312,7 @@
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-124052",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-241157",
                 "@sectionNumber": "B_001"
             },
             {
@@ -3096,24 +2320,8 @@
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-124052",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-241157",
                 "@sectionNumber": "B_002"
-            },
-            {
-                "@key": "547E",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-147567",
-                "@sectionNumber": "E_002"
-            },
-            {
-                "@key": "549",
-                "@title": "M.Sc. Thesis",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-13544",
-                "@sectionNumber": "101"
             },
             {
                 "@key": "549",
@@ -3228,14 +2436,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-15218",
                 "@sectionNumber": "003"
-            },
-            {
-                "@key": "100",
-                "@title": "Introduction to Land, Food and Community",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15218",
-                "@sectionNumber": "XMT"
             },
             {
                 "@key": "101",
@@ -3380,14 +2580,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-15223",
                 "@sectionNumber": "L01"
-            },
-            {
-                "@key": "250",
-                "@title": "Land, Food and Community I: Introduction to Food Systems and Sustainability",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15223",
-                "@sectionNumber": "L02"
             },
             {
                 "@key": "250",
@@ -3574,30 +2766,6 @@
                 "@sectionNumber": "T10"
             },
             {
-                "@key": "302A",
-                "@title": "International Field Studies - International Field Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-101453",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "302A",
-                "@title": "International Field Studies - International Field Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-101453",
-                "@sectionNumber": "A_002"
-            },
-            {
-                "@key": "302B",
-                "@title": "International Field Studies - International Field Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-156105",
-                "@sectionNumber": "B_001"
-            },
-            {
                 "@key": "340",
                 "@title": "First Nations Health and the Traditional Role of Plants",
                 "@syllabusTerm": "2021W1",
@@ -3638,36 +2806,12 @@
                 "@sectionNumber": "199"
             },
             {
-                "@key": "350",
-                "@title": "Land, Food, and Community II: Principles and Practice of Community Food Security",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15231",
-                "@sectionNumber": "299"
-            },
-            {
                 "@key": "398",
                 "@title": "Co-operative Work Placement I",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-15232",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "398",
-                "@title": "Co-operative Work Placement I",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15232",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "398",
-                "@title": "Co-operative Work Placement I",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15232",
-                "@sectionNumber": "003"
             },
             {
                 "@key": "399",
@@ -3684,14 +2828,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-15233",
                 "@sectionNumber": "002"
-            },
-            {
-                "@key": "399",
-                "@title": "Co-operative Work Placement II",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15233",
-                "@sectionNumber": "003"
             },
             {
                 "@key": "400",
@@ -3718,19 +2854,11 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "490-",
-                "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
+                "@key": "496A",
+                "@title": "Career Development Practicum - Career Development Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-148391",
-                "@sectionNumber": "-_001"
-            },
-            {
-                "@key": "490A",
-                "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-116977",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-229816",
                 "@sectionNumber": "A_001"
             },
             {
@@ -3738,15 +2866,7 @@
                 "@title": "Career Development Practicum - Career Development Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-109131",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "496A",
-                "@title": "Career Development Practicum - Career Development Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-109131",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-229816",
                 "@sectionNumber": "A_002"
             },
             {
@@ -3754,80 +2874,16 @@
                 "@title": "Career Development Practicum - Career Development Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-132721",
-                "@sectionNumber": "B_001"
-            },
-            {
-                "@key": "496B",
-                "@title": "Career Development Practicum - Career Development Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-132721",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-247767",
                 "@sectionNumber": "B_002"
             },
             {
-                "@key": "496B",
-                "@title": "Career Development Practicum - Career Development Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-132721",
-                "@sectionNumber": "B_003"
-            },
-            {
-                "@key": "498",
-                "@title": "Co-operative Work Placement III",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15240",
-                "@sectionNumber": "001"
-            },
-            {
                 "@key": "498",
                 "@title": "Co-operative Work Placement III",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-15240",
                 "@sectionNumber": "002"
-            },
-            {
-                "@key": "498",
-                "@title": "Co-operative Work Placement III",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15240",
-                "@sectionNumber": "003"
-            },
-            {
-                "@key": "499",
-                "@title": "Co-operative Work Placement IV",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15241",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "499",
-                "@title": "Co-operative Work Placement IV",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15241",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "499",
-                "@title": "Co-operative Work Placement IV",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15241",
-                "@sectionNumber": "003"
-            },
-            {
-                "@key": "500",
-                "@title": "Graduate Seminar",
-                "@syllabusTerm": "2021W1-2",
-                "@originalCourseName": "LFS 500 001 2021W1-2",
-                "@courseDefinition": "COURSE_DEFINITION-3-15243",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "500",
@@ -3844,70 +2900,14 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-15243",
                 "@sectionNumber": "003"
-            },
-            {
-                "@key": "501",
-                "@title": "Approaches to the Integration of Knowledge",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15244",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "530A",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-148394",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-259789",
                 "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-148394",
-                "@sectionNumber": "A_002"
-            },
-            {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-148394",
-                "@sectionNumber": "A_003"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-109138",
-                "@sectionNumber": "B_001"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-109138",
-                "@sectionNumber": "B_002"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-109138",
-                "@sectionNumber": "B_003"
-            },
-            {
-                "@key": "549",
-                "@title": "Master's Thesis",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15248",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "549",
@@ -3932,14 +2932,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-15250",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "649",
-                "@title": "Doctoral Dissertation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15250",
-                "@sectionNumber": "002"
             },
             {
                 "@key": "649",
@@ -3976,14 +2968,6 @@
                 "@sectionNumber": "003"
             },
             {
-                "@key": "515",
-                "@title": "Watershed Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15726",
-                "@sectionNumber": "001"
-            },
-            {
                 "@key": "516",
                 "@title": "Urban Watershed Management",
                 "@syllabusTerm": "",
@@ -4014,30 +2998,6 @@
                 "@originalCourseName": "LWS 525 001 2022W2",
                 "@courseDefinition": "COURSE_DEFINITION-3-628421",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "548",
-                "@title": "Major Project",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15728",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "548",
-                "@title": "Major Project",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15728",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "548",
-                "@title": "Major Project",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15728",
-                "@sectionNumber": "003"
             },
             {
                 "@key": "550",
@@ -4074,132 +3034,12 @@
                 "@sectionNumber": "003"
             },
             {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
+                "@key": "540",
+                "@title": "Plant Molecular Biology Laboratory",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-149364",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-149364",
-                "@sectionNumber": "A_002"
-            },
-            {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-149364",
-                "@sectionNumber": "A_003"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-157164",
-                "@sectionNumber": "B_001"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-157164",
-                "@sectionNumber": "B_002"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-157164",
-                "@sectionNumber": "B_003"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-110166",
-                "@sectionNumber": "C_001"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-110166",
-                "@sectionNumber": "C_002"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-110166",
-                "@sectionNumber": "C_003"
-            },
-            {
-                "@key": "530D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125894",
-                "@sectionNumber": "D_001"
-            },
-            {
-                "@key": "530D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125894",
-                "@sectionNumber": "D_002"
-            },
-            {
-                "@key": "530D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125894",
-                "@sectionNumber": "D_003"
-            },
-            {
-                "@key": "530F",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-157165",
-                "@sectionNumber": "F_001"
-            },
-            {
-                "@key": "530F",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-157165",
-                "@sectionNumber": "F_002"
-            },
-            {
-                "@key": "530F",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-157165",
-                "@sectionNumber": "F_003"
-            },
-            {
-                "@key": "530G",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125893",
-                "@sectionNumber": "G_005"
+                "@courseDefinition": "COURSE_DEFINITION-3-20327",
+                "@sectionNumber": "101"
             },
             {
                 "@key": "542",
@@ -4214,7 +3054,7 @@
                 "@title": "Master's Thesis - Master's Thesis",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125902",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242960",
                 "@sectionNumber": "-_001"
             },
             {
@@ -4222,7 +3062,7 @@
                 "@title": "Master's Thesis - Master's Thesis",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125902",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242960",
                 "@sectionNumber": "-_002"
             },
             {
@@ -4230,64 +3070,8 @@
                 "@title": "Master's Thesis - Master's Thesis",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125902",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242960",
                 "@sectionNumber": "-_003"
-            },
-            {
-                "@key": "590-",
-                "@title": "Advanced Topics in Plant Science - Advanced Topics in Plant Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-149378",
-                "@sectionNumber": "-_001"
-            },
-            {
-                "@key": "590-",
-                "@title": "Advanced Topics in Plant Science - Advanced Topics in Plant Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-149378",
-                "@sectionNumber": "-_002"
-            },
-            {
-                "@key": "590-",
-                "@title": "Advanced Topics in Plant Science - Advanced Topics in Plant Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-149378",
-                "@sectionNumber": "-_003"
-            },
-            {
-                "@key": "590A",
-                "@title": "Advanced Topics in Plant Science - Advanced Topics in Plant Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125909",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "590A",
-                "@title": "Advanced Topics in Plant Science - Advanced Topics in Plant Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125909",
-                "@sectionNumber": "A_002"
-            },
-            {
-                "@key": "590A",
-                "@title": "Advanced Topics in Plant Science - Advanced Topics in Plant Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125909",
-                "@sectionNumber": "A_003"
-            },
-            {
-                "@key": "649",
-                "@title": "Doctoral Dissertation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-20333",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "649",
@@ -4393,55 +3177,7 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-22489",
-                "@sectionNumber": "PR1"
-            },
-            {
-                "@key": "503",
-                "@title": "Advanced Soil Sampling, Analyses and Data Interpretation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-22489",
-                "@sectionNumber": "PR2"
-            },
-            {
-                "@key": "503",
-                "@title": "Advanced Soil Sampling, Analyses and Data Interpretation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-22489",
                 "@sectionNumber": "T01"
-            },
-            {
-                "@key": "512A",
-                "@title": "Advanced Soil Biology - Advanced Soil Biology",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-134257",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "512B",
-                "@title": "Advanced Soil Biology - Advanced Soil Biology",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-102980",
-                "@sectionNumber": "B_002"
-            },
-            {
-                "@key": "514A",
-                "@title": "Biometeorology - Biometeorology",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-142180",
-                "@sectionNumber": "A_002"
-            },
-            {
-                "@key": "515",
-                "@title": "Watershed Science",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-22495",
-                "@sectionNumber": "001"
             },
             {
                 "@key": "516",
@@ -4468,14 +3204,6 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "518",
-                "@title": "Water in International Development",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-22498",
-                "@sectionNumber": "001"
-            },
-            {
                 "@key": "520",
                 "@title": "Agricultural Watershed Management",
                 "@syllabusTerm": "",
@@ -4492,35 +3220,11 @@
                 "@sectionNumber": "002"
             },
             {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-134277",
-                "@sectionNumber": "A_001"
-            },
-            {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-134277",
-                "@sectionNumber": "A_002"
-            },
-            {
-                "@key": "530A",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-134277",
-                "@sectionNumber": "A_003"
-            },
-            {
                 "@key": "530B",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-142184",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-255775",
                 "@sectionNumber": "B_001"
             },
             {
@@ -4528,64 +3232,8 @@
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-142184",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-255775",
                 "@sectionNumber": "B_002"
-            },
-            {
-                "@key": "530B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-142184",
-                "@sectionNumber": "B_003"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-134273",
-                "@sectionNumber": "C_001"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-134273",
-                "@sectionNumber": "C_002"
-            },
-            {
-                "@key": "530C",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-134273",
-                "@sectionNumber": "C_003"
-            },
-            {
-                "@key": "530D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-126402",
-                "@sectionNumber": "D_001"
-            },
-            {
-                "@key": "530D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-126402",
-                "@sectionNumber": "D_002"
-            },
-            {
-                "@key": "530D",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-126402",
-                "@sectionNumber": "D_003"
             },
             {
                 "@key": "549",
@@ -4610,22 +3258,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-22507",
                 "@sectionNumber": "003"
-            },
-            {
-                "@key": "649",
-                "@title": "Doctoral Dissertation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-22510",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "649",
-                "@title": "Doctoral Dissertation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-22510",
-                "@sectionNumber": "002"
             },
             {
                 "@key": "649",

@@ -1,4 +1,4 @@
-var coursesPerPage = 20; // Number of courses to be displayed per page
+var coursesPerPage = 40; // Number of courses to be displayed per page
 
 function getSelectedPagination() {
     const options = document.getElementById("paginationUl").children;

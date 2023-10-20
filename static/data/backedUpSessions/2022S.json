@@ -58,43 +58,51 @@
                 "@sectionNumber": "L01"
             },
             {
+                "@key": "496A",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263342",
+                "@sectionNumber": "A_921"
+            },
+            {
+                "@key": "496A",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263342",
+                "@sectionNumber": "A_941"
+            },
+            {
+                "@key": "496A",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263342",
+                "@sectionNumber": "A_951"
+            },
+            {
                 "@key": "496B",
                 "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136304",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251400",
                 "@sectionNumber": "B_951"
-            },
-            {
-                "@key": "496M",
-                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-170004",
-                "@sectionNumber": "A_921"
-            },
-            {
-                "@key": "496M",
-                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-170004",
-                "@sectionNumber": "A_941"
-            },
-            {
-                "@key": "496M",
-                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-170004",
-                "@sectionNumber": "A_951"
             },
             {
                 "@key": "497B",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-136415",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251581",
+                "@sectionNumber": "B_001"
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251581",
                 "@sectionNumber": "B_002"
             },
             {
@@ -102,7 +110,7 @@
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-120634",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-239627",
                 "@sectionNumber": "E_001"
             },
             {
@@ -240,7 +248,7 @@
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
                 "@sectionNumber": "E_OF1"
             },
             {
@@ -248,7 +256,7 @@
                 "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139305",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
                 "@sectionNumber": "E_ON1"
             },
             {
@@ -261,6 +269,22 @@
             }
         ],
         "FOOD": [
+            {
+                "@key": "531",
+                "@title": "Master of Food Science Practicum Project",
+                "@syllabusTerm": "2021S1-2",
+                "@originalCourseName": "FOOD 531 941 2021S1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10502",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
+                "@sectionNumber": "-_971"
+            },
             {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",
@@ -286,7 +310,7 @@
                 "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-139603",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252850",
                 "@sectionNumber": "B_921"
             },
             {
@@ -294,7 +318,7 @@
                 "@title": "Regional Directed Field Studies - Regional Directed Field Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-108147",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-228856",
                 "@sectionNumber": "E_001"
             }
         ],
@@ -322,7 +346,7 @@
                 "@title": "International Field Studies - International Field Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-156105",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-265694",
                 "@sectionNumber": "B_921"
             },
             {
@@ -330,7 +354,7 @@
                 "@title": "International Field Studies - International Field Studies",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-116973",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-235799",
                 "@sectionNumber": "D_941"
             },
             {
@@ -346,7 +370,7 @@
                 "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-148391",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-259784",
                 "@sectionNumber": "-_921"
             },
             {
@@ -354,7 +378,7 @@
                 "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-148391",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-259784",
                 "@sectionNumber": "-_T01"
             },
             {
@@ -362,7 +386,7 @@
                 "@title": "Topics in Land and Food Systems - Topics in Land and Food Systems",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-148391",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-259784",
                 "@sectionNumber": "-_T02"
             },
             {
@@ -370,7 +394,7 @@
                 "@title": "Career Development Practicum - Career Development Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-109131",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-229816",
                 "@sectionNumber": "A_942"
             },
             {
@@ -378,7 +402,7 @@
                 "@title": "Career Development Practicum - Career Development Practicum",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-132721",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-247767",
                 "@sectionNumber": "B_941"
             },
             {
@@ -430,7 +454,7 @@
                 "@title": "Master's Thesis - Master's Thesis",
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-125902",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242960",
                 "@sectionNumber": "-_941"
             },
             {
