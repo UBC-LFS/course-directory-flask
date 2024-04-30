@@ -95,14 +95,6 @@
                 "@syllabusTerm": "",
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-STVC-251581",
-                "@sectionNumber": "B_001"
-            },
-            {
-                "@key": "497B",
-                "@title": "Directed Studies - Directed Studies",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-251581",
                 "@sectionNumber": "B_002"
             },
             {
@@ -244,22 +236,6 @@
                 "@sectionNumber": "921"
             },
             {
-                "@key": "497E",
-                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
-                "@sectionNumber": "E_OF1"
-            },
-            {
-                "@key": "497E",
-                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
-                "@sectionNumber": "E_ON1"
-            },
-            {
                 "@key": "499",
                 "@title": "Undergraduate Thesis",
                 "@syllabusTerm": "",
@@ -269,22 +245,6 @@
             }
         ],
         "FOOD": [
-            {
-                "@key": "531",
-                "@title": "Master of Food Science Practicum Project",
-                "@syllabusTerm": "2021S1-2",
-                "@originalCourseName": "FOOD 531 941 2021S1-2",
-                "@courseDefinition": "COURSE_DEFINITION-3-10502",
-                "@sectionNumber": "941"
-            },
-            {
-                "@key": "549-",
-                "@title": "Master's Thesis - Master's Thesis",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
-                "@sectionNumber": "-_971"
-            },
             {
                 "@key": "649",
                 "@title": "Doctoral Dissertation",

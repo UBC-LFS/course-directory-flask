@@ -1,6 +1,622 @@
 {
     "2024S": {
-        "FNH": [],
-        "LFS": []
+        "APBI": [
+            {
+                "@key": "314",
+                "@title": "Animals and Society",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "APBI 314 921 2023S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-806",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "443",
+                "@title": "Field Study of Wine Grape Production",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-847",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "496A",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263342",
+                "@sectionNumber": "A_921"
+            },
+            {
+                "@key": "496A",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-263342",
+                "@sectionNumber": "A_941"
+            },
+            {
+                "@key": "496B",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251400",
+                "@sectionNumber": "B_921"
+            },
+            {
+                "@key": "496B",
+                "@title": "Applied Animal Biology Practicum - Applied Animal Biology Practicum",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251400",
+                "@sectionNumber": "B_941"
+            },
+            {
+                "@key": "497A",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-227549",
+                "@sectionNumber": "A_921"
+            },
+            {
+                "@key": "497A",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-227549",
+                "@sectionNumber": "A_941"
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251581",
+                "@sectionNumber": "B_921"
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-251581",
+                "@sectionNumber": "B_941"
+            },
+            {
+                "@key": "497C",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-257567",
+                "@sectionNumber": "C_921"
+            },
+            {
+                "@key": "497C",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-257567",
+                "@sectionNumber": "C_941"
+            }
+        ],
+        "FNH": [
+            {
+                "@key": "161",
+                "@title": "Integrated Physiology for Human Nutrition II",
+                "@syllabusTerm": "2023S1",
+                "@originalCourseName": "FNH 161 921 2023S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-628381",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "2021S1",
+                "@originalCourseName": "FNH 200 921 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10234",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "200",
+                "@title": "Exploring Our Food",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10234",
+                "@sectionNumber": "942"
+            },
+            {
+                "@key": "250",
+                "@title": "Nutrition Concepts and Controversies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10235",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "2021S1",
+                "@originalCourseName": "FNH 330 951 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "951"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L01"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L02"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L03"
+            },
+            {
+                "@key": "330",
+                "@title": "Introduction to Wine Science I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10248",
+                "@sectionNumber": "L04"
+            },
+            {
+                "@key": "355",
+                "@title": "International Nutrition",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10256",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "381",
+                "@title": "Dietetics Practice Education Placement I",
+                "@syllabusTerm": "2021S1",
+                "@originalCourseName": "FNH 381 921 2021S1",
+                "@courseDefinition": "COURSE_DEFINITION-3-10261",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "381",
+                "@title": "Dietetics Practice Education Placement I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10261",
+                "@sectionNumber": "922"
+            },
+            {
+                "@key": "481",
+                "@title": "Dietetics Practice Education Placement II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10291",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "481",
+                "@title": "Dietetics Practice Education Placement II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10291",
+                "@sectionNumber": "922"
+            },
+            {
+                "@key": "481",
+                "@title": "Dietetics Practice Education Placement II",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10291",
+                "@sectionNumber": "SPC"
+            },
+            {
+                "@key": "483",
+                "@title": "Dietetics Practice Education Placement IV",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10293",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "483",
+                "@title": "Dietetics Practice Education Placement IV",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10293",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-240487",
+                "@sectionNumber": "B_921"
+            },
+            {
+                "@key": "497B",
+                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-240487",
+                "@sectionNumber": "B_941"
+            },
+            {
+                "@key": "497E",
+                "@title": "Directed Studies in Food, Nutrition and Health - Directed Studies in Food, Nutrition and Health",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252424",
+                "@sectionNumber": "E_921"
+            }
+        ],
+        "FOOD": [
+            {
+                "@key": "530B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-228492",
+                "@sectionNumber": "B_941"
+            },
+            {
+                "@key": "530B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-228492",
+                "@sectionNumber": "B_942"
+            },
+            {
+                "@key": "531",
+                "@title": "Master of Food Science Practicum Project",
+                "@syllabusTerm": "2023S1-2",
+                "@originalCourseName": "FOOD 531 943 2023S1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-10502",
+                "@sectionNumber": "943"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
+                "@sectionNumber": "-_941"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
+                "@sectionNumber": "-_942"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-252510",
+                "@sectionNumber": "-_943"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10506",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-10506",
+                "@sectionNumber": "942"
+            }
+        ],
+        "FRE": [],
+        "GRS": [],
+        "HUNU": [
+            {
+                "@key": "547A",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-241158",
+                "@sectionNumber": "A_941"
+            },
+            {
+                "@key": "547A",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-241158",
+                "@sectionNumber": "A_942"
+            },
+            {
+                "@key": "547B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-241157",
+                "@sectionNumber": "B_941"
+            },
+            {
+                "@key": "547B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-241157",
+                "@sectionNumber": "B_942"
+            },
+            {
+                "@key": "549",
+                "@title": "M.Sc. Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13544",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "549",
+                "@title": "M.Sc. Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13544",
+                "@sectionNumber": "942"
+            },
+            {
+                "@key": "549",
+                "@title": "M.Sc. Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13544",
+                "@sectionNumber": "943"
+            },
+            {
+                "@key": "579",
+                "@title": "Dietetics Practice Education Placement I",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13551",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "582",
+                "@title": "Dietetics Practice Education Placement III",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13554",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13558",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13558",
+                "@sectionNumber": "942"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-13558",
+                "@sectionNumber": "943"
+            }
+        ],
+        "LFS": [
+            {
+                "@key": "302A",
+                "@title": "International Field Studies - International Field Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-223762",
+                "@sectionNumber": "A_921"
+            },
+            {
+                "@key": "302B",
+                "@title": "International Field Studies - International Field Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-265694",
+                "@sectionNumber": "B_921"
+            },
+            {
+                "@key": "303",
+                "@title": "International Field Studies in Policy Analysis for Agriculture and Natural Resources",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15229",
+                "@sectionNumber": "921"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15248",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15248",
+                "@sectionNumber": "942"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15250",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-15250",
+                "@sectionNumber": "942"
+            }
+        ],
+        "LWS": [
+            {
+                "@key": "548",
+                "@title": "Major Project",
+                "@syllabusTerm": "2021S1-2",
+                "@originalCourseName": "LWS 548 943 2021S1-2",
+                "@courseDefinition": "COURSE_DEFINITION-3-15728",
+                "@sectionNumber": "943"
+            }
+        ],
+        "PLNT": [
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242960",
+                "@sectionNumber": "-_941"
+            },
+            {
+                "@key": "549-",
+                "@title": "Master's Thesis - Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242960",
+                "@sectionNumber": "-_942"
+            },
+            {
+                "@key": "590A",
+                "@title": "Advanced Topics in Plant Science - PLNT IMG PROCESS",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-242967",
+                "@sectionNumber": "A_943"
+            },
+            {
+                "@key": "590D",
+                "@title": "Advanced Topics in Plant Science - ADV TCS PLNT SCI",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-230953",
+                "@sectionNumber": "D_943"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-20333",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-20333",
+                "@sectionNumber": "942"
+            }
+        ],
+        "SOIL": [
+            {
+                "@key": "530A",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-249692",
+                "@sectionNumber": "A_941"
+            },
+            {
+                "@key": "530A",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-249692",
+                "@sectionNumber": "A_942"
+            },
+            {
+                "@key": "530B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-255775",
+                "@sectionNumber": "B_941"
+            },
+            {
+                "@key": "530B",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-255775",
+                "@sectionNumber": "B_942"
+            },
+            {
+                "@key": "530C",
+                "@title": "Directed Studies - Directed Studies",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-STVC-249691",
+                "@sectionNumber": "C_973"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22507",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "549",
+                "@title": "Master's Thesis",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22507",
+                "@sectionNumber": "942"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22510",
+                "@sectionNumber": "941"
+            },
+            {
+                "@key": "649",
+                "@title": "Doctoral Dissertation",
+                "@syllabusTerm": "",
+                "@originalCourseName": "",
+                "@courseDefinition": "COURSE_DEFINITION-3-22510",
+                "@sectionNumber": "942"
+            }
+        ]
     }
 }

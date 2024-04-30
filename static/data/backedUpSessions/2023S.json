@@ -286,16 +286,7 @@
                 "@sectionNumber": "943"
             }
         ],
-        "FRE": [
-            {
-                "@key": "547",
-                "@title": "Graduating Project",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10867",
-                "@sectionNumber": "943"
-            }
-        ],
+        "FRE": [],
         "GRS": [
             {
                 "@key": "497B",
@@ -364,14 +355,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-STVC-235799",
                 "@sectionNumber": "D_941"
-            },
-            {
-                "@key": "303",
-                "@title": "International Field Studies in Policy Analysis for Agriculture and Natural Resources",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-15229",
-                "@sectionNumber": "921"
             },
             {
                 "@key": "398",

@@ -354,14 +354,6 @@
                 "@sectionNumber": "L01"
             },
             {
-                "@key": "324",
-                "@title": "Introduction to Seed Plant Taxonomy",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-813",
-                "@sectionNumber": "L02"
-            },
-            {
                 "@key": "326",
                 "@title": "Introductory Plant Pathology",
                 "@syllabusTerm": "2021W1",
@@ -440,22 +432,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-818",
                 "@sectionNumber": "101"
-            },
-            {
-                "@key": "351",
-                "@title": "Plant Physiology",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-818",
-                "@sectionNumber": "L01"
-            },
-            {
-                "@key": "351",
-                "@title": "Plant Physiology",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-818",
-                "@sectionNumber": "L02"
             },
             {
                 "@key": "351",
@@ -682,14 +658,6 @@
                 "@sectionNumber": "002"
             },
             {
-                "@key": "465",
-                "@title": "Capstone in Sustainable Agriculture and Food Systems",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-852",
-                "@sectionNumber": "001"
-            },
-            {
                 "@key": "490A",
                 "@title": "Advanced Topics in Applied Biology - EXP DSGN, STATS",
                 "@syllabusTerm": "",
@@ -792,22 +760,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-STVC-239627",
                 "@sectionNumber": "E_102"
-            },
-            {
-                "@key": "498",
-                "@title": "Undergraduate Essay",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-857",
-                "@sectionNumber": "101"
-            },
-            {
-                "@key": "499",
-                "@title": "Undergraduate Thesis",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-858",
-                "@sectionNumber": "001"
             }
         ],
         "FNH": [
@@ -962,22 +914,6 @@
                 "@originalCourseName": "COPY - FNH 313 001 2021W1",
                 "@courseDefinition": "COURSE_DEFINITION-3-10245",
                 "@sectionNumber": "001"
-            },
-            {
-                "@key": "325",
-                "@title": "Food Science Laboratory I",
-                "@syllabusTerm": "2021W1",
-                "@originalCourseName": "COPY - FNH 325 001 2021W1",
-                "@courseDefinition": "COURSE_DEFINITION-3-10246",
-                "@sectionNumber": "001"
-            },
-            {
-                "@key": "325",
-                "@title": "Food Science Laboratory I",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10246",
-                "@sectionNumber": "T01"
             },
             {
                 "@key": "326",
@@ -1170,14 +1106,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10250",
                 "@sectionNumber": "L02"
-            },
-            {
-                "@key": "340",
-                "@title": "Food Theory and Applications",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10250",
-                "@sectionNumber": "L03"
             },
             {
                 "@key": "342",
@@ -1734,22 +1662,6 @@
                 "@sectionNumber": "001"
             },
             {
-                "@key": "529",
-                "@title": "Laboratory Methods in Sensory Evaluation",
-                "@syllabusTerm": "2021W2",
-                "@originalCourseName": "FOOD 529 002 2021W2",
-                "@courseDefinition": "COURSE_DEFINITION-3-10500",
-                "@sectionNumber": "002"
-            },
-            {
-                "@key": "529",
-                "@title": "Laboratory Methods in Sensory Evaluation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10500",
-                "@sectionNumber": "L02"
-            },
-            {
                 "@key": "530A",
                 "@title": "Directed Studies - Directed Studies",
                 "@syllabusTerm": "",
@@ -1902,14 +1814,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-10832",
                 "@sectionNumber": "101"
-            },
-            {
-                "@key": "394",
-                "@title": "Government and Business",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-10832",
-                "@sectionNumber": "103"
             },
             {
                 "@key": "460",
@@ -3034,14 +2938,6 @@
                 "@sectionNumber": "003"
             },
             {
-                "@key": "540",
-                "@title": "Plant Molecular Biology Laboratory",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-20327",
-                "@sectionNumber": "101"
-            },
-            {
                 "@key": "542",
                 "@title": "Wine Grape and Berry Biology",
                 "@syllabusTerm": "",
@@ -3080,14 +2976,6 @@
                 "@originalCourseName": "",
                 "@courseDefinition": "COURSE_DEFINITION-3-20333",
                 "@sectionNumber": "002"
-            },
-            {
-                "@key": "649",
-                "@title": "Doctoral Dissertation",
-                "@syllabusTerm": "",
-                "@originalCourseName": "",
-                "@courseDefinition": "COURSE_DEFINITION-3-20333",
-                "@sectionNumber": "003"
             }
         ],
         "SOIL": [
