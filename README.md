@@ -2,7 +2,7 @@
 This project displays the courses available in the selected session alongside the most recent available syllabus.
 
 # **Notes for maintaining this project:**
-Last updated: 2023-05-18
+Last updated: 2024-04-30
 
 ## **Updating the syllabuses**
 When adding new syllabuses, ensure that the points below remain consistent. Not doing so may result in syllabuses not properly displaying:
@@ -23,6 +23,14 @@ virtualenv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+`.env`
+```
+CLIENT-ID = 
+CLIENT-SECRET = 
+COURSES-URL = 
+```
+
 1. Create an empty folder called "CourseDirectory" inside the "templates" folder if it doesn't already exist.
 
 2. Upload course syllabuses to the "CourseDirectory" folder.
