@@ -81,3 +81,4 @@ Go to: http://127.0.0.1:5000/ (localhost)
 ### **Potential future error(s)**
 - All data for courses are retrieved from an API. If this API changes the way the data is formatted, the functions to retrieve and format the data may stop working.
   - If this happens and new data cannot be retrieved, this app will stop updating the JSON file. However, if the JSON file updates and results in an error, there is a backup file that will be used instead.
+- Course URL may change. Parameters for this new web page may also change -> will need to update the URL in `.env` + the parameters in `index.html` line 145
