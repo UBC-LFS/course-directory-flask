@@ -4,6 +4,8 @@ from get_course_data import updateData
 import time
 import atexit
 from apscheduler.schedulers.background import BackgroundScheduler
+from dotenv import load_dotenv
+import os
 
 def updateDataFunc():
     try:
@@ -19,11 +21,14 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+    load_dotenv()
+    courseURL = os.getenv("COURSES-URL")
+
     try:
         with open("static/data/lfs-course-data.json", "r") as courseData:
             courseJSONData = json.loads(courseData.read())["sessions"]
         courseData.close()
-        return render_template("index.html", courseJSONData = courseJSONData)
+        return render_template("index.html", courseJSONData = courseJSONData, courseURL = courseURL)
     
     # Use backed up data
     except:
@@ -31,7 +36,7 @@ def home():
             with open("static/data/lfs-course-data-backup.json", "r") as courseData:
                 courseJSONData = json.loads(courseData.read())["sessions"]
             courseData.close()
-            return render_template("index.html", courseJSONData = courseJSONData)
+            return render_template("index.html", courseJSONData = courseJSONData, courseURL = courseURL)
         # If even the backed up data fails
         except:
             return redirect(url_for('error'))
