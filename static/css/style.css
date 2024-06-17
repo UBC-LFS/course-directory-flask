@@ -1,0 +1,64 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+header {
+  width: 100%;
+}
+
+/* footer */
+footer {
+  flex-shrink: 0;
+  height: auto;
+  color: #fff;
+  text-align: center;
+}
+
+footer > .container {
+  height: 100px;
+  display: table;
+}
+
+footer .footer-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/* main content */
+main {
+  flex: 1 0 auto;
+}
+
+.wordmark {
+  letter-spacing: 3px;
+}
+
+.bg-dark-blue {
+  background-color: #002145;
+}
+
+.text-dark-blue {
+  color: #002145;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+    background-color: rgb(245,245,245);
+}
+
+.bd-callout-info {
+    border-left-color: #00a74a;
+}

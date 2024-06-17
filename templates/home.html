@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<main class="container mt-3 mb-5">
+
+  <div class="row">
+    <div class="col-6">
+      <form class="row gy-2 gx-3 align-items-center" action="{{ url_for('home') }}" method="GET">
+        <div class="col-auto">
+          <label class="fw-bold" for="select_term">Term:</label>
+          <select id="select_term" class="form-select" name="term">
+            {% for term in terms %}
+              <option value="{{ term.slug }}" {% if selected_term == term.slug %}selected{% endif %}>{{ term.name }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="col-auto">
+          <label class="fw-bold" for="select_subject">Subject:</label>
+          <select id="select_subject" class="form-select" name="subject">
+            {% for subject in subjects %}
+              <option value="{{ subject }}" {% if selected_subject == subject %}selected{% endif %}>{{ subject }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="col-auto mt-auto">
+          <input class="btn btn-primary" type="submit" value="Apply" />
+          <a class="btn btn-secondary" href="{{ url_for('home') }}">Cancel</a>
+        </div>
+      </form>
+
+      <p class="my-2">Total: <span class="text-danger fw-bold">{{ courses|count }}</span> course(s) found.</p>
+    </div>
+    <div class="col-6">
+      <div class="bd-callout bd-callout-info">
+        Please note the Session displays the courses offered in the selected Term, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.
+      </div>
+    </div>
+  </div>
+
+  <table class="table table-bordered table-striped table-hover"
+      data-toggle="table"
+      data-sortable="true"
+      data-classes=""
+      data-pagination="true"
+      data-search="true"
+      data-page-size="25"
+      data-page-list="[25, 50, 100, all]"
+  >
+    <thead>
+      <tr class="text-center">
+        <th data-sortable="true">Course</th>
+        <th data-sortable="true">Title</th>
+        <th>Syllabus</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for course in courses %}
+        <tr>
+          <td>{{ course.name }}</td>
+          <td>{{ course.title }}</td>
+          <td></td>
+        </tr>
+      {% else %}
+        <tr>
+          <td class="text-center" colspan="100%">No courses found.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+</main>
+
+{% endblock %}

@@ -26,9 +26,13 @@ pip install -r requirements.txt
 
 `.env`
 ```
-CLIENT-ID = 
-CLIENT-SECRET = 
-COURSES-URL = 
+academicURL = ""
+ClientID = ""
+ClientSecret = ""
+
+academicEXPURL = ""
+expClientID = ""
+expClientSecret = ""
 ```
 
 1. Create an empty folder called "CourseDirectory" inside the "templates" folder if it doesn't already exist.

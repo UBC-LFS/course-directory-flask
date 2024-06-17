@@ -1,89 +1,77 @@
-from flask import Flask, render_template, send_from_directory, redirect, url_for
+import os
 import json
-from get_course_data import updateData
+from datetime import date
+from flask import Flask, render_template, request, url_for, redirect, abort, send_from_directory 
+from apscheduler.schedulers.background import BackgroundScheduler
+
 import time
 import atexit
-from apscheduler.schedulers.background import BackgroundScheduler
-from dotenv import load_dotenv
-import os
 
-def updateDataFunc():
-    try:
-        print("Attempting to update data")
-        updateData()
-    except:
-        print(f'Unable to update data: {time.strftime("%A, %d. %B %Y %I:%M:%S %p")}')
-
-# Update data when app runs (incase there are new syllabuses added)
-updateDataFunc()
+from functions import *
+from utils import *
 
 app = Flask(__name__)
 
-@app.route("/")
-def home():
-    load_dotenv()
-    courseURL = os.getenv("COURSES-URL")
 
-    try:
-        with open("static/data/lfs-course-data.json", "r") as courseData:
-            courseJSONData = json.loads(courseData.read())["sessions"]
-        courseData.close()
-        return render_template("index.html", courseJSONData = courseJSONData, courseURL = courseURL)
+
+@app.route('/')
+def home():    
+    year, target = get_date_info()
+
+    if not target:
+        abort(500)
+
+    select_term = request.args.get('term', None)
+    select_subject = request.args.get('subject', None)
+
+    data = load_terms_courses()
+
+    if request.base_url == request.url:
+        for term in data['terms']:
+            if str(year) in term['name'] and target in term['name']:
+                select_term = term['slug']
+                break
+        select_subject = 'All'
+    else:
+        if not select_term or not select_subject:
+            abort(404)
     
-    # Use backed up data
-    except:
-        try:
-            with open("static/data/lfs-course-data-backup.json", "r") as courseData:
-                courseJSONData = json.loads(courseData.read())["sessions"]
-            courseData.close()
-            return render_template("index.html", courseJSONData = courseJSONData, courseURL = courseURL)
-        # If even the backed up data fails
-        except:
-            return redirect(url_for('error'))
+    if select_term not in data['term_map'].keys() or select_subject not in ['All'] + SUBJECTS:
+        abort(404)
 
-# Opens the syllabus URL
-@app.route("/coursedirectory/<session>/<course>/")
-def courseDirectory(session, course):
-    try:
-        return render_template(f"CourseDirectory/{session}/{course}/index.html")
-    except:
-        return redirect(url_for('error'))
+    term_id = data['term_map'][select_term]
 
-# If the syllabus has a link that redirects to a PDF file
-@app.route("/coursedirectory/<session>/<course>/<source>/<file>/")
-def courseDirectorySource(session, course, source, file):
-    try:
-        return send_from_directory("templates", f"CourseDirectory/{session}/{course}/{source}/{file}")
-    except:
-        return redirect(url_for('error'))
+    courses = []
+    if select_subject == 'All':
+        courses = data['courses'][term_id]['list']
+    elif select_subject in SUBJECTS:
+        if select_subject in data['courses'][term_id]['by_subject'].keys():
+            courses = data['courses'][term_id]['by_subject'][select_subject]
+    
+    return render_template('home.html', terms=data['terms'], courses=courses, selected_term=select_term, subjects=['All'] + SUBJECTS, selected_subject=select_subject)
 
-# 404 Page
-@app.route("/error")
-def error():
-  return render_template('error.html')
 
-# 404 Page
 @app.errorhandler(404)
-def page_not_found(e):
-  try:
-    return render_template('404.html')
-  except:
-      return redirect(url_for('error'))
+def page_not_found(error):
+    return render_template('404.html', message=error), 404
 
-def updateDataOrNo():
-    # If it's 4 am, update the data
-    if (str(time.strftime("%I %p")) == str("04 AM")):
-        updateDataFunc()
 
-# Create the background scheduler
-scheduler = BackgroundScheduler()
-# Create the job and run updateDataOrNo() every hour
-scheduler.add_job(func=updateDataOrNo, trigger="interval", minutes=60)
-# Start the scheduler
-scheduler.start()
+@app.errorhandler(500)
+def internal_error(error):
+    return render_template('500.html', message=error), 500
 
-# Shut down the scheduler when exiting the app
-atexit.register(lambda: scheduler.shutdown())
+
+def cron():
+    print('Scheduling tasks running...')
+    scheduler = BackgroundScheduler(timezone='America/Vancouver')
+    # scheduler.add_job(load_terms_courses, 'cron', day=1, hour=6, minute=0)
+    scheduler.add_job(load_terms_courses, 'cron', minute=13)
+    scheduler.start()
+
+    # Shut down the scheduler when exiting the app
+    atexit.register(lambda: scheduler.shutdown())
+
+# cron()
 
 if __name__ == "__main__":
     app.run(debug=True)

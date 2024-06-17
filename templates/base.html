@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LFS Course Directory @ UBC</title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename='images/ubc-favicon.jpg') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap-table.min.css') }}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <header>
+    <div class="container my-2 d-flex">
+      <img class="me-5" src="{{ url_for('static', filename='images/ubc-logo-2018-crest-blue-rgb72.jpg') }}" alt="UBC logo" height="80" />
+      <div class="text-dark-blue">
+        <h4 class="wordmark fw-bold mt-2">THE UNIVERSITY OF BRITISH COLUMBIA</h4>
+        <h6 class="text-secondary">Vancouver Campus</h6>
+      </div>
+    </div>
+    <section class="bg-dark-blue">
+      <div class="container text-white h5 py-3">
+        LFS Course Directory
+      </div>
+    </section>
+  </header>
+
+  {% block content %}{% endblock %}
+
+  <footer class="bg-dark-blue">
+    <div class="container">
+			<div class="footer-item">
+				<img class="me-2" src="{{ url_for('static', filename='images/UBC-logo-2018-crest-white-rgb300.png') }}" alt="UBC logo" height="40" />
+				The University of British Columbia
+			</div>
+			<div class="footer-item">
+				The Faculty of Land and Food Systems
+			</div>
+		</div>
+  </footer>
+</body>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.5.1.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap-table.min.js') }}"></script>
+<html>
