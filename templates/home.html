@@ -4,8 +4,8 @@
 <main class="container mt-3 mb-5">
 
   <div class="row">
-    <div class="col-6">
-      <form class="row gy-2 gx-3 align-items-center" action="{{ url_for('home') }}" method="GET">
+    <div class="col-lg-7">
+      <form class="filter-form row gy-2 gx-3 align-items-center" action="{{ url_for('home') }}" method="GET">
         <div class="col-auto">
           <label class="fw-bold" for="select_term">Term:</label>
           <select id="select_term" class="form-select" name="term">
@@ -24,51 +24,60 @@
           </select>
         </div>
 
-        <div class="col-auto mt-auto">
-          <input class="btn btn-primary" type="submit" value="Apply" />
-          <a class="btn btn-secondary" href="{{ url_for('home') }}">Cancel</a>
+        <div class="col-auto form-check form-switch">
+          <label class="fw-bold" for="select_syllabus">Syllabus:</label><br />
+          <input id="select_syllabus" class="form-check-input ms-auto me-auto mt-2 mb-2" type="checkbox" name="syllabus" {% if select_syllabus == 'on' %}checked{% endif %} />
+        </div>
+
+        <div class="filter-buttons">
+          <input class="btn btn-primary btn-sm" type="submit" value="Apply" />
+          <a class="btn btn-secondary btn-sm" href="{{ url_for('home') }}">Cancel</a>
         </div>
       </form>
 
-      <p class="my-2">Total: <span class="text-danger fw-bold">{{ courses|count }}</span> course(s) found.</p>
+      <p class="filter-result-message mt-2">Total: <span class="text-danger fw-bold">{{ courses|count }}</span> course(s) found.</p>
     </div>
-    <div class="col-6">
+    <div class="col-lg-5">
       <div class="bd-callout bd-callout-info">
         Please note the Session displays the courses offered in the selected Term, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.
       </div>
     </div>
   </div>
 
-  <table class="table table-bordered table-striped table-hover"
-      data-toggle="table"
-      data-sortable="true"
-      data-classes=""
-      data-pagination="true"
-      data-search="true"
-      data-page-size="25"
-      data-page-list="[25, 50, 100, all]"
-  >
-    <thead>
-      <tr class="text-center">
-        <th data-sortable="true">Course</th>
-        <th data-sortable="true">Title</th>
-        <th>Syllabus</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for course in courses %}
-        <tr>
-          <td>{{ course.name }}</td>
-          <td>{{ course.title }}</td>
-          <td></td>
+  <div class="table-responsive-md">
+    <table class="table table-bordered table-striped table-hover"
+        data-toggle="table"
+        data-sortable="true"
+        data-classes=""
+        data-pagination="true"
+        data-search="true"
+        data-page-size="25"
+        data-page-list="[25, 50, 100, all]"
+    >
+      <thead>
+        <tr class="text-center">
+          <th data-sortable="true">Course</th>
+          <th data-sortable="true">Title</th>
+          <th>Syllabus</th>
         </tr>
-      {% else %}
-        <tr>
-          <td class="text-center" colspan="100%">No courses found.</td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        {% for course in courses %}
+          <tr>
+            <td>{{ course.name }}</td>
+            <td>{{ course.title }}</td>
+            <td>
+              <a href="{{ url_for('get_syllabus', term=course.syllabus.term, course_code=course.syllabus.course_code) }}" target="_blank">{{ course.syllabus.term }}</a>
+            </td>
+          </tr>
+        {% else %}
+          <tr>
+            <td class="text-center" colspan="100%">No courses found.</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 
 </main>
 

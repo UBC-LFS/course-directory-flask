@@ -62,3 +62,33 @@ main {
 .bd-callout-info {
     border-left-color: #00a74a;
 }
+
+.filter-form select,
+.filter-form option { font-size: 0.9rem; }
+
+@media (max-width: 575.98px) {
+  header img { margin-top: 10px; }
+  .container { max-width: 375px !important; }
+  .bootstrap-table.bootstrap5 .fixed-table-pagination > .pagination {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    float: none !important;
+  }
+  footer .footer-item { display: block; }
+  footer .footer-item:nth-child(1) { margin-top: 15px; }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*.container { max-width: 600px !important; }*/
+  /*.filter-buttons { padding-right: 8px !important; }*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*.filter-buttons { padding-right: 8px !important; }*/
+}
+
+@media (max-width: 1199.98px) {
+  /*.filter-buttons { padding-right: 8px !important; }*/
+}

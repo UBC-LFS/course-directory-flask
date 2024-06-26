@@ -39,17 +39,18 @@ def get_terms(year, items):
     for item in items:
         if ('UBC-V' in item['academicPeriod']['academicPeriodName']) and (str(year) in item['academicPeriod']['academicPeriodName'] or str(year - 1) in item['academicPeriod']['academicPeriodName']):
             terms[ item['academicPeriod']['academicPeriodId'] ] = item['academicPeriod']['academicPeriodName']
-            
+
     # Save as json
-    with open(os.path.join(os.getcwd(), 'public', str(year) + '_' + ACADEMIC_PERIODS + '.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(PUBLIC_FOLDER_PATH, ACADEMIC_PERIODS + '.json'), 'w', encoding='utf-8') as f:
         json.dump(terms, f)
 
     return terms
 
 
 def get_courses(this_year, terms):
-    data = {}
+    syllabi = get_syllabi()
 
+    data = {}
     term_temp = []
     term_names = {}
     courses = {}
@@ -61,6 +62,7 @@ def get_courses(this_year, terms):
         for subject in SUBJECTS:
             course_items = get_data('API_EXP_URL', COURSE_DETAILS, '&academicYear=' + str(year) + '&courseSubject=' + subject)
             print('Reading =====> ' + subject, year, len(course_items))
+            
             if len(course_items) > 0:
                 for item in course_items:
                     term_id = item['academicPeriod']['academicPeriodId']
@@ -74,11 +76,22 @@ def get_courses(this_year, terms):
                         term_map[slugify(term_name)] = term_id
 
                     name = '{0} {1} {2}'.format(subject, item['course']['courseNumber'], item['sectionNumber'])
+
+                    syllabus_key = subject + '_' + item['course']['courseNumber']
+                    has_syllabus = False
+                    syllabus = { 'term': '', 'course_code': '' }
+                    if syllabus_key in syllabi.keys():
+                        syllabus_value = syllabi[syllabus_key].split('|')
+                        has_syllabus = True
+                        syllabus['term'] = syllabus_value[0]
+                        syllabus['course_code'] = syllabus_value[1]
+                    
                     data = {
                         'name': name,
                         'title': item['course']['title'],
-                        'slug': slugify(name),
-                        'section_status': item['sectionStatus']
+                        'has_syllabus': has_syllabus,
+                        'syllabus': syllabus,
+                        'slug': slugify(name)
                     }
                     
                     if term_id not in courses.keys():
@@ -91,6 +104,7 @@ def get_courses(this_year, terms):
 
                     if subject not in courses[term_id]['by_subject'].keys():
                         courses[term_id]['by_subject'][subject] = []
+                    
                     courses[term_id]['by_subject'][subject].append(data)
     
     curr_year_terms = term_names[str(this_year)]
@@ -105,26 +119,24 @@ def get_courses(this_year, terms):
         v['list'].sort(key=lambda d: d['name'])
         for a, b in v['by_subject'].items():
             b.sort(key=lambda d: d['name'])
-        
-
+    
     data = { 'term_map': term_map, 'terms': curr_year_terms, 'courses': courses }
 
     # Save as json
-    with open(os.path.join(os.getcwd(), 'public', str(this_year) + '_' + COURSE_DETAILS + '.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(PUBLIC_FOLDER_PATH, COURSE_DETAILS + '.json'), 'w', encoding='utf-8') as f:
         json.dump(data, f)
 
     return data
 
 
-def load_terms_courses():
-    print('load_terms_courses ==========')
+def load_terms_and_courses():
     year, _ = get_date_info()
 
     terms = []
     courses = {}
 
-    academic_periods_file = os.path.join(os.getcwd(), 'public', str(year) + '_' + ACADEMIC_PERIODS + '.json')
-    course_details_file = os.path.join(os.getcwd(), 'public', str(year) + '_' + COURSE_DETAILS + '.json')
+    academic_periods_file = os.path.join(PUBLIC_FOLDER_PATH, ACADEMIC_PERIODS + '.json')
+    course_details_file = os.path.join(PUBLIC_FOLDER_PATH, COURSE_DETAILS + '.json')
 
     if os.path.isfile(academic_periods_file):
         with open(academic_periods_file, 'r', encoding='utf-8') as f:
@@ -140,6 +152,27 @@ def load_terms_courses():
         courses = get_courses(year, terms)
     
     return courses
+
+
+def get_syllabi():
+    syllabi = {}
+
+    syllabi_path = os.path.join(os.getcwd(), 'templates', 'syllabi')
+    if os.path.exists(syllabi_path):
+        dirs = os.listdir(syllabi_path)
+        dirs.sort(reverse=True)
+        for dir in dirs:
+            dir_path = os.path.join(syllabi_path, dir)
+            if os.path.isdir(dir_path):
+                syllabus_course_names = os.listdir(dir_path)
+                for course_name in syllabus_course_names:
+                    course_name_sp = course_name.split(' ')
+                    if len(course_name_sp) > 1:
+                        key = '{0}_{1}'.format(course_name_sp[0], course_name_sp[1])
+                        if key not in syllabi.keys():
+                            syllabi[key] = '{0}|{1}'.format(dir, course_name)
+
+    return syllabi
 
 
 def get_date_info():

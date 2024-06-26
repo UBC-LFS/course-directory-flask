@@ -1,10 +1,5 @@
-import os
-import json
-from datetime import date
-from flask import Flask, render_template, request, url_for, redirect, abort, send_from_directory 
+from flask import Flask, render_template, request, abort, send_from_directory 
 from apscheduler.schedulers.background import BackgroundScheduler
-
-import time
 import atexit
 
 from functions import *
@@ -13,9 +8,8 @@ from utils import *
 app = Flask(__name__)
 
 
-
 @app.route('/')
-def home():    
+def home():
     year, target = get_date_info()
 
     if not target:
@@ -23,8 +17,9 @@ def home():
 
     select_term = request.args.get('term', None)
     select_subject = request.args.get('subject', None)
+    select_syllabus = request.args.get('syllabus', None)
 
-    data = load_terms_courses()
+    data = load_terms_and_courses()
 
     if request.base_url == request.url:
         for term in data['terms']:
@@ -34,6 +29,8 @@ def home():
         select_subject = 'All'
     else:
         if not select_term or not select_subject:
+            abort(404)
+        if select_syllabus and (select_syllabus != 'on'):
             abort(404)
     
     if select_term not in data['term_map'].keys() or select_subject not in ['All'] + SUBJECTS:
@@ -47,8 +44,25 @@ def home():
     elif select_subject in SUBJECTS:
         if select_subject in data['courses'][term_id]['by_subject'].keys():
             courses = data['courses'][term_id]['by_subject'][select_subject]
+
+    if select_syllabus == 'on':
+        temp_courses = []
+        for course in courses:
+            if course['has_syllabus']:
+                temp_courses.append(course)
+        courses = temp_courses
     
-    return render_template('home.html', terms=data['terms'], courses=courses, selected_term=select_term, subjects=['All'] + SUBJECTS, selected_subject=select_subject)
+    return render_template('home.html', terms=data['terms'], courses=courses, selected_term=select_term, subjects=['All'] + SUBJECTS, selected_subject=select_subject, select_syllabus=select_syllabus)
+
+
+@app.route('/syllabus/term/<term>/course/<course_code>/')
+def get_syllabus(term, course_code):
+    return render_template('syllabi/{0}/{1}/index.html'.format(term, course_code))
+
+
+@app.route('/syllabus/term/<term>/course/<course_code>/source/<source_file>')
+def get_file(term, course_code, source_file):
+    return send_from_directory('templates', 'syllabi/{0}/{1}/source/{2}'.format(term, course_code, source_file))
 
 
 @app.errorhandler(404)
@@ -61,17 +75,18 @@ def internal_error(error):
     return render_template('500.html', message=error), 500
 
 
-def cron():
+def cron_job():
     print('Scheduling tasks running...')
     scheduler = BackgroundScheduler(timezone='America/Vancouver')
-    # scheduler.add_job(load_terms_courses, 'cron', day=1, hour=6, minute=0)
-    scheduler.add_job(load_terms_courses, 'cron', minute=13)
+
+    # Run everyday at 11 PM
+    scheduler.add_job(load_terms_and_courses, 'cron', hour=23, minute=0)
     scheduler.start()
 
     # Shut down the scheduler when exiting the app
     atexit.register(lambda: scheduler.shutdown())
 
-# cron()
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    cron_job()
+    app.run(debug=False)
