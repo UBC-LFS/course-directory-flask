@@ -48,6 +48,7 @@ def get_terms(year, items):
 
 
 def get_courses(this_year, terms):
+    print('get_courses ============')
     syllabi = get_syllabi()
 
     data = {}
@@ -86,26 +87,33 @@ def get_courses(this_year, terms):
                         syllabus['term'] = syllabus_value[0]
                         syllabus['course_code'] = syllabus_value[1]
                     
-                    data = {
-                        'name': name,
-                        'title': item['course']['title'],
-                        'has_syllabus': has_syllabus,
-                        'syllabus': syllabus,
-                        'slug': slugify(name)
-                    }
+                    temp_course = '{0} {1}'.format(subject, item['course']['courseNumber'])
+                    instructional_format = item['courseComponent']['instructionalFormat']['code']
                     
-                    if term_id not in courses.keys():
-                        courses[term_id] = { 
-                            'list': [],
-                            'by_subject': {},
-                            'slug': slugify(term_name)
+                    if instructional_format in VALID_TYPES or temp_course in EXCEPTION_COURSES:
+                        data = {
+                            'name': name,
+                            'title': item['course']['title'],
+                            'instructional_format': instructional_format,
+                            'has_syllabus': has_syllabus,
+                            'syllabus': syllabus,
+                            'slug': slugify(name),
+                            'section_status': item['sectionStatus']
                         }
-                    courses[term_id]['list'].append(data)
+                        
+                        if term_id not in courses.keys():
+                            courses[term_id] = { 
+                                'list': [],
+                                'by_subject': {},
+                                'slug': slugify(term_name)
+                            }
+                        
+                        courses[term_id]['list'].append(data)
 
-                    if subject not in courses[term_id]['by_subject'].keys():
-                        courses[term_id]['by_subject'][subject] = []
-                    
-                    courses[term_id]['by_subject'][subject].append(data)
+                        if subject not in courses[term_id]['by_subject'].keys():
+                            courses[term_id]['by_subject'][subject] = []
+                        
+                        courses[term_id]['by_subject'][subject].append(data)
     
     curr_year_terms = term_names[str(this_year)]
     prev_year_terms = term_names[str(this_year-1)]
@@ -130,8 +138,8 @@ def get_courses(this_year, terms):
 
 
 def load_terms_and_courses():
-    year, _ = get_date_info()
-
+    year, target = get_date_info()
+    
     terms = []
     courses = {}
 
@@ -151,7 +159,15 @@ def load_terms_and_courses():
     else:
         courses = get_courses(year, terms)
     
-    return courses
+    return courses, year, target
+
+
+def update_terms_and_courses():
+    year, _ = get_date_info()
+    term_items = get_data('API_URL', ACADEMIC_PERIODS, '')
+    terms = get_terms(year, term_items)
+    get_courses(year, terms)
+    print('Done: update terms and courses')
 
 
 def get_syllabi():

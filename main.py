@@ -10,16 +10,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    year, target = get_date_info()
-
-    if not target:
-        abort(500)
-
     select_term = request.args.get('term', None)
     select_subject = request.args.get('subject', None)
     select_syllabus = request.args.get('syllabus', None)
 
-    data = load_terms_and_courses()
+    data, year, target = load_terms_and_courses()
+    if not target:
+        abort(500)
 
     if request.base_url == request.url:
         for term in data['terms']:
@@ -79,8 +76,8 @@ def cron_job():
     print('Scheduling tasks running...')
     scheduler = BackgroundScheduler(timezone='America/Vancouver')
 
-    # Run everyday at 11 PM
-    scheduler.add_job(load_terms_and_courses, 'cron', hour=23, minute=0)
+    # Run everyday at 3AM
+    scheduler.add_job(update_terms_and_courses, 'cron', hour=3, minute=0)
     scheduler.start()
 
     # Shut down the scheduler when exiting the app

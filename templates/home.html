@@ -56,14 +56,16 @@
     >
       <thead>
         <tr class="text-center">
+          <th data-sortable="true">Type</th>
           <th data-sortable="true">Course</th>
           <th data-sortable="true">Title</th>
-          <th>Syllabus</th>
+          <th data-sortable="true">Syllabus</th>
         </tr>
       </thead>
       <tbody>
         {% for course in courses %}
           <tr>
+            <td class="text-center">{{ course.instructional_format }}</td>
             <td>{{ course.name }}</td>
             <td>{{ course.title }}</td>
             <td>
