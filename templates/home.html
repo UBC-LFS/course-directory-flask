@@ -66,7 +66,9 @@
         {% for course in courses %}
           <tr>
             <td class="text-center">{{ course.instructional_format }}</td>
-            <td>{{ course.name }}</td>
+            <td>
+              <a href="{{ course_schedule_url }}{{ course.id }}" target="_blank">{{ course.name }}</a>
+            </td>
             <td>{{ course.title }}</td>
             <td>
               <a href="{{ url_for('get_syllabus', term=course.syllabus.term, course_code=course.syllabus.course_code) }}" target="_blank">{{ course.syllabus.term }}</a>

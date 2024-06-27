@@ -7,3 +7,5 @@ SUBJECTS = ['AGEC_V', 'AANB_V', 'APBI_V', 'AQUA_V', 'FNH_V', 'FOOD_V', 'FRE_V', 
 
 VALID_TYPES = ['Lecture', 'Research']
 EXCEPTION_COURSES = ['FNH_V 326', 'FNH_V 426']
+
+COURSE_SCHEDULE_URL = 'https://courses.students.ubc.ca/browse-courses/course/'

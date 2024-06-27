@@ -48,7 +48,6 @@ def get_terms(year, items):
 
 
 def get_courses(this_year, terms):
-    print('get_courses ============')
     syllabi = get_syllabi()
 
     data = {}
@@ -92,6 +91,7 @@ def get_courses(this_year, terms):
                     
                     if instructional_format in VALID_TYPES or temp_course in EXCEPTION_COURSES:
                         data = {
+                            'id': item['course']['courseId'],
                             'name': name,
                             'title': item['course']['title'],
                             'instructional_format': instructional_format,

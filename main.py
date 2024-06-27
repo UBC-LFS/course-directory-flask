@@ -49,7 +49,7 @@ def home():
                 temp_courses.append(course)
         courses = temp_courses
     
-    return render_template('home.html', terms=data['terms'], courses=courses, selected_term=select_term, subjects=['All'] + SUBJECTS, selected_subject=select_subject, select_syllabus=select_syllabus)
+    return render_template('home.html', terms=data['terms'], courses=courses, selected_term=select_term, subjects=['All'] + SUBJECTS, selected_subject=select_subject, select_syllabus=select_syllabus, course_schedule_url=COURSE_SCHEDULE_URL)
 
 
 @app.route('/syllabus/term/<term>/course/<course_code>/')
