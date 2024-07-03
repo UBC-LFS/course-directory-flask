@@ -3,10 +3,7 @@ import json
 import requests
 from datetime import date
 from slugify import slugify
-from dotenv import load_dotenv
 from utils import *
-
-load_dotenv()
 
 
 def get_data(url, path, params):
@@ -17,8 +14,8 @@ def get_data(url, path, params):
         res = requests.get(
             os.getenv(url) + path + '?pageSize=500&page=' + str(page) + params,
             headers = {
-                'x-client-id': os.getenv('Client_ID'), 
-                'x-client-secret': os.getenv('Client_Secret')
+                'x-client-id': os.getenv('COURSE_DIR_CLIENT_ID'), 
+                'x-client-secret': os.getenv('COURSE_DIR_CLIENT_SECRET')
             }
         )
 
@@ -60,7 +57,7 @@ def get_courses(this_year, terms):
             term_names[str(year)] = []
 
         for subject in SUBJECTS:
-            course_items = get_data('API_EXP_URL', COURSE_DETAILS, '&academicYear=' + str(year) + '&courseSubject=' + subject)
+            course_items = get_data('COURSE_DIR_API_EXP_URL', COURSE_DETAILS, '&academicYear=' + str(year) + '&courseSubject=' + subject)
             print('Reading =====> ' + subject, year, len(course_items))
             
             if len(course_items) > 0:
@@ -150,7 +147,7 @@ def load_terms_and_courses():
         with open(academic_periods_file, 'r', encoding='utf-8') as f:
             terms = json.loads(f.read())
     else:
-        term_items = get_data('API_URL', ACADEMIC_PERIODS, '')
+        term_items = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '')
         terms = get_terms(year, term_items)
 
     if os.path.isfile(course_details_file):
@@ -164,7 +161,7 @@ def load_terms_and_courses():
 
 def update_terms_and_courses():
     year, _ = get_date_info()
-    term_items = get_data('API_URL', ACADEMIC_PERIODS, '')
+    term_items = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '')
     terms = get_terms(year, term_items)
     get_courses(year, terms)
     print('Done: update terms and courses')

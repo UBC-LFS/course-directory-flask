@@ -36,10 +36,10 @@ def home():
     term_id = data['term_map'][select_term]
 
     courses = []
-    if select_subject == 'All':
-        courses = data['courses'][term_id]['list']
-    elif select_subject in SUBJECTS:
-        if select_subject in data['courses'][term_id]['by_subject'].keys():
+    if term_id in data['courses'].keys():
+        if select_subject == 'All':
+            courses = data['courses'][term_id]['list']
+        elif select_subject in SUBJECTS and select_subject in data['courses'][term_id]['by_subject'].keys():
             courses = data['courses'][term_id]['by_subject'][select_subject]
 
     if select_syllabus == 'on':
@@ -84,6 +84,7 @@ def cron_job():
     atexit.register(lambda: scheduler.shutdown())
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     cron_job()
-    app.run(debug=False)
+    app.run(host='0.0.0.0')
+    # app.run(debug=True)
