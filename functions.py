@@ -74,7 +74,7 @@ def get_courses(this_year, terms):
 
                     name = '{0} {1} {2}'.format(subject, item['course']['courseNumber'], item['sectionNumber'])
 
-                    syllabus_key = subject + '_' + item['course']['courseNumber']
+                    syllabus_key = '{0}_{1}_{2}'.format(subject, item['course']['courseNumber'], item['sectionNumber'])
                     has_syllabus = False
                     syllabus = { 'term': '', 'course_code': '' }
                     if syllabus_key in syllabi.keys():
@@ -180,8 +180,8 @@ def get_syllabi():
                 syllabus_course_names = os.listdir(dir_path)
                 for course_name in syllabus_course_names:
                     course_name_sp = course_name.split(' ')
-                    if len(course_name_sp) > 1:
-                        key = '{0}_{1}'.format(course_name_sp[0], course_name_sp[1])
+                    if len(course_name_sp) > 2:
+                        key = '{0}_{1}_{2}'.format(course_name_sp[0], course_name_sp[1], course_name_sp[2])
                         if key not in syllabi.keys():
                             syllabi[key] = '{0}|{1}'.format(dir, course_name)
 

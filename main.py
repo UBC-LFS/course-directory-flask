@@ -86,5 +86,5 @@ def cron_job():
 
 if __name__ == '__main__':
     cron_job()
-    app.run(host='0.0.0.0')
-    # app.run(debug=True)
+    # app.run(host='0.0.0.0')
+    app.run(debug=True)
