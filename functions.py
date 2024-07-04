@@ -12,10 +12,10 @@ def get_data(url, path, params):
     page = 1
     while has_next_page == 'true':
         res = requests.get(
-            os.getenv(url) + path + '?pageSize=500&page=' + str(page) + params,
+            os.environ.get(url) + path + '?pageSize=500&page=' + str(page) + params,
             headers = {
-                'x-client-id': os.getenv('COURSE_DIR_CLIENT_ID'), 
-                'x-client-secret': os.getenv('COURSE_DIR_CLIENT_SECRET')
+                'x-client-id': os.environ['COURSE_DIR_CLIENT_ID'], 
+                'x-client-secret': os.environ['COURSE_DIR_CLIENT_SECRET']
             }
         )
 

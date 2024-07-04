@@ -85,6 +85,8 @@ def cron_job():
 
 
 if __name__ == '__main__':
-    cron_job()
-    # app.run(host='0.0.0.0')
-    app.run(debug=True)
+    if os.environ['COURSE_DIR_MODE'] == 'prod':
+        cron_job()
+        app.run(host='0.0.0.0')
+    else:
+        app.run(debug=True)
