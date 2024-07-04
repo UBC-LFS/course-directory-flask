@@ -170,7 +170,7 @@ def update_terms_and_courses():
 def get_syllabi():
     syllabi = {}
 
-    syllabi_path = os.path.join(os.getcwd(), 'templates', 'syllabi')
+    syllabi_path = os.path.join(BASE_URL, 'templates', 'syllabi')
     if os.path.exists(syllabi_path):
         dirs = os.listdir(syllabi_path)
         dirs.sort(reverse=True)

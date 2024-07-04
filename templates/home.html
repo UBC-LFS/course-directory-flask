@@ -56,7 +56,6 @@
     >
       <thead>
         <tr class="text-center">
-          <th data-sortable="true">Type</th>
           <th data-sortable="true">Course</th>
           <th data-sortable="true">Title</th>
           <th data-sortable="true">Syllabus</th>
@@ -65,7 +64,6 @@
       <tbody>
         {% for course in courses %}
           <tr>
-            <td class="text-center">{{ course.instructional_format }}</td>
             <td>
               <a href="{{ course_schedule_url }}{{ course.id }}" target="_blank">{{ course.name }}</a>
             </td>
