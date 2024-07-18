@@ -88,7 +88,7 @@ def get_courses(this_year, terms):
                     
                     if instructional_format in VALID_TYPES or temp_course in EXCEPTION_COURSES:
                         data = {
-                            'id': item['course']['courseId'],
+                            'id': item['course']['courseInstanceId'],
                             'name': name,
                             'title': item['course']['title'],
                             'instructional_format': instructional_format,
