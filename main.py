@@ -72,21 +72,15 @@ def internal_error(error):
     return render_template('500.html', message=error), 500
 
 
-def cron_job():
-    print('Scheduling tasks running...')
-    scheduler = BackgroundScheduler(timezone='America/Vancouver')
-
-    # Run everyday at 3AM
-    scheduler.add_job(update_terms_and_courses, 'cron', hour=3, minute=0)
-    scheduler.start()
-
-    # Shut down the scheduler when exiting the app
-    atexit.register(lambda: scheduler.shutdown())
+# Scheduler: cron job - run everyday at 3AM
+scheduler = BackgroundScheduler(timezone='America/Vancouver')
+scheduler.add_job(update_terms_and_courses, 'cron', hour=3, minute=0)
+scheduler.start()
+atexit.register(lambda: scheduler.shutdown()) # Shut down the scheduler when exiting the app
 
 
 if __name__ == '__main__':
     if os.environ['COURSE_DIR_MODE'] == 'prod':
-        cron_job()
         app.run(host='0.0.0.0')
     else:
         app.run(debug=True)
