@@ -57,7 +57,7 @@ def get_courses(this_year, terms):
             term_names[str(year)] = []
 
         for subject in SUBJECTS:
-            course_items = get_data('COURSE_DIR_API_EXP_URL', COURSE_DETAILS, '&academicYear=' + str(year) + '&courseSubject=' + subject)
+            course_items = get_data('COURSE_DIR_API_EXP_URL', COURSE_DETAILS, '&calendarYearsCNO=' + str(year) + '&courseSubject=' + subject)
             print('Reading =====> ' + subject, year, len(course_items))
             
             if len(course_items) > 0:
