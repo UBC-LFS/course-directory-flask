@@ -9,10 +9,10 @@ from utils import *
 def get_data(url, path, params):
     data = []
     has_next_page = 'true'
-    page = 1
+
     while has_next_page == 'true':
         res = requests.get(
-            os.environ.get(url) + path + '?pageSize=500&page=' + str(page) + params,
+            os.environ.get(url) + path + '?pageSize=500' + params,
             headers = {
                 'x-client-id': os.environ['COURSE_DIR_CLIENT_ID'], 
                 'x-client-secret': os.environ['COURSE_DIR_CLIENT_SECRET']
@@ -23,11 +23,10 @@ def get_data(url, path, params):
             data.extend(res.json()['pageItems'])
 
             has_next_page = res.headers['x-next-page']
-            page += 1
         else:
             print('Failed to get data via API for some reason.')
             break
-    
+
     return data
 
 
@@ -57,9 +56,9 @@ def get_courses(this_year, terms):
             term_names[str(year)] = []
 
         for subject in SUBJECTS:
-            course_items = get_data('COURSE_DIR_API_EXP_URL', COURSE_DETAILS, '&calendarYearsCNO=' + str(year) + '&courseSubject=' + subject)
+            course_items = get_data('COURSE_DIR_API_EXP_URL', COURSE_DETAILS, '&academicPeriodId=' + 'ACADEMIC_PERIOD-3-306' + '&courseSubject=' + subject)
             print('Reading =====> ' + subject, year, len(course_items))
-            
+
             if len(course_items) > 0:
                 for item in course_items:
                     term_id = item['academicPeriod']['academicPeriodId']
@@ -68,7 +67,7 @@ def get_courses(this_year, terms):
                     if term_id not in term_temp:
                         term_names[str(year)].append({ 'id': term_id, 'name': term_name, 'slug': slugify(term_name) })
                         term_temp.append(term_id)
-                    
+
                     if term_id not in term_map.keys():
                         term_map[slugify(term_name)] = term_id
 
@@ -84,7 +83,8 @@ def get_courses(this_year, terms):
                         syllabus['course_code'] = syllabus_value[1]
                     
                     temp_course = '{0} {1}'.format(subject, item['course']['courseNumber'])
-                    instructional_format = item['courseComponent']['instructionalFormat']['code']
+                    #instructional_format = item['courseComponent']['instructionalFormat']['code']
+                    instructional_format = item['instructionalFormat']['code']
                     
                     if instructional_format in VALID_TYPES or temp_course in EXCEPTION_COURSES:
                         data = {
@@ -95,7 +95,8 @@ def get_courses(this_year, terms):
                             'has_syllabus': has_syllabus,
                             'syllabus': syllabus,
                             'slug': slugify(name),
-                            'section_status': item['sectionStatus']
+                            #'section_status': item['sectionStatus']
+                            'section_status': item['courseSectionStatus']
                         }
                         
                         if term_id not in courses.keys():
@@ -147,7 +148,7 @@ def load_terms_and_courses():
         with open(academic_periods_file, 'r', encoding='utf-8') as f:
             terms = json.loads(f.read())
     else:
-        term_items = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '')
+        term_items = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '&calendarYearsCNO=' + str(year))
         terms = get_terms(year, term_items)
 
     if os.path.isfile(course_details_file):
@@ -161,7 +162,7 @@ def load_terms_and_courses():
 
 def update_terms_and_courses():
     year, _ = get_date_info()
-    term_items = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '')
+    term_items = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '&calendarYearsCNO=' + str(year))
     terms = get_terms(year, term_items)
     get_courses(year, terms)
     print('Done: update terms and courses')
