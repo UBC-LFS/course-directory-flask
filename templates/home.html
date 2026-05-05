@@ -2,47 +2,7 @@
 {% block content %}
 
 <main class="container mt-3 mb-5">
-
-  <div class="row">
-    <div class="col-lg-7">
-      <form class="filter-form row gy-2 gx-3 align-items-center" action="{{ url_for('home') }}" method="GET">
-        <div class="col-auto">
-          <label class="fw-bold" for="select_term">Term:</label>
-          <select id="select_term" class="form-select" name="term">
-            {% for term in terms %}
-              <option value="{{ term.slug }}" {% if selected_term == term.slug %}selected{% endif %}>{{ term.name }}</option>
-            {% endfor %}
-          </select>
-        </div>
-
-        <div class="col-auto">
-          <label class="fw-bold" for="select_subject">Subject:</label>
-          <select id="select_subject" class="form-select" name="subject">
-            {% for subject in subjects %}
-              <option value="{{ subject }}" {% if selected_subject == subject %}selected{% endif %}>{{ subject }}</option>
-            {% endfor %}
-          </select>
-        </div>
-
-        <div class="col-auto form-check form-switch">
-          <label class="fw-bold" for="select_syllabus">Syllabus:</label><br />
-          <input id="select_syllabus" class="form-check-input ms-auto me-auto mt-2 mb-2" type="checkbox" name="syllabus" {% if select_syllabus == 'on' %}checked{% endif %} />
-        </div>
-
-        <div class="filter-buttons">
-          <input class="btn btn-primary btn-sm" type="submit" value="Apply" />
-          <a class="btn btn-secondary btn-sm" href="{{ url_for('home') }}">Cancel</a>
-        </div>
-      </form>
-
-      <p class="filter-result-message mt-2">Total: <span class="text-danger fw-bold">{{ courses|count }}</span> course(s) found.</p>
-    </div>
-    <div class="col-lg-5">
-      <div class="bd-callout bd-callout-info">
-        Please note the Session displays the courses offered in the selected Term, but the syllabus shows the most up-to-date syllabus, and is for reference purposes only.
-      </div>
-    </div>
-  </div>
+  {% include 'subpages/search_filters.html' %}
 
   <div class="table-responsive-md">
     <table class="table table-bordered table-striped table-hover"
@@ -65,7 +25,7 @@
         {% for course in courses %}
           <tr>
             <td>
-              <a href="{{ course_schedule_url }}{{ course.id }}" target="_blank">{{ course.name }}</a>
+              <a href="{{ course_schedule_url }}{{ course.slug }}" target="_blank">{{ course.name }}</a>
             </td>
             <td>{{ course.title }}</td>
             <td>
@@ -80,7 +40,6 @@
       </tbody>
     </table>
   </div>
-
 </main>
 
 {% endblock %}

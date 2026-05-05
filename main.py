@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, abort, send_from_directory 
+from flask import Flask, render_template, request, abort, send_from_directory
 from apscheduler.schedulers.background import BackgroundScheduler
 import atexit
 
@@ -15,13 +15,17 @@ def home():
     select_syllabus = request.args.get('syllabus', None)
 
     data, year, target = load_terms_and_courses()
+
     if not target:
         abort(500)
 
+    terms = data['terms']
+    courses_data = data['courses']
+
     if request.base_url == request.url:
-        for term in data['terms']:
-            if str(year) in term['name'] and target in term['name']:
-                select_term = term['slug']
+        for term in terms:
+            if str(year) in term and target in term:
+                select_term = term
                 break
         select_subject = 'All'
     else:
@@ -29,18 +33,16 @@ def home():
             abort(404)
         if select_syllabus and (select_syllabus != 'on'):
             abort(404)
-    
-    if select_term not in data['term_map'].keys() or select_subject not in ['All'] + SUBJECTS:
+
+    if select_term not in terms or select_subject not in ['All'] + SUBJECTS:
         abort(404)
 
-    term_id = data['term_map'][select_term]
-
     courses = []
-    if term_id in data['courses'].keys():
+    if select_term in courses_data.keys():
         if select_subject == 'All':
-            courses = data['courses'][term_id]['list']
-        elif select_subject in SUBJECTS and select_subject in data['courses'][term_id]['by_subject'].keys():
-            courses = data['courses'][term_id]['by_subject'][select_subject]
+            courses = courses_data[select_term]['list']
+        elif select_subject in SUBJECTS and select_subject in courses_data[select_term]['by_subject'].keys():
+            courses = courses_data[select_term]['by_subject'][select_subject]
 
     if select_syllabus == 'on':
         temp_courses = []
@@ -48,8 +50,17 @@ def home():
             if course['has_syllabus']:
                 temp_courses.append(course)
         courses = temp_courses
-    
-    return render_template('home.html', terms=data['terms'], courses=courses, selected_term=select_term, subjects=['All'] + SUBJECTS, selected_subject=select_subject, select_syllabus=select_syllabus, course_schedule_url=COURSE_SCHEDULE_URL)
+
+    return render_template(
+        'home.html', 
+        terms=data['terms'],
+        courses=courses,
+        selected_term=select_term,
+        subjects=['All'] + SUBJECTS,
+        selected_subject=select_subject,
+        select_syllabus=select_syllabus,
+        course_schedule_url=COURSE_SCHEDULE_URL
+    )
 
 
 @app.route('/syllabus/term/<term>/course/<course_code>/')

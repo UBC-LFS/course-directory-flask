@@ -1,19 +1,22 @@
 import os
 import json
 import requests
-from datetime import date
 from slugify import slugify
+from datetime import date
 from utils import *
 
 
 def get_data(url, path, params):
+    basic_url = os.environ.get(url) + path + '?pageSize=500' + params
     data = []
     has_next_page = 'true'
-    page = 1
+    offset_token = None
     while has_next_page == 'true':
-        res = requests.get(
-            os.environ.get(url) + path + '?pageSize=500&page=' + str(page) + params,
-            headers = {
+        link = basic_url
+        if offset_token:
+            link += '&offsetToken=' + offset_token
+        
+        res = requests.get(link, headers = {
                 'x-client-id': os.environ['COURSE_DIR_CLIENT_ID'], 
                 'x-client-secret': os.environ['COURSE_DIR_CLIENT_SECRET']
             }
@@ -21,9 +24,9 @@ def get_data(url, path, params):
 
         if res.status_code == 200:
             data.extend(res.json()['pageItems'])
-
             has_next_page = res.headers['x-next-page']
-            page += 1
+            if has_next_page == 'true':
+                offset_token = res.headers['x-offset-token']
         else:
             print('Failed to get data via API for some reason.')
             break
@@ -31,50 +34,58 @@ def get_data(url, path, params):
     return data
 
 
-def get_terms(year, items):
-    terms = {}
-    for item in items:
-        if ('UBC-V' in item['academicPeriod']['academicPeriodName']) and (str(year) in item['academicPeriod']['academicPeriodName'] or str(year - 1) in item['academicPeriod']['academicPeriodName']):
-            terms[ item['academicPeriod']['academicPeriodId'] ] = item['academicPeriod']['academicPeriodName']
-
-    # Save as json
-    with open(os.path.join(PUBLIC_FOLDER_PATH, ACADEMIC_PERIODS + '.json'), 'w', encoding='utf-8') as f:
-        json.dump(terms, f)
-
-    return terms
+def makeYearCode(year):
+    yaerCodes = []
+    for y in [year, year-1, year-2]:
+        next_year = str(y+1)[2:]
+        yaerCodes.append(f'{y}-{next_year}_UBC-V')
+    
+    return yaerCodes
 
 
-def get_courses(this_year, terms):
+def get_terms():
+    year, _ = get_date_info()
+    yearCodes = makeYearCode(year)
+    
+    data = []
+    for yearCode in yearCodes:
+        terms = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '&academicYearCode=' + yearCode)
+        for term in terms:
+            if str(year) in term['academicPeriod']['academicPeriodName'] or str(year - 1) in term['academicPeriod']['academicPeriodName']:
+                data.append(term['academicPeriod']['academicPeriodName'])
+    
+    data.sort(reverse=True)
+    return data
+
+import re
+
+def remove_prepositions(text):
+    preps = ['in', 'on', 'at', 'by', 'with', 'for', 'about', 'to']
+    pattern = r'\b(' + '|'.join(preps) + r')\b\s*'
+    return re.sub(pattern, '', text, flags=re.IGNORECASE)
+
+
+
+def get_courses():
+    terms = get_terms()
     syllabi = get_syllabi()
 
-    data = {}
-    term_temp = []
-    term_names = {}
-    courses = {}
-    term_map = {}
-    for year in [this_year, this_year - 1]:
-        if str(year) not in term_names.keys():
-            term_names[str(year)] = []
-
+    valid_terms = []
+    courses_data = {}
+    for term in terms:
+        print('\n Term:', term)
         for subject in SUBJECTS:
-            course_items = get_data('COURSE_DIR_API_EXP_URL', COURSE_DETAILS, '&academicYear=' + str(year) + '&courseSubject=' + subject)
-            print('Reading =====> ' + subject, year, len(course_items))
+            params = '&academicPeriodName={0}&courseSubject={1}&courseSectionStatus={2}'.format(term, subject, 'Open')
+            courses = get_data('COURSE_DIR_API_EXP_URL', COURSE_DETAILS, params)
             
-            if len(course_items) > 0:
-                for item in course_items:
-                    term_id = item['academicPeriod']['academicPeriodId']
-                    term_name = terms[term_id]
+            print('Reading =====> ', subject, len(courses))
+            
+            if len(courses) > 0:
+                for course in courses:
+                    term = course['academicPeriod']['academicPeriodName']
 
-                    if term_id not in term_temp:
-                        term_names[str(year)].append({ 'id': term_id, 'name': term_name, 'slug': slugify(term_name) })
-                        term_temp.append(term_id)
-                    
-                    if term_id not in term_map.keys():
-                        term_map[slugify(term_name)] = term_id
-
-                    name = '{0} {1} {2}'.format(subject, item['course']['courseNumber'], item['sectionNumber'])
-
-                    syllabus_key = '{0}_{1}_{2}'.format(subject, item['course']['courseNumber'], item['sectionNumber'])
+                    name = '{0} {1} {2}'.format(subject, course['course']['courseNumber'], course['sectionNumber'])
+                    syllabus_key = name.replace(' ', '_')
                     has_syllabus = False
                     syllabus = { 'term': '', 'course_code': '' }
                     if syllabus_key in syllabi.keys():
@@ -82,88 +93,78 @@ def get_courses(this_year, terms):
                         has_syllabus = True
                         syllabus['term'] = syllabus_value[0]
                         syllabus['course_code'] = syllabus_value[1]
-                    
-                    temp_course = '{0} {1}'.format(subject, item['course']['courseNumber'])
-                    instructional_format = item['courseComponent']['instructionalFormat']['code']
-                    
+
+                    instructional_format = course['instructionalFormat']['code']
+                    temp_course = '{0} {1}'.format(subject, course['course']['courseNumber'])
+
                     if instructional_format in VALID_TYPES or temp_course in EXCEPTION_COURSES:
-                        data = {
-                            'id': item['course']['courseInstanceId'],
-                            'name': name,
-                            'title': item['course']['title'],
+                        title = remove_prepositions(course['course']['title'])
+                        section_number = course['sectionNumber']
+                        title_sec = '{}-{}-sec-{}'.format(title, course['academicPeriod']['academicPeriodName'][:4], section_number)
+                        slug = '{0}/{1}'.format(slugify(title), slugify(title_sec))
+
+                        item = {
+                            'name': '{0} {1} {2}'.format(subject, course['course']['courseNumber'], section_number),
+                            'title': title,
                             'instructional_format': instructional_format,
                             'has_syllabus': has_syllabus,
                             'syllabus': syllabus,
-                            'slug': slugify(name),
-                            'section_status': item['sectionStatus']
+                            'status': course['courseSectionStatus']['code'],
+                            'slug': slug
                         }
                         
-                        if term_id not in courses.keys():
-                            courses[term_id] = { 
+                        if term in courses_data.keys():
+                            courses_data[term]['list'].append(item)
+                        else:
+                            courses_data[term] = {
                                 'list': [],
-                                'by_subject': {},
-                                'slug': slugify(term_name)
+                                'by_subject': {}
                             }
-                        
-                        courses[term_id]['list'].append(data)
 
-                        if subject not in courses[term_id]['by_subject'].keys():
-                            courses[term_id]['by_subject'][subject] = []
-                        
-                        courses[term_id]['by_subject'][subject].append(data)
-    
-    curr_year_terms = term_names[str(this_year)]
-    prev_year_terms = term_names[str(this_year-1)]
+                        if subject in courses_data[term]['by_subject'].keys():
+                            courses_data[term]['by_subject'][subject].append(item)
+                        else:
+                            courses_data[term]['by_subject'][subject] = []
 
-    curr_year_terms.sort(key=lambda l: l['name'])
-    prev_year_terms.sort(key=lambda l: l['name'])
+        if term in courses_data.keys() and len(courses_data[term]['list']) > 0:
+            valid_terms.append(term)
+        else:
+            print('Not included', term)
 
-    curr_year_terms.extend(prev_year_terms)
-
-    for k, v in courses.items():
+    for k, v in courses_data.items():
         v['list'].sort(key=lambda d: d['name'])
+
         for a, b in v['by_subject'].items():
             b.sort(key=lambda d: d['name'])
     
-    data = { 'term_map': term_map, 'terms': curr_year_terms, 'courses': courses }
+    data = {
+        'terms': valid_terms, 
+        'courses': courses_data
+    }
 
     # Save as json
-    with open(os.path.join(PUBLIC_FOLDER_PATH, COURSE_DETAILS + '.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(PUBLIC_FOLDER_PATH, 'data.json'), 'w', encoding='utf-8') as f:
         json.dump(data, f)
-
+    
     return data
 
-
+    
 def load_terms_and_courses():
     year, target = get_date_info()
-    
-    terms = []
-    courses = {}
 
-    academic_periods_file = os.path.join(PUBLIC_FOLDER_PATH, ACADEMIC_PERIODS + '.json')
-    course_details_file = os.path.join(PUBLIC_FOLDER_PATH, COURSE_DETAILS + '.json')
-
-    if os.path.isfile(academic_periods_file):
-        with open(academic_periods_file, 'r', encoding='utf-8') as f:
-            terms = json.loads(f.read())
+    data = {}
+    data_file = os.path.join(PUBLIC_FOLDER_PATH, 'data.json')
+    if os.path.isfile(data_file):
+        with open(data_file, 'r', encoding='utf-8') as f:
+            data = json.loads(f.read())
     else:
-        term_items = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '')
-        terms = get_terms(year, term_items)
-
-    if os.path.isfile(course_details_file):
-        with open(course_details_file, 'r', encoding='utf-8') as f:
-            courses = json.loads(f.read())
-    else:
-        courses = get_courses(year, terms)
+        data = get_courses()
     
-    return courses, year, target
+    return data, year, target
 
 
 def update_terms_and_courses():
-    year, _ = get_date_info()
-    term_items = get_data('COURSE_DIR_API_URL', ACADEMIC_PERIODS, '')
-    terms = get_terms(year, term_items)
-    get_courses(year, terms)
+    get_courses()
     print('Done: update terms and courses')
 
 
@@ -187,6 +188,8 @@ def get_syllabi():
 
     return syllabi
 
+
+# Helper functions
 
 def get_date_info():
     year = date.today().year
