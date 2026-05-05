@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import requests
 from slugify import slugify
@@ -57,14 +58,6 @@ def get_terms():
     data.sort(reverse=True)
     return data
 
-import re
-
-def remove_prepositions(text):
-    preps = ['in', 'on', 'at', 'by', 'with', 'for', 'about', 'to']
-    pattern = r'\b(' + '|'.join(preps) + r')\b\s*'
-    return re.sub(pattern, '', text, flags=re.IGNORECASE)
-
-
 
 def get_courses():
     terms = get_terms()
@@ -73,12 +66,12 @@ def get_courses():
     valid_terms = []
     courses_data = {}
     for term in terms:
-        print('\n Term:', term)
+        print('\nTerm:', term)
         for subject in SUBJECTS:
             params = '&academicPeriodName={0}&courseSubject={1}&courseSectionStatus={2}'.format(term, subject, 'Open')
             courses = get_data('COURSE_DIR_API_EXP_URL', COURSE_DETAILS, params)
             
-            print('Reading =====> ', subject, len(courses))
+            print('Checking...', subject, len(courses))
             
             if len(courses) > 0:
                 for course in courses:
@@ -128,8 +121,9 @@ def get_courses():
 
         if term in courses_data.keys() and len(courses_data[term]['list']) > 0:
             valid_terms.append(term)
+            print('{0} valid courses found.'.format(len(courses_data[term]['list'])))
         else:
-            print('Not included', term)
+            print('No valid courses found in this term -', term)
 
     for k, v in courses_data.items():
         v['list'].sort(key=lambda d: d['name'])
@@ -137,8 +131,14 @@ def get_courses():
         for a, b in v['by_subject'].items():
             b.sort(key=lambda d: d['name'])
     
+
+    sorted_terms = sorted(enumerate(valid_terms), key=lambda x: (-extract_year_info(x[1])[0], -extract_year_info(x[1])[1], get_priority(x[1]), x[0]))
+
+    avail_terms = [item for _, item in sorted_terms]
+
+    print('\nAvailable terms:', avail_terms)
     data = {
-        'terms': valid_terms, 
+        'terms': avail_terms, 
         'courses': courses_data
     }
 
@@ -205,3 +205,27 @@ def get_date_info():
         target = 'Winter Term 1'
     
     return year, target
+
+
+def remove_prepositions(text):
+    preps = ['in', 'on', 'at', 'by', 'with', 'for', 'about', 'to']
+    pattern = r'\b(' + '|'.join(preps) + r')\b\s*'
+    return re.sub(pattern, '', text, flags=re.IGNORECASE)
+
+
+def extract_year_info(s):
+    first = s.split()[0]
+    
+    if '-' in first:
+        start_year = int(first.split('-')[0])
+        return (start_year, 1)
+    else:
+        return (int(first), 0)
+
+
+def get_priority(s):
+    priority = {'Session': 1, 'Term 1': 2, 'Term 2': 3}
+    for key in priority:
+        if key in s:
+            return priority[key]
+    return float('inf')
